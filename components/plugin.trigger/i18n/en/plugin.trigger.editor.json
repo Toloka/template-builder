@@ -1,0 +1,12 @@
+{
+    "default.action.payload.content": "Trigger fired",
+    "default.action.payload.theme": "info",
+    "default.action.type": "action.notify",
+    "default.onChangeOf.path": "path",
+    "default.onChangeOf.type": "data.output",
+    "description": "Use this to configure triggers that trigger a specific action when an event occurs. \n\nThe action is set in the `action` property, and the event is described in the other fields. \n\nThe event can be triggered immediately when the task is loaded (`\"fireImmediately\": true`) or when data changes in the property specified in `onChangeOf`. \n\nYou can also set conditions in the `conditions` property that must be met in order for the trigger to fire.",
+    "properties.action.description": "The action to perform when the trigger fires.",
+    "properties.condition.description": "The condition that must be met in order to fire the trigger.",
+    "properties.fireImmediately.description": "Flag indicating whether the trigger should be fired immediately after the task is loaded.",
+    "properties.onChangeOf.description": "The data that triggers the action when changed."
+}

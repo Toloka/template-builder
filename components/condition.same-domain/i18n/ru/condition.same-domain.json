@@ -1,0 +1,4 @@
+{
+    "shouldBeSame": "Адрес {data} должен быть с того же сайта, что и {original}",
+    "shouldNotBeSame": "Адрес {data} не должен быть с того же сайта, что и {original}"
+}

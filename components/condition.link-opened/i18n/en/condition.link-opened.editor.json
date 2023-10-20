@@ -1,0 +1,6 @@
+{
+    "default.url": "https://toloka.ai",
+    "description": "Checks that a Toloker clicked the link.\n\n[View example in the sandbox](https://ya.cc/t/ult2m5XH3xPQFX)\n\n**Important:** To trigger the condition, the Toloker must follow the link from the Toloka interface — you must give Tolokers this option. The condition will not work if the Toloker opens the link from the browser address bar.\n\nThis condition can be used in the [view.link](view.link.md) component and also anywhere you can use _(conditions)_.",
+    "properties.url.default": "https://toloka.ai",
+    "properties.url.description": "The link that must be clicked."
+}

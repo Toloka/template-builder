@@ -1,0 +1,10 @@
+{
+    "default.links.0.content": "Яндекс",
+    "description": "Объединяет ссылки в группы.\n\nСамую важную ссылку из группы можно визуально выделить рамкой: для этой ссылки в свойстве `theme` установите значение `primary`.\n\nВ отличие от [view.group](view.group.md) объединяет только ссылки.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/l6Y5VpjQ3vvKhM)",
+    "properties.links.description": "Массив ссылок, составляющих группу.",
+    "properties.links.items.description": "Параметры ссылки.",
+    "properties.links.items.properties.content.default": "Текст ссылки, который видит исполнитель.",
+    "properties.links.items.properties.content.description": "Текст, которым отображается ссылка для исполнителя. Изначально текст отображается синим и подчеркнутым, а после перехода по ссылке становится фиолетовым.",
+    "properties.links.items.properties.theme.description": "Определяет внешний вид ссылки. Если указать `\"theme\": \"primary\"`, то будет кнопка, иначе — текстовая ссылка.",
+    "properties.links.items.properties.url.description": "Адрес ссылки. При использовании [helper.search-query](helper.search-query.md) подставляет ссылку с поисковым запросом."
+}

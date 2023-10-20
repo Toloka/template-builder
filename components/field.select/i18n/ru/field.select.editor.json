@@ -1,0 +1,20 @@
+{
+    "default.data.path": "path",
+    "default.label": "Заголовок",
+    "default.options.0.label": "Опция 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Опция 2",
+    "default.options.1.value": "value2",
+    "default.placeholder": "Выберите значение",
+    "description": "Кнопка для выбора из выпадающего списка. Используйте, когда список длинный, а выбрать нужно один вариант. \n\nДля коротких списков (2-4 пункта) лучше подходят [field.radio-group](field.radio-group.md) или [field.button-radio-group](field.button-radio-group.md), в которых все варианты ответов видны сразу. \n\nЧтобы дать возможность выбрать несколько вариантов, используйте компонент [field.checkbox-group](field.checkbox-group.md).",
+    "properties.options.description": "Опции, из которых нужно выбирать.",
+    "properties.options.items.default.label": "Опция",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "Параметры опции.",
+    "properties.options.items.properties.label.default": "Опция",
+    "properties.options.items.properties.label.description": "Название опции, которое будет отображаться в списке.",
+    "properties.options.items.properties.value.default": "value",
+    "properties.options.items.properties.value.description": "Значение, которое будет записано в данные в свойстве `data`.",
+    "properties.placeholder.default": "Выберите значение",
+    "properties.placeholder.description": "Текст, который будет отображаться, пока не выбран ни один из предложенных вариантов."
+}

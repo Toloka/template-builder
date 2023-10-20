@@ -1,0 +1,26 @@
+{
+    "name": "@toloka-tb/view.video",
+    "private": true,
+    "version": "1.3.0",
+    "main": "view.video.tsx",
+    "dependencies": {
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/core": "1.16.8",
+        "@toloka-tb/lib.media-view": "1.2.3",
+        "@toloka-tb/lib.player": "1.1.3",
+        "@toloka-tb/schemas": "1.3.5",
+        "mobx-react-lite": "1.5.2"
+    },
+    "devDependencies": {
+        "@types/react": "16.9.34",
+        "@toloka-tb/registry-cli": "1.3.6",
+        "react": "16.13.0"
+    },
+    "scripts": {
+        "build": "tb-registry-cli build ./",
+        "registry-publish": "tb-registry-cli publish ./"
+    },
+    "peerDependencies": {
+        "react": "16.13.0"
+    }
+}

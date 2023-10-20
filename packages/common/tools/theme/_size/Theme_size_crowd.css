@@ -1,0 +1,111 @@
+.Theme_size_crowd {
+    --size-typo-xs: 11px;
+    --size-typo-s: 13px;
+    --size-typo-m: 15px;
+    --size-typo-l: 18px;
+    --size-typo-xl: 20px;
+    --size-typo-xxl: 24px;
+    --size-typo-xxxl: 32px;
+    --size-typo-xxxxl: 48px;
+    --size-typo-xxxxxl: 72px;
+    --size-typo-xxxxxxl: 96px;
+    --line-height-typo-xs: 15px;
+    --line-height-typo-s: 18px;
+    --line-height-typo-m: 21px;
+    --line-height-typo-l: 25px;
+    --line-height-typo-xl: 28px;
+    --line-height-typo-xxl: 34px;
+    --line-height-typo-xxxl: 42px;
+    --line-height-typo-xxxxl: 62px;
+    --line-height-typo-xxxxxl: 82px;
+    --line-height-typo-xxxxxxl: 115px;
+
+    --attach-size-s-fontSize: var(--button-size-s-font);
+    --attach-size-s-lineHeight: var(--button-size-s-lineHeight);
+
+    --attach-size-m-fontSize: var(--button-size-m-font);
+    --attach-size-m-lineHeight: var(--button-size-m-lineHeight);
+
+    --attach-size-l-fontSize: var(--button-size-l-font);
+    --attach-size-l-lineHeight: var(--button-size-l-lineHeight);
+
+    --button-size-s-font: 13px;
+    --button-size-s-lineHeight: 28px;
+
+    --button-size-m-font: 13px;
+    --button-size-m-lineHeight: 32px;
+
+    --button-size-l-font: 15px;
+    --button-size-l-lineHeight: 36px;
+
+    --checkbox-size-s-fontSize: 13px;
+
+    --checkbox-size-m-fontSize: 15px;
+
+    --textinput-size-s-fontSize: 13px;
+    --textinput-hint-size-s-fontSize: 12px;
+
+    --textinput-size-m-fontSize: 15px;
+    --textinput-hint-size-m-fontSize: 13px;
+
+    --radiobox-size-s-fontSize: 13px;
+    --radiobox-size-s-lineHeight: 28px;
+
+    --radiobox-size-m-fontSize: 15px;
+    --radiobox-size-m-lineHeight: 32px;
+
+    --radioButton-size-s-fontSize: 13px;
+    --radioButton-size-s-lineHeight: 28px;
+
+    --radioButton-size-m-fontSize: 15px;
+    --radioButton-size-m-lineHeight: 32px;
+
+    --radioButton-size-l-fontSize: 18px;
+    --radioButton-size-l-lineHeight: 38px;
+
+    --tabsMenu-size-s-font: 13px;
+    --tabsMenu-size-s-lineHeight: 28px;
+
+    --tabsMenu-size-m-font: 15px;
+    --tabsMenu-size-m-lineHeight: 36px;
+    --menu-size-s-fontSize: 13px;
+    --menu-size-s-lineHeight: 32px;
+
+    --menu-size-m-fontSize: 15px;
+    --menu-size-m-lineHeight: 36px;
+
+    --textarea-size-s-fontSize: 13px;
+    --textarea-hint-size-s-fontSize: 12px;
+
+    --textarea-size-m-fontSize: 15px;
+    --textarea-hint-size-m-fontSize: 13px;
+    --tumbler-size-s-fontSize: 13px;
+    --tumbler-size-s-lineHeight: 16px;
+
+    --tumbler-size-m-fontSize: 15px;
+    --tumbler-size-m-lineHeight: 20px;
+
+    --tumbler-size-l-fontSize: 18px;
+    --tumbler-size-l-lineHeight: 24px;
+    --slider-size-s-fontSize: 13px;
+
+    --slider-size-m-fontSize: 15px;
+
+    --tooltip-size-s-fontSize: 13px;
+    --tooltip-size-s-lineHeight: 12px;
+
+    --tooltip-size-m-fontSize: 15px;
+    --tooltip-size-m-lineHeight: 14px;
+
+    --tooltip-size-l-fontSize: 16px;
+    --tooltip-size-l-lineHeight: 16px;
+
+    --input-tag-list-minHeight: 28px;
+    --input-tag-list-tag-fontSize: 13px;
+    --input-tag-list-tag-lineHeight: 16px;
+    --input-tag-list-suggestion-fontSize: 13px;
+    --input-tag-list-suggestion-lineHeight: 18px;
+
+    --suggestion-menu-fontSize: 13px;
+    --suggestion-menu-lineHeight: 18px;
+}

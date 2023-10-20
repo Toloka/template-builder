@@ -1,0 +1,19 @@
+{
+    "default.image": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "description": "Component for image labeling. \n\nThe interface lets you select areas using points, rectangles, and polygons. You can use the `shapes` property to configure labeling modes that are available to a Toloker.\n\nIf you need to categorize selected items, create labels for each category using the `labels` property.\n\nYou can disable labeling using the `disabled` property. For example, use this if you need to create a task to check labeled images, or if you want to allow labeling only after a certain [condition](helper.if.md) has been met.\n\n[See example in the sandbox](https://ya.cc/t/rDD6zD5S3tyzeb)",
+    "properties.disabled.description": "Determines whether adding and deleting areas is allowed:\n* `false` (default) — Allowed.\n* `true` — Not allowed.\n\nYou can use this feature when creating an interface to check whether the selection is correct, or if you need to allow selection only when a certain [condition](../reference/helper.if.md) is met.",
+    "properties.image.default": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "properties.image.description": "The image you want to select areas in.",
+    "properties.labels.description": "Labels for classifying areas.\n\nEach array element creates a button in the interface for selecting a label.\n\nIf you use labels, you need to add at least two.",
+    "properties.labels.items.default.label": "Object",
+    "properties.labels.items.default.value": "value",
+    "properties.labels.items.description": "`labels` array area:\n* `\"label\": \"button text\"`; \n* `\"value\": \"value\"`. \n\nAt least two objects must be added to the array.",
+    "properties.labels.items.properties.label.default": "Object",
+    "properties.labels.items.properties.label.description": "Text on the label selection button.",
+    "properties.labels.items.properties.value.default": "value",
+    "properties.labels.items.properties.value.description": "A value that corresponds to the label and is sent in the output.",
+    "properties.shapes.description": "Setting up labeling modes that are available to a Toloker.\n\nBy default, all three selection modes are available: points, rectangles, and polygons.\n\nModes with the `true` value are available to a Toloker.",
+    "properties.shapes.properties.point.description": "Point selector.",
+    "properties.shapes.properties.polygon.description": "Labeling with polygons.",
+    "properties.shapes.properties.rectangle.description": "Rectangle selector."
+}

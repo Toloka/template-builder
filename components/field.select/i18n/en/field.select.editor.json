@@ -1,0 +1,20 @@
+{
+    "default.data.path": "path",
+    "default.label": "Label",
+    "default.options.0.label": "Option 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Option 2",
+    "default.options.1.value": "value2",
+    "default.placeholder": "Select the value",
+    "description": "Button for selecting from a drop-down list. Use this component when the list is long and only one option can be chosen. \n\nFor short lists (2-4 items), it's better to use [field.radio-group](field.radio-group.md) or [field.button-radio-group](field.button-radio-group.md), where all the options are visible at once. \n\nTo allow selecting multiple options, use the [field.checkbox-group](field.checkbox-group.md) component.",
+    "properties.options.description": "Options to choose from.",
+    "properties.options.items.default.label": "Option",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "Option parameters.",
+    "properties.options.items.properties.label.default": "Option",
+    "properties.options.items.properties.label.description": "The name of the option to display in the list.",
+    "properties.options.items.properties.value.default": "value",
+    "properties.options.items.properties.value.description": "The value to write to the data in the `data` property.",
+    "properties.placeholder.default": "Select the value",
+    "properties.placeholder.description": "The text that will be displayed if none of the options is selected."
+}

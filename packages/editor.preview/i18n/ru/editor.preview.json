@@ -1,0 +1,10 @@
+{
+    "preview.layout.pager.tooltip": "Исполнители будут переключать задания постранично",
+    "preview.layout.scroll.tooltip": "Исполнители увидят дополнительные элементы управления",
+    "preview.errorLocation": "[{origin}, строка {line}]",
+    "preview.goToError": "Нажмите, чтобы перейти к месту ошибки.",
+    "preview.unableToRender": "Невозможно отобразить шаблон",
+    "error.origin.config": "В конфигурации",
+    "error.origin.input": "В примере входных данных",
+    "error.origin.intl": "В текстах для ключей на исходном языке"
+}

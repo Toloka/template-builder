@@ -1,0 +1,39 @@
+.Theme_cosmetic_crowd {
+    --abstract-borderRadius: 4px;
+    --abstract-borderWidth: 1px;
+
+    --control-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --button-borderRadius: 4px;
+
+    --checkbox-borderRadius: 4px;
+
+    --textinput-borderWidth: 1px;
+
+    --textinput-borderRadius: 4px;
+
+    --radiobox-borderRadius: 50%;
+    --radiobox-after-borderRadius: 50%;
+
+    --radioButton-borderRadius: 4px;
+    --radioButton-after-borderRadius: 2px;
+    --menu-group-borderWidth: 1px;
+
+    --textarea-borderWidth: 1px;
+
+    --textarea-borderRadius: 4px;
+
+    --tumbler-size-s-borderRadius: 8px;
+    --tumbler-size-s-button-borderRadius: 6px;
+
+    --tumbler-size-m-borderRadius: 10px;
+    --tumbler-size-m-button-borderRadius: 8px;
+
+    --tumbler-size-l-borderRadius: 14px;
+    --tumbler-size-l-button-borderRadius: 12px;
+    --slider-allowed-range-before-after-width: 1px;
+
+    --tooltip-borderRadius: 4px;
+
+    --input-tag-list-tag-borderRadius: 4px;
+    --input-tag-list-suggestion-borderRadius: 4px;
+}

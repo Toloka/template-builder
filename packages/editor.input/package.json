@@ -1,0 +1,19 @@
+{
+    "name": "@toloka-tb/editor.input",
+    "version": "1.2.2",
+    "main": "editor.input.tsx",
+    "private": true,
+    "dependencies": {
+        "@toloka-tb/editor.monaco": "1.1.1",
+        "@toloka-tb/lang.json": "1.1.6",
+        "classnames": "2.2.6",
+        "mobx-react-lite": "1.5.2"
+    },
+    "devDependencies": {
+        "@types/classnames": "2.2.9",
+        "@types/react": "16.9.34",
+        "@types/react-dom": "16.9.5",
+        "mobx": "5.15.4",
+        "typescript": "3.8.3"
+    }
+}

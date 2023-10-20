@@ -1,0 +1,8 @@
+{
+    "clear": "Clear",
+    "errorBlocklist": "An invalid value was passed to the blockList [{invalidIndexes}] property of field.date.",
+    "errorMax": "An invalid value was passed to the max property of field.date. The date and time must be specified in GMT in the ISO 8601 format: yyyy-MM-DDThh:mmZ; example 2020-07-16T14:25Z. The value \"{max}\" was received.",
+    "errorMin": "An invalid value was passed to the min property of field.date. The date and time must be specified in GMT in the ISO 8601 format: yyyy-MM-DDThh:mmZ; example 2020-07-16T14:25Z. The value \"{min}\" was received.",
+    "locale": "en",
+    "unknownFormat": "The format property of the field.date component must be either \"date-time\" or \"date\". The value \"{format}\" was received."
+}

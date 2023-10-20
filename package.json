@@ -1,0 +1,9 @@
+{
+    "name": "@toloka/template-builder",
+    "private": true,
+    "scripts": {},
+    "dependencies": {
+        "lerna": "6.6.2",
+        "typescript": "3.8.3"
+    }
+}

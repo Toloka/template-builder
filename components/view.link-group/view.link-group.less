@@ -1,0 +1,51 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+
+    padding: @gap-xxs 0;
+
+    border-radius: @border-radius-m;
+
+    line-height: 18px;
+    white-space: pre-wrap;
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+    text-decoration: underline;
+
+    word-break: break-all;
+
+    margin-inline-end: @gap-s;
+
+    .font-m();
+    &:last-child {
+        margin-inline-end: 0;
+    }
+
+    &Primary {
+        padding: @gap-xxs @gap-s;
+        border: 1px solid rgba(0, 0, 0, 0.12);
+        transition: background @transition-s;
+        text-decoration: none;
+
+        &:hover {
+            background: @baseColor-grayVeryLight;
+        }
+    }
+
+    :visited {
+        color: rgb(0, 0, 238);
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.actionHint {
+    margin-inline-end: @gap-xxs;
+}

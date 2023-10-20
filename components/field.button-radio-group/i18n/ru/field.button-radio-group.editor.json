@@ -1,0 +1,20 @@
+{
+    "default.data.path": "path",
+    "default.label": "Заголовок",
+    "default.options.0.label": "Кнопка 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Кнопка 2",
+    "default.options.1.value": "value2",
+    "description": "Добавляет кнопки для выбора варианта ответа. Пригодится, если у вас несколько вариантов. Можно добавить только одну кнопку, но это легче сделать с [field.button-radio](field.button-radio.md).\n\nРазмер кнопки зависит от длины надписи. \n\n[Посмотреть пример в песочнице](https://ya.cc/t/_tZwD0yq3twiba)",
+    "properties.disabled.description": "Свойство запрещает нажимать кнопки. Если значение — `true`, исполнителю будет недоступно нажатие.",
+    "properties.options.description": "Массив кнопок.",
+    "properties.options.items.default.label": "Кнопка",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "Кнопка.",
+    "properties.options.items.properties.hint.default": "",
+    "properties.options.items.properties.hint.description": "Дополнительная информация.",
+    "properties.options.items.properties.label.default": "Кнопка",
+    "properties.options.items.properties.label.description": "Текст на кнопке.",
+    "properties.options.items.properties.value.default": "value",
+    "properties.options.items.properties.value.description": "Возвращаемое значение."
+}

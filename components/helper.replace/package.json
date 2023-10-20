@@ -1,0 +1,18 @@
+{
+    "name": "@toloka-tb/helper.replace",
+    "private": true,
+    "version": "1.1.3",
+    "main": "helper.replace.ts",
+    "dependencies": {
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/core": "1.16.8",
+        "@toloka-tb/schemas": "1.3.5"
+    },
+    "devDependencies": {
+        "@toloka-tb/registry-cli": "1.3.6"
+    },
+    "scripts": {
+        "build": "tb-registry-cli build ./",
+        "registry-publish": "tb-registry-cli publish ./"
+    }
+}

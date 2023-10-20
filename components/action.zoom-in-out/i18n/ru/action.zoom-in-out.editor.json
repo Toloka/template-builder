@@ -1,0 +1,4 @@
+{
+    "properties.view.description": "Указатель на view, в котором нужно переключить приближение",
+    "default.view.$ref": "view"
+}

@@ -1,0 +1,33 @@
+.cc-calendar-header {
+    width: 100%;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.cc-calendar-header_control {
+    height: 20px;
+    margin: 0;
+    padding: 4px 5px;
+
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #333;
+    border: none;
+}
+
+.cc-calendar-header_control__compact {
+    width: 20px;
+}
+
+.cc-calendar-header_control__hidden {
+    visibility: hidden;
+}
+
+.cc-calendar-header_control__selectable:hover {
+    cursor: pointer;
+
+    background: #eee;
+}

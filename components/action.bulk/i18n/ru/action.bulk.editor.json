@@ -1,0 +1,12 @@
+{
+    "default.payload.0.payload.content": "Действие 1 было запущено",
+    "default.payload.0.payload.theme": "info",
+    "default.payload.1.payload.content": "Действие 2 было запущено",
+    "default.payload.1.payload.theme": "info",
+    "description": "Позволяет одновременно вызывать несколько действий (actions). Например, показать несколько уведомлений при нажатии на кнопку.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/0c0pG3nN3twf77)\n\nДействия вызываются в том порядке, в котором перечислены. Например, если два действия записывают значение в одну и ту же переменную, то в переменной всегда будет второе значение.\n",
+    "properties.payload.default.0.payload.content": "Действие было запущено",
+    "properties.payload.default.0.payload.theme": "info",
+    "properties.payload.description": "Массив действий (actions), которые нужно вызывать.",
+    "properties.payload.items.description": "Действие (action).",
+    "shortDescription": "Позволяет одновременно вызывать несколько действий (actions)."
+}

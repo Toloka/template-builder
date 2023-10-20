@@ -1,0 +1,180 @@
+@import '~@toloka-tb/common/style.less';
+
+.ticketAttachment {
+    --attachment-color: #f0f2f3;
+    --attachment-color-selected: var(--color-bg-action);
+    --attachment-padding: calc(var(--space-xxs) + var(--space-xxxs));
+    --border-width: 2px;
+    position: relative;
+    margin-right: var(--space-s);
+    margin-top: var(--space-s);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 88px;
+    height: 60px;
+    padding: var(--attachment-padding);
+    padding-bottom: var(--space-xxs);
+
+    border: var(--border-width) solid var(--attachment-color);
+    border-radius: 4px;
+
+    background-size: cover;
+    background-position: center;
+    outline: none;
+
+    text-decoration: none;
+}
+.ticketAttachmentCollapseIcon {
+    display: block;
+    transform: rotate(180deg);
+}
+
+.ticketAttachmentLoadingOverlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    align-items: center;
+
+    padding: var(--attachment-padding);
+
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.ticketAttachmentRemoveButton {
+    position: absolute;
+    right: calc(-1 * var(--border-width) + 2px);
+    top: calc(-1 * var(--border-width) + 2px);
+
+    width: var(--space-l);
+    height: var(--space-l);
+    padding: 0;
+
+    border: none;
+    border-radius: 50%;
+
+    transform: translate(50%, -50%) scale(1);
+    opacity: 0;
+    cursor: pointer;
+    background-color: var(--crowd-color-charcoal-grey);
+    outline: none;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.ticketAttachmentRemoveButton:focus,
+.ticketAttachmentRemoveButton:hover,
+.ticketAttachmentRemoveButton:active {
+    transform: translate(50%, -50%) scale(1.2);
+}
+
+.ticketAttachmentContainer {
+    display: block;
+}
+.ticketAttachmentContainer:hover .ticketAttachmentRemoveButton {
+    opacity: 1;
+}
+
+.ticketAttachmentExtensionContainer {
+    display: flex;
+    height: 14px;
+}
+
+.ticketAttachmentExtension {
+    .font-s();
+
+    display: inline-flex;
+
+    box-sizing: content-box;
+    height: 12px;
+    padding: 1px var(--space-xxs);
+
+    border-radius: var(--space-xxs);
+
+    font-weight: bold;
+    line-height: 12px;
+    color: var(--crowd-color-white);
+}
+
+.ticketAttachmentName {
+    .font-s();
+
+    display: -webkit-box;
+
+    overflow: hidden;
+    max-height: 34px; // double line-height
+
+    padding: 1px var(--space-xxs);
+
+    border-radius: var(--space-xxs);
+
+    word-break: break-all;
+
+    color: var(--crowd-color-white);
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow-wrap: anywhere;
+    text-overflow: ellipsis;
+}
+
+.ticketAttachmentFailed {
+    border-color: var(--crowd-color-red);
+}
+
+.ticketAttachmentSelected {
+    border-color: var(--attachment-color-selected);
+}
+
+.attachmentConfirmationText {
+    max-width: 300px;
+    word-break: break-word;
+}
+
+.uploadFailedLabel {
+    margin-bottom: var(--space-s);
+
+    display: flex;
+
+    display: inline-flex;
+
+    box-sizing: content-box;
+    padding: 1px var(--space-xxs);
+
+    border-radius: var(--space-xxs);
+
+    font-weight: bold;
+    line-height: 12px;
+    color: var(--crowd-color-white);
+
+    background-color: var(--crowd-color-red);
+    .font-xs();
+}
+
+.togglePlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.1s opacity ease-in-out;
+}
+
+.togglePlay:hover,
+.togglePlayAlwaysVisible {
+    opacity: 1;
+}

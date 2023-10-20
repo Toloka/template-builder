@@ -1,0 +1,79 @@
+.image-annotation-editor__canvas .ia-shape {
+    outline: none;
+}
+
+.image-annotation-editor__canvas .ia-shape .ia-element-new-shape-overlay {
+    fill-opacity: 0;
+    stroke-opacity: 0;
+}
+
+.image-annotation-editor__canvas .ia-shape .ia-element-polygon-overlay-line {
+    stroke-opacity: 0;
+    stroke-width: 8px;
+}
+
+.image-annotation-editor__canvas .ia-shape .ia-element-point-underlay {
+    stroke-opacity: 0;
+    fill-opacity: 0;
+}
+
+.image-annotation-editor__canvas .ia-shape .ia-element-active-line {
+    pointer-events: none;
+}
+
+.image-annotation-editor__canvas .ia-shape .ia-element-new-polygon-polyline {
+    pointer-events: none;
+}
+
+.image-annotation-editor__canvas .ia-shape .ia-element-point:hover {
+    stroke-width: 4px;
+}
+
+.image-annotation-editor__canvas .ia-element_active {
+    fill: #f3a505;
+}
+
+/* polygon */
+.image-annotation-editor__canvas .ia-shape-polygon {
+    stroke-width: 4px;
+}
+
+.image-annotation-editor__canvas .ia-shape-polygon .ia-active-point {
+    fill: #f3a505;
+    stroke: #f3a505;
+    stroke-width: 4px;
+}
+
+.image-annotation-editor__canvas .ia-shape-new-polygon .ia-element-point:hover {
+    stroke-width: 0px;
+}
+
+.image-annotation-editor__canvas .ia-shape-new-polygon__not-finished .ia-element {
+    opacity: 0.7;
+    fill: #ccc;
+    stroke: #ccc;
+}
+
+/* rectangle */
+
+.image-annotation-editor__canvas .ia-shape-new-rectangle .ia-element-rect {
+    pointer-events: none;
+}
+
+@keyframes point-pulse {
+      0% { stroke-width: 1px; }
+     25% { stroke-width: 8px; }
+     50% { stroke-width: 5px; }
+     75% { stroke-width: 8px; }
+    100% { stroke-width: 1px; }
+}
+
+.image-annotation-editor__canvas .ia-shape-new-polygon__not-finished .ia-element.ia-first-point {
+    animation-name: point-pulse;
+    animation-duration: 1.5s;
+    opacity: 1;
+}
+
+.image-annotation-editor__canvas .ia-shape-new-polygon .ia-first-point:hover {
+    stroke-width: 4px;
+}

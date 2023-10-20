@@ -1,0 +1,23 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    .full-height-flex();
+}
+
+.content {
+    .full-height-flex-scrolls();
+}
+
+.bar {
+    overflow-y: auto;
+    min-height: 0;
+
+    flex-shrink: 0;
+
+    &Before {
+        margin-bottom: @gap-m;
+    }
+    &After {
+        margin-top: @gap-m;
+    }
+}

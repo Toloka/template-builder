@@ -1,0 +1,11 @@
+{
+    "default.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "description": "Отображает картинку.\n\n[Подробнее про вставку изображений](../operations/insert-images.md).",
+    "properties.noBorder.description": "Управляет отображением рамки вокруг изображения. По умолчанию `true` - рамка скрыта. Укажите `false`, чтобы отобразить рамку.",
+    "properties.noLazyLoad.description": "Отключает «ленивую загрузку».\n\nПри значении `true` картинки начнут загружаться сразу, даже если они не находятся в области видимости. Полезно для иконок.\n\nЗначение по умолчанию: `false` («ленивая загрузка» включена). В таком режиме картинка начнет загружаться, только когда попадет в область видимости исполнителя.",
+    "properties.popup.description": "Указывает, разрешено ли открывать изображение в полном размере по клику. По умолчанию `true` — разрешено.",
+    "properties.rotatable.description": "Если включено, изображение можно будет вращать.",
+    "properties.scrollable.description": "При значении `true` у изображения появляются полосы прокрутки, если оно не помещается в родительский элемент.\n\nЕсли `false`, изображение умещается в родительском элементе, а при нажатии открывается в исходном размере в модульном окне.\n\nИзображения в формате SVG, для которых не задан размер, всегда вписываются в родительский элемент.",
+    "properties.url.default": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "properties.url.description": "Ссылка на изображение."
+}

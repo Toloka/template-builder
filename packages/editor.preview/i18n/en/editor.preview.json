@@ -1,0 +1,10 @@
+{
+    "preview.layout.pager.tooltip": "Workers will be able to use pagination",
+    "preview.layout.scroll.tooltip": "Workers will see additional controls",
+    "preview.errorLocation": "[{origin}, line {line}]",
+    "preview.goToError": "Click to go to the error.",
+    "preview.unableToRender": "Template cannot be displayed",
+    "error.origin.config": "Config",
+    "error.origin.input": "Input data",
+    "error.origin.intl": "Text for the keys in the source language"
+}

@@ -1,0 +1,12 @@
+{
+    "description": "Позволяет задавать горячие клавиши для компонента [field.image-annotation](field.image-annotation.md).\n\nМожно задать горячие клавиши для выбора типов областей, выбора режимов разметки и подтверждения или отмены создания области. Добавить их можно на стрелки вверх и вниз (`up`,`down`), цифры и латинские буквы.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/6iXHnObL3tyzWi)",
+    "properties.cancel.description": "Горячая клавиша для отмены создания области.",
+    "properties.confirm.description": "Горячая клавиша для подтверждения создания области.",
+    "properties.labels.description": "Горячие клавиши для выбора типов областей. Добавляются на кнопки в порядке их отображения, если вы добавили возможность выделить несколько типов областей.",
+    "properties.labels.items.description": "Горячая клавиша.",
+    "properties.modes.description": "Горячие клавиши для выбора режимов разметки.",
+    "properties.modes.properties.point.description": "Горячая клавиша для режима разметки точками.",
+    "properties.modes.properties.polygon.description": "Горячая клавиша для режима разметки многоугольниками.",
+    "properties.modes.properties.rectangle.description": "Горячая клавиша для режима разметки прямоугольниками.",
+    "properties.modes.properties.select.description": "Горячая клавиша для режима выбора фигур и точек."
+}

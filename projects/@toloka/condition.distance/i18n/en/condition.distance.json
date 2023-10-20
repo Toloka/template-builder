@@ -1,0 +1,7 @@
+{
+    "accessRejected": "allow the app to access your device location",
+    "invalidProp": "invalid value for the {property} property (value received: \\\"{value}\\\")",
+    "locationUnavailable": "couldn't get the device location",
+    "tooClose": "move at least {required, number, .00} {required, plural, one {meter} other {meters}} away (you are {current, number, .00} {current, plural, one {meter} few {meters} other {meters}} away)",
+    "tooFar": "maximum distance is {required, number, .00} {required, plural, one {meter} other {meters}} (you are {current, number, .00} {current, plural, one {meter} few {meters} other {meters}} away)"
+}

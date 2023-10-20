@@ -1,0 +1,89 @@
+@import '~@toloka-tb/common/style.less';
+
+@itemLabelHeight: 14px;
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.items {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+
+    overflow-x: scroll;
+
+    min-width: 0;
+    max-width: 100%;
+
+    scroll-snap-type: x mandatory;
+}
+.item {
+    flex: 1;
+    margin-bottom: @gap-xxs;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    scroll-snap-align: center;
+
+    &:not(:last-child) {
+        margin-right: @gap-m;
+    }
+}
+.itemLabel {
+    .font-label();
+    display: block;
+
+    text-align: center;
+}
+
+.itemContent {
+    display: flex;
+    flex-direction: column;
+
+    overflow: auto;
+    max-height: calc(100% - @itemLabelHeight);
+
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.controls {
+    display: flex;
+    overflow: hidden;
+
+    padding-top: @gap-xs;
+}
+.itemSelector {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+.itemSelectorLabel {
+    .font-label();
+}
+.itemSelectorButtons {
+    margin-right: @gap-xs;
+    display: inline-flex;
+    overflow: auto;
+    max-width: 300px;
+}
+.userControls {
+    flex: 1;
+    overflow: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.horizontalDivider {
+    position: relative;
+    margin-top: @gap-xs;
+    width: 100%;
+    height: 2px;
+    background: fade(@baseColor-grayDark, 10);
+}

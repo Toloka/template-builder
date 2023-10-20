@@ -1,0 +1,6 @@
+{
+    "properties.data.description": "Данные, которые нужно сравнить",
+    "properties.then.description": "Значение, с которым нужно сравнить данные",
+    "properties.orEquals.description": "Если false, используется строгое значение, иначе не строгое",
+    "description": "Позволяет проверить что data больше then"
+}

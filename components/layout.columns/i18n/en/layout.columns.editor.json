@@ -1,0 +1,15 @@
+{
+    "default.items.0.content": "Column 1",
+    "default.items.1.content": "Column 2",
+    "description": "A component for placing content in columns.\n\nUse it to customize the display of content: set the column width and adjust the vertical alignment of content.\n\n[View example](https://ya.cc/t/W-APYFlT3xtrzV)\n\n**Components used in the example**\n\n- [view.list](view.list.md): Displays data in a list.\n- [view.text](view.text.md): Adds a block with text.",
+    "properties.fullHeight.description": "Switches the component to column mode at full height and with individual scrolling. Otherwise, the height is determined by the height of the column that is filled in the most.",
+    "properties.items.default.0.content": "Column 1",
+    "properties.items.default.1.content": "Column 2",
+    "properties.items.description": "Columns to divide the interface into.",
+    "properties.items.items.description": "Column content.",
+    "properties.minWidth.description": "The minimum width of the component; if it is narrower, columns are output sequentially, one by one.",
+    "properties.ratio.description": "An array of values that specify the relative width of columns. For example, if you have 3 columns, the value `[1,2,1]` divides the space into 4 parts and the column in the middle is twice as large as the other columns.\n\nIf the number of columns exceeds the number of values in the `ratio` property, the values are repeated. For example, if you have 4 columns and the `ratio` is set to `[1,2]`, the result is the same as for `[1,2,1,2]`.\n\nIf the number of columns is less than the number of values in the `ratio` property, extra values are simply ignored.",
+    "properties.ratio.items.description": "Relative column width.",
+    "properties.verticalAlign.description": "Vertical alignment of column content: \n\n* `top` — Aligned to the top of a column.\n* `middle` — Aligned to the middle of the column that is filled in the most.\n* `bottom` — Aligned to the bottom of a column.",
+    "shortDescription": "A component for placing content in columns."
+}

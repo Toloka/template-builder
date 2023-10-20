@@ -1,0 +1,7 @@
+{
+    "default.to.path": "coords",
+    "description": "This component checks whether the sent coordinates match the ones that you specified. \n\nFor example, you want a Toloker to take a photo of a specific place. The `condition.distance` component checks whether the photo was taken at the location that you specified.\n\nThe device coordinates are sent using the [data.location](data.location.md) component. You can use it without `condition.distance` if you need to read a Toloker's device coordinates without comparing them to the specified ones.\n\n[View example in the sandbox](https://ya.cc/t/HFMC2_XU3y3Tps)",
+    "properties.from.description": "The coordinates that will be compared to the coordinates from the `to` property.",
+    "properties.max.description": "The distance in meters by which the specified and sent coordinates may differ.",
+    "properties.to.description": "The coordinates that will be compared to the coordinates from the `from` property."
+}

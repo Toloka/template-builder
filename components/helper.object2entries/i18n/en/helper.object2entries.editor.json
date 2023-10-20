@@ -1,0 +1,7 @@
+{
+    "default.data.bar": "world",
+    "default.data.foo": "hello",
+    "description": "Creating an array of key-value pairs from the specified object.\n\nFor example, let's say you have an object that looks like this:\n\n```json\n{\n  \"foo\": \"hello\",\n  \"bar\": \"world\"\n}\n```\n\nIt will be converted to an array whose objects will pair data from the source object and their designations:\n\n```json\n[\n  {\n    \"key\": \"foo\",\n    \"value\": \"hello\"\n  },\n  {\n    \"key\": \"bar\",\n    \"value\": \"world\"\n  }\n]\n```\n\n[View example in the sandbox](https://ya.cc/t/CMTew3Xf3twjQE)",
+    "properties.data.description": "The object to convert.",
+    "shortDescription": "Creating an array of key-value pairs from the specified object."
+}

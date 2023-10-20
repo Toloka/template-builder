@@ -1,0 +1,9 @@
+{
+    "default.data.path": "path",
+    "default.label": "Заголовок",
+    "default.valueToSet": "value",
+    "description": "Добавляет одну кнопку. Пригодится для оформления необязательного варианта ответа.\n\nЕсли вы хотите добавить несколько кнопок, используйте [field.button-radio-group](field.button-radio-group.md).\n\nРазмер кнопки зависит от длины надписи.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/zz8sLDs13tyz6d)",
+    "properties.disabled.description": "Свойство запрещает нажимать кнопки. Если значение — `true`, исполнителю будет недоступно нажатие.",
+    "properties.valueToSet.default": "value",
+    "properties.valueToSet.description": "Значение выходных данных при нажатии на кнопку."
+}

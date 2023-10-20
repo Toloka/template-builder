@@ -1,0 +1,20 @@
+{
+    "default.controls.items.0.data.path": "result",
+    "default.controls.items.0.label": "Which product looks most attractive?",
+    "default.controls.items.0.options.0.label": "A",
+    "default.controls.items.0.options.0.value": "a",
+    "default.controls.items.0.options.1.label": "B",
+    "default.controls.items.0.options.1.value": "b",
+    "default.controls.items.0.options.2.label": "Images didn't load",
+    "default.controls.items.0.options.2.value": "failure",
+    "default.controls.items.1.data.path": "why",
+    "default.controls.items.1.label": "Please explain why you chose it.",
+    "default.items.0.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/ya-station-white.png",
+    "default.items.1.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/ya-station-black.png",
+    "description": "The component displays several data blocks of the same width on a single horizontal panel. For example, you can use this to compare several photos. \n\nYou can add selection buttons or a field for comment under the compared elements.\n\n[View example in the sandbox](https://ya.cc/t/buBN71oL3twVaP)\n\nDifferences from the [layout.compare](layout.compare.md) component:\n* You can add buttons which allow hiding the elements. Use it if you need to compare, for example, 5 photos at once and need to choose between two.\n* You can configure only common control elements. You can't add separate buttons under each of the compared element.",
+    "properties.controls.description": "Components that let Tolokers perform the required actions.\n\nFor example: [field.checkbox-group](field.checkbox-group.md) or [field.button-radio-group](field.button-radio-group.md).",
+    "properties.items.description": "An array of data blocks.",
+    "properties.items.items.description": "A component for data output or input. For example, [view.image](view.image.md).",
+    "properties.minItemWidth.description": "The minimum width of a data block, at least 400 pixels.",
+    "shortDescription": "The component displays several data blocks of the same width on a single horizontal panel."
+}

@@ -1,0 +1,31 @@
+@import '~@toloka-tb/common/style.less';
+
+.core {
+    fill: white;
+    stroke-width: 1;
+}
+
+.halo {
+    transition: opacity 0.1s;
+
+    fill-opacity: 0.2;
+    stroke-width: 2;
+}
+
+.vertex {
+    & > .halo {
+        opacity: 0;
+    }
+
+    &Selected > .halo {
+        opacity: 1;
+    }
+
+    &Selectable:hover > .halo {
+        opacity: 0.7;
+    }
+
+    &Selected:hover > .halo {
+        opacity: 0.9;
+    }
+}

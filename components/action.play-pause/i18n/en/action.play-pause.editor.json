@@ -1,0 +1,5 @@
+{
+    "default.view.$ref": "view",
+    "description": "This component controls audio or video playback. It stops playback in progress or starts if it is stopped.\n\nFor example, this component will allow you to play two videos simultaneously.\n\n[View example in the sandbox](https://ya.cc/t/AiIEBqw-3YbMBH)\n\nYou can also stop or start playback for some event ([plugin.trigger] (plugin.trigger.md)) or by pressing the hotkey ([plugin.hotkeys](plugin.hotkeys.md)).\n\n[View example in the sandbox](https://ya.cc/t/ip43S-aL3tz9c7)",
+    "properties.view.description": "Points to the component that plays audio or video."
+}

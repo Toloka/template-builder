@@ -1,0 +1,13 @@
+{
+    "default.buttonLabel": "Add one more",
+    "default.data.path": "path",
+    "description": "A component that allows a Toloker to add and remove list items, such as text fields to fill in.\n\nThis way you can allow a Toloker to give multiple answers to a question.\n\n[View example in the sandbox](https://ya.cc/t/IB5Q2ef53twbTw)\n\nThe list items can contain any component, including a list of other components. For example, this allows you to create a table where you can add and delete rows.\n\n[View example in the sandbox](https://ya.cc/t/d5nCDUia3twbqB)\n\n## Managing components\n\nTo add a new list item, Tolokers click the button. To remove an item, they click the `x` icon. The icon appears when hovering over the list item.\n\nTo prevent a Toloker from adding too many list items, set the maximum list length. You can also use the `editable` property to block Tolokers from changing a component, like when a certain event occurs.",
+    "properties.buttonLabel.default": "Add one more",
+    "properties.buttonLabel.description": "Text on the button for adding list items.",
+    "properties.direction.description": "The direction of the list:\n* `vertical` (default).\n* `horizontal`",
+    "properties.editable.description": "A property that indicates whether adding and removing list items is allowed. Set `false` to disable. By default it is `true` (allowed). ",
+    "properties.maxLength.description": "Maximum number of list items.",
+    "properties.render.description": "Interface template for list items, such as a text field.\n\nIn nested `field.*` components, use `data.relative` for recording responses, otherwise all the list items will have the same value.",
+    "properties.size.description": "The distance between list items. Acceptable values in ascending order: `s`, `m` (default).",
+    "shortDescription": "A component that allows a Toloker to add and remove list items, such as text fields to fill in. This way you can allow a Toloker to give multiple answers to a question."
+}

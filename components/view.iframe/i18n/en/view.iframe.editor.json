@@ -1,0 +1,6 @@
+{
+    "default.url": "https://example.com/",
+    "description": "Displays the web page at the URL in an iframe window.",
+    "properties.url.default": "https://example.com/",
+    "properties.url.description": "URL of the web page."
+}

@@ -1,0 +1,16 @@
+{
+    "default.entries.0.key": "foo",
+    "default.entries.0.value": "hello",
+    "default.entries.1.key": "bar",
+    "default.entries.1.value": "world",
+    "description": "Creating an object from a specified array of key-value pairs.\n\nFor example, let's say you have an array like this:\n```json\n[\n  {\n    \"key\": \"foo\",\n    \"value\": \"hello\"\n  },\n  {\n    \"key\": \"bar\",\n    \"value\": \"world\"\n  }\n]\n```\n\nIt is converted to an object whose elements consist of the values of the original array:\n```json\n{\"foo\":\"hello\",\"bar\":\"world\"}\n```\n\n[View example in the sandbox](https://ya.cc/t/wf2xSzVO3twkui)",
+    "properties.entries.default.0.key": "foo",
+    "properties.entries.default.0.value": "hello",
+    "properties.entries.default.1.key": "bar",
+    "properties.entries.default.1.value": "world",
+    "properties.entries.description": "Source array of key-value pairs.",
+    "properties.entries.items.description": "Object parameters.",
+    "properties.entries.items.properties.key.description": "Key.",
+    "properties.entries.items.properties.value.description": "Value.",
+    "shortDescription": "Creating an object from a specified array of key-value pairs."
+}

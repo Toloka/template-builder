@@ -1,0 +1,51 @@
+{
+    "name": "toloka-img-annotation",
+    "version": "0.0.14",
+    "description": "",
+    "main": "build/image-annotation-editor.bundle.js",
+    "scripts": {
+        "build": "./node_modules/webpack/bin/webpack.js",
+        "watch": "./node_modules/webpack/bin/webpack.js --watch",
+        "test": "./node_modules/karma/bin/karma start karma.config.js",
+        "test_watch": "./node_modules/karma/bin/karma start --auto-watch --no-single-run karma.config.js",
+        "size": "npm run build && size-limit"
+    },
+    "size-limit": [
+        {
+            "path": "build/*.js",
+            "limit": "11KB"
+        }
+    ],
+    "devDependencies": {
+        "@babel/core": "^7.5.5",
+        "@size-limit/preset-app": "^2.0.2",
+        "babel-loader": "^8.0.6",
+        "babel-plugin-lodash": "^3.3.4",
+        "css-loader": "^3.2.0",
+        "file-loader": "^4.2.0",
+        "html-loader": "^0.5.5",
+        "jasmine-core": "^2.5.2",
+        "karma": "^1.6.0",
+        "karma-jasmine": "^1.1.0",
+        "karma-webpack": "^2.0.3",
+        "lodash-webpack-plugin": "^0.11.5",
+        "mini-css-extract-plugin": "^0.8.0",
+        "node-noop": "^1.0.0",
+        "optimize-css-assets-webpack-plugin": "^5.0.3",
+        "raw-loader": "^3.1.0",
+        "size-limit": "^2.0.2",
+        "style-loader": "^1.0.0",
+        "terser-webpack-plugin": "^1.4.1",
+        "webpack": "^4.36.0",
+        "webpack-bundle-analyzer": "^3.4.1",
+        "webpack-cli": "^3.3.6",
+        "webpack-deadcode-plugin": "^0.1.11"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.5.5",
+        "clone": "^2.1.1",
+        "events": "^1.1.1",
+        "karma-chrome-launcher": "3.2.0",
+        "lodash": "^4.17.4"
+    }
+}

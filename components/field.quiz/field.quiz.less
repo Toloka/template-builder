@@ -1,0 +1,66 @@
+.quiz {
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    --radiobox-size-m-fontSize: 15px;
+    --radiobox-size-m-lineHeight: 24px;
+    --radiobox-size-m-positionTop: 0px;
+    --radiobox-size-m-indentRight: 8px;
+    --control-font-family: SuisseIntl, 'Fallback Helvetica', 'Fallback Arial', sans-serif;
+}
+
+.quiz :global(.Radiobox-Radio) {
+    display: flex;
+    align-items: center;
+}
+
+.quiz h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.quiz h2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.quiz h3 {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.quiz h4 {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.radioLabel p {
+    margin: 0;
+}
+
+.questionLabel {
+    margin-bottom: 8px;
+}
+
+.questionLabel :last-child {
+    margin-bottom: 0;
+}
+
+.answeredRadio {
+    --color-control-bg-check: #FF3333;
+    --color-control-bg-check-hover: #FF3333;
+}
+
+.answeredRadio.correctRadio {
+    --color-control-bg-check: #33B27B;
+    --color-control-bg-check-hover: #33B27B;
+}
+
+.hint {
+    margin-top: 3px;
+    margin-bottom: 4px;
+}

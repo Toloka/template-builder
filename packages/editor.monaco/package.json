@@ -1,0 +1,17 @@
+{
+    "name": "@toloka-tb/editor.monaco",
+    "private": true,
+    "version": "1.1.1",
+    "main": "editor.monaco.ts",
+    "scripts": {
+        "deploy": "azcopy copy 'node_modules/monaco-editor/min/*' 'https://tlkfrontprodpublic.blob.core.windows.net/template-builder-production/static/monaco-editor@0.21.2' --recursive=true"
+    },
+    "dependencies": {
+        "@monaco-editor/react": "4.0.10"
+    },
+    "devDependencies": {
+        "@types/react": "16.9.34",
+        "@types/react-dom": "16.9.5",
+        "monaco-editor": "0.21.2"
+    }
+}

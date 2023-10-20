@@ -1,0 +1,27 @@
+{
+    "name": "@toloka-tb/field.quiz",
+    "private": true,
+    "version": "1.4.0",
+    "main": "field.quiz.tsx",
+    "dependencies": {
+        "@toloka-tb/action.set": "1.1.3",
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/component2schema": "1.13.8",
+        "@toloka-tb/core": "1.16.8",
+        "@toloka-tb/schemas": "1.3.5",
+        "classnames": "2.2.6",
+        "react-markdown": "4.3.1"
+    },
+    "devDependencies": {
+        "@types/classnames": "2.2.9",
+        "@types/react": "16.9.34",
+        "@toloka-tb/registry-cli": "1.3.6"
+    },
+    "scripts": {
+        "build": "tb-registry-cli build ./",
+        "registry-publish": "tb-registry-cli publish ./"
+    },
+    "peerDependencies": {
+        "react": "16.13.0"
+    }
+}

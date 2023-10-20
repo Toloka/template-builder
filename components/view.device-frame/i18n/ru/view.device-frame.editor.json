@@ -1,0 +1,5 @@
+{
+    "default.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/wikipedia-screenshot.png",
+    "description": "Оборачивает содержимое компонента в рамку, похожую на мобильный телефон. Внутри рамки можно расположить другие компоненты.",
+    "properties.content.description": "Содержимое внутри рамки."
+}

@@ -1,0 +1,117 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    overflow: hidden;
+    padding: @gap-xs;
+}
+
+.notification {
+    overflow: hidden;
+    height: 0;
+
+    max-width: 600px;
+
+    border-radius: @border-radius-m;
+
+    color: @baseColor-white;
+
+    background-color: @baseColor-grayDark;
+
+    box-shadow: @effect-shadow-s;
+    transition: @transition-s height;
+    animation: appearing 1 0.1s ease-out;
+
+    &:not(:last-child) {
+        margin-bottom: @gap-xxs;
+    }
+}
+.notificationInner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: @gap-xs @gap-s;
+}
+
+@keyframes appearing {
+    from {
+        transform: translateY(@gap-xl);
+        opacity: 0.3;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.disappear {
+    animation: disappearing 1 0.1s ease-out;
+
+    animation-fill-mode: forwards;
+}
+
+@keyframes disappearing {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    to {
+        transform: translateY(@gap-xl);
+        opacity: 0.3;
+    }
+}
+
+.icon {
+    fill: @baseColor-white;
+}
+
+.danger {
+    background-color: @baseColor-redLight;
+}
+
+.success {
+    background-color: @baseColor-green;
+}
+
+.warning {
+    background-color: @baseColor-yellowDark;
+}
+
+.info {
+    background-color: @baseColor-blueLight;
+}
+
+.text {
+    padding-right: @gap-xs;
+
+    &:not(:first-child) {
+        padding-left: @gap-xs;
+    }
+}
+
+.closeButton {
+    align-self: center;
+    margin: 0;
+
+    display: flex;
+
+    padding: 0;
+
+    border: 0;
+
+    transform: scale(1);
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    transition: @transition-s transform;
+
+    &:focus {
+        transform: scale(1.3);
+    }
+}

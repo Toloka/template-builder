@@ -1,0 +1,7 @@
+.cc-calendar-date-picker_input > .Textinput-Box {
+    transition: .1s ease-in-out border-color;
+}
+
+.cc-calendar-date-picker_input__invalid > .Textinput-Box.Textinput-Box {
+    border-color: var(--color-control-typo-error);
+}

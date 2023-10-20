@@ -1,0 +1,9 @@
+{
+    "default.content.content": "Hidden text",
+    "default.label": "Expandable block",
+    "description": "Expandable block.\n\nLets you add hidden content that doesn't need to be shown initially or that takes up a large space.\n\nThe block heading is always visible.\n\nIf you set the `defaultOpened` property to `true`, the block is expanded immediately, but it can be collapsed.",
+    "properties.content.description": "Content hidden in the block.",
+    "properties.defaultOpened.description": "If `true`, the block is immediately displayed in expanded form. By default, `false` (the block is collapsed).",
+    "properties.label.default": "",
+    "properties.label.description": "Block heading."
+}

@@ -1,0 +1,7 @@
+{
+    "default.data.path": "path",
+    "default.payload": "some_value",
+    "description": "Sets the value from `payload` in the data in the `data` property.\n\n[Learn more about working with data](../operations/work-with-data.md).\n\nFor example, let's say you want to add shortcuts for the [field.radio-group](field.radio-group.md) option. You need the shortcut to perform the same action as the selected option, which is to set the specified value in the data. To set this action, use `action.set`.\n\n[View example in the sandbox](https://ya.cc/t/4YfJWA7y3tz3LC)\n\nAs another example, you can use this component to count the number of clicks on an option and write the value in the output data. When the page is refreshed, set the value to 0.\n\n[View example in the sandbox](https://ya.cc/t/IN4-Mm2I3tz3Rt)",
+    "properties.data.description": "Data with values that will be processed or changed.",
+    "properties.payload.description": "The value to write to the data."
+}

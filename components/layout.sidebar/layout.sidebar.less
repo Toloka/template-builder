@@ -1,0 +1,46 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    .full-height-flex();
+    flex-direction: row;
+
+    &Breakpoint {
+        display: block;
+        min-height: auto;
+    }
+}
+
+.content {
+    .full-height-flex-scrolls();
+    flex-grow: 1;
+}
+
+.controls {
+    margin-left: @gap-m;
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+
+    &Breakpoint {
+        margin-left: 0;
+        margin-top: @gap-m;
+    }
+}
+
+.mainControls {
+    .full-height-flex-scrolls();
+
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.extraControls {
+    margin-top: @gap-m;
+    overflow-y: auto;
+    min-height: 0;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}

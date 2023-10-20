@@ -1,0 +1,24 @@
+@import '~@toloka-tb/common/style.less';
+
+.notification {
+    display: flex;
+    align-items: center;
+    padding: @gap-xs @gap-m;
+    background: @color-default;
+}
+
+.notification + .notification {
+    border-top: @divider;
+}
+
+.notificationBadge {
+    margin-right: @gap-s;
+    width: @gap-xs;
+    height: @gap-xs;
+
+    border-radius: 50%;
+
+    background: @baseColor-blue;
+
+    flex-shrink: 0;
+}

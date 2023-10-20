@@ -1,0 +1,16 @@
+{
+    "error.unknown": "Синтаксическая ошибка.",
+    "error.array.not_closed": "Не хватает закрывающей скобки \"]\".",
+    "error.array.excess_comma": "Уберите лишнюю запятую.",
+    "error.array.missing_comma": "Добавьте запятую \",\".",
+    "error.array.trailing_comma": "Уберите запятую на конце массива.",
+    "error.object.unquoted_key": "Названия свойств должны быть в кавычках.",
+    "error.object.missing_key": "Добавьте название свойства.",
+    "error.object.missing_colon": "Добавьте двоеточие \":\".",
+    "error.object.missing_value": "Добавьте значение свойства.",
+    "error.object.not_closed": "Не хватает закрывающей скобки \"}\".",
+    "error.object.excess_comma": "Уберите лишнюю запятую.",
+    "error.object.missing_comma": "Добавьте запятую \",\".",
+    "error.object.trailing_comma": "Уберите запятую после последнего свойства.",
+    "error.multiple_roots": "В редакторе осталось несколько занчений. Уберите все кроме первого."
+}

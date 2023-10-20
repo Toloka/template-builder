@@ -1,0 +1,16 @@
+{
+    "error.unknown": "Syntax error",
+    "error.array.not_closed": "Square brackets must be added \"]\"",
+    "error.array.excess_comma": "The extra comma must be removed",
+    "error.array.missing_comma": "Comma must be added \",\"",
+    "error.array.trailing_comma": "The extra comma from the end of the array must be removed",
+    "error.object.unquoted_key": "Property name must be in quotation marks",
+    "error.object.missing_key": "Property name must be added",
+    "error.object.missing_colon": "Colon must be added \":\"",
+    "error.object.missing_value": "Property value must be added",
+    "error.object.not_closed": "Brace must be added \"}\"",
+    "error.object.excess_comma": "The extra comma must be removed",
+    "error.object.missing_comma": "Comma must be added \",\"",
+    "error.object.trailing_comma": "The extra comma after the last property must be removed",
+    "error.multiple_roots": "There are multiple root values in the editor. Please, remove all except one."
+}

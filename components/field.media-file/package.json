@@ -1,0 +1,42 @@
+{
+    "name": "@toloka-tb/field.media-file",
+    "private": true,
+    "version": "1.9.7",
+    "main": "field.media-file.tsx",
+    "dependencies": {
+        "@bem-react/classname": "1.5.12",
+        "@bem-react/core": "3.0.8",
+        "@bem-react/di": "3.1.1",
+        "@toloka-tb/action.open-close": "1.1.3",
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/component2schema": "1.13.8",
+        "@toloka-tb/core": "1.16.8",
+        "@toloka-tb/lib.file-upload": "1.9.3",
+        "@toloka-tb/lib.fullscreen": "1.1.10",
+        "@toloka-tb/lib.modal": "1.0.9",
+        "@toloka-tb/plugin.hotkeys": "1.4.3",
+        "@toloka-tb/schemas": "1.3.5",
+        "@yandex/ui": "3.33.0",
+        "@yandex/ui-icons": "0.0.1-alpha.1",
+        "classnames": "2.2.6",
+        "mobx": "^5.15.4",
+        "mobx-react-lite": "^1.5.2",
+        "nanoid": "^3.1.30",
+        "react-dropzone": "10.2.1",
+        "react-use": "^17.3.1",
+        "react-zoom-pan-pinch": "^2.1.3"
+    },
+    "devDependencies": {
+        "@toloka-tb/registry-cli": "1.3.6",
+        "@types/classnames": "2.2.9",
+        "@types/react": "16.9.34",
+        "react": "16.13.0"
+    },
+    "scripts": {
+        "build": "tb-registry-cli build ./",
+        "registry-publish": "tb-registry-cli publish ./"
+    },
+    "peerDependencies": {
+        "react": "16.13.0"
+    }
+}

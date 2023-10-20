@@ -1,0 +1,9 @@
+{
+    "default.data.path": "path",
+    "default.label": "Label",
+    "default.valueToSet": "value",
+    "description": "Adds a button. This is useful for creating an optional answer.\n\nIf you want to add multiple buttons, use [field.button-radio-group](field.button-radio-group.md).\n\nThe button size depends on the length of the text.\n\n[View example in the sandbox](https://ya.cc/t/olwvj7493tyzBh)",
+    "properties.disabled.description": "This property prevents clicking the button. If the value is `true`, the button is not active (a Toloker will not be able to click it).",
+    "properties.valueToSet.default": "value",
+    "properties.valueToSet.description": "The value of the output data when the button is clicked."
+}

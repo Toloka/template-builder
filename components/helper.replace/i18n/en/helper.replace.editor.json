@@ -1,0 +1,12 @@
+{
+    "default.data.path": "path",
+    "default.find": "string1",
+    "default.replace": "string2",
+    "description": "Allows you to replace some parts of the string with others. \n\nThis helper function returns a string in which all occurrences of 'find` in `data` are replaced with `replace`. \n\nBecause the `helper.replace` helper returns a string, it can be used in properties that accept string values.",
+    "properties.data.default.path": "path",
+    "properties.data.description": "Data to perform the replacement on.\n",
+    "properties.find.default": "string1",
+    "properties.find.description": "The value to search for — the string whose occurrences must be found in `data` and replaced with the string from `replace`.",
+    "properties.replace.default": "string2",
+    "properties.replace.description": "The value to insert in place of the matches of the `find` value."
+}

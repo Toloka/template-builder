@@ -1,0 +1,17 @@
+{
+    "description": "Элемент, позволяющий выбрать несколько значений из списка",
+    "properties.placeholder.default": "Выберите вариант",
+    "properties.placeholder.description": "Значение, отображающееся когда ничего не выбрано ",
+    "properties.options.items.properties.label.default": "",
+    "properties.options.items.properties.label.description": "Текстовое описание опции",
+    "properties.options.items.properties.value.default": "",
+    "properties.options.items.properties.value.description": "Значение опции",
+    "properties.options.description": "Список доступных опций",
+    "default.label": "Label",
+    "default.placeholder": "Noting selected",
+    "default.options.0.label": "Hello",
+    "default.options.0.value": "hello",
+    "default.options.1.label": "World!",
+    "default.options.1.value": "world",
+    "default.data.path": "some.deep.data.multiSelect"
+}

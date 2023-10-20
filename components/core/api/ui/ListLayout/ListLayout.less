@@ -1,0 +1,93 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    &S {
+        --tb-list-space: var(--space-xs);
+    }
+
+    &M {
+        --tb-list-space: var(--space-m);
+    }
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+
+    margin-block-start: calc(var(--tb-list-space) * -1);
+
+    &Vertical {
+        flex-direction: column;
+    }
+
+    &Horizontal {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        margin-inline-start: calc(var(--tb-list-space) * -1);
+    }
+
+    &Center {
+        align-items: center;
+    }
+}
+
+.closeButton {
+    z-index: 1;
+    opacity: 0;
+    cursor: pointer;
+    transition: @transition-s;
+}
+
+.listButtonRemoveGroup {
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    top: @gap-s;
+    right: @gap-s;
+    border-radius: 4px;
+    opacity: 0.3;
+    transition: @transition-s;
+
+    svg {
+        display: block;
+    }
+}
+
+.listButtonRemoveGroup:hover {
+    opacity: 1;
+    background: var(--color-control-bg-default);
+}
+
+.listItem {
+    &Vertical {
+        width: 100%;
+
+        margin-block-start: var(--tb-list-space);
+    }
+
+    &Horizontal {
+        margin-block-start: var(--tb-list-space);
+        margin-inline-start: var(--tb-list-space);
+    }
+
+    &:empty {
+        display: none;
+    }
+
+    &:hover > .closeButton {
+        opacity: 0.8;
+    }
+
+    &Removable {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &RemoveGroup {
+        position: relative;
+    }
+}
+
+.itemContent {
+    flex: 1;
+}

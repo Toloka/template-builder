@@ -1,0 +1,5 @@
+{
+    "errorNoUrl": "empty url",
+    "errorProtocol": "the page must be loaded over the  \"{protocol}\" protocol.",
+    "mediaType": "site"
+}

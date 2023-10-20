@@ -1,0 +1,114 @@
+@font-face {
+    font-weight: 400;
+    font-family: SuisseIntl;
+    font-style: normal;
+    src:
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-Regular-WebXL.woff2) format("woff2"),
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-Regular-WebXL.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: SuisseIntl;
+    font-style: normal;
+    src:
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-Medium-WebXL.woff2) format("woff2"),
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-Medium-WebXL.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 600;
+    font-family: SuisseIntl;
+    font-style: normal;
+    src:
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-SemiBold-WebXL.woff2) format("woff2"),
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-SemiBold-WebXL.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: SuisseIntl;
+    font-style: normal;
+    src:
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-Bold-WebXL.woff2) format("woff2"),
+        url(https://tlkfrontprod.azureedge.net/frontend-production/static/fonts/SuisseIntl-Bold-WebXL.woff) format("woff");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Fallback Helvetica";
+    src: local("Helvetica");
+    ascent-override: 85%;
+    descent-override: 35.5%;
+    size-adjust: 102%;
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: "Fallback Helvetica";
+    src: local("Helvetica");
+    ascent-override: 82%;
+    descent-override: 32.5%;
+    size-adjust: 106.8%;
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Fallback Helvetica";
+    src: local("Helvetica");
+    ascent-override: 82%;
+    descent-override: 32.5%;
+    size-adjust: 113.5%;
+}
+
+@font-face {
+    font-family: "Fallback Arial";
+    src: local("Arial");
+    ascent-override: 102%;
+    descent-override: 35.5%;
+    size-adjust: 102%;
+}
+
+@font-face {
+    font-weight: 500;
+    font-family: "Fallback Arial";
+    src: local("Arial");
+    size-adjust: 106.8%;
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Fallback Arial";
+    src: local("Arial");
+    ascent-override: 101%;
+    size-adjust: 113.5%;
+}
+
+body {
+    font-family: SuisseIntl, 'Fallback Helvetica', 'Fallback Arial', sans-serif;
+    -webkit-font-feature-settings: 'liga', 'kern';
+    -moz-font-feature-settings: 'liga', 'kern';
+    font-feature-settings: 'liga', 'kern';
+
+    -webkit-font-smoothing: antialiased;
+}
+
+body,
+html {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    --control-font-family: SuisseIntl, 'Fallback Helvetica', 'Fallback Arial', sans-serif;
+}

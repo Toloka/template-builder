@@ -1,0 +1,18 @@
+{
+    "default.items.0.content.content": "Содержимое элемента",
+    "default.items.0.label": "Элемент 1",
+    "default.items.1.content.content": "Содержимое элемента",
+    "default.items.1.label": "Элемент 2",
+    "default.items.2.content.content": "Содержимое элемента",
+    "default.items.2.label": "Элемент 3",
+    "description": "Отображение компонентов в виде списка с подписями. Подписи располагаются слева.\n\nЕсли вам не нужны подписи, используйте компонент [view.list](view.list.md).",
+    "properties.items.description": "Массив элементов списка.",
+    "properties.items.items.default.content.content": "Содержимое элемента",
+    "properties.items.items.default.label": "Подпись",
+    "properties.items.items.description": "Параметры элемента списка.",
+    "properties.items.items.properties.centerLabel.description": "Значение `true` выравнивает подпись (`label`) по центру относительно содержимого элемента списка (`content`). Используйте, если список состоит из крупных элементов, например, картинок или многострочного текста.\n\nЗначение по умолчанию `false` — подпись выравнивается по верхнему краю блока с содержимым.",
+    "properties.items.items.properties.content.description": "Содержимое пункта списка.",
+    "properties.items.items.properties.hint.description": "Всплывающая подсказка рядом с подписью.",
+    "properties.items.items.properties.label.description": "Подпись рядом с элементом списка.",
+    "properties.minWidth.description": "Минимальная ширина, которую будет занимать содержимое списка. Если ширина компонента станет меньше указанной, он перейдет в компактный режим."
+}

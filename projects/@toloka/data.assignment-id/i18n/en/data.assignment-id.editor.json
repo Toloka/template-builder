@@ -1,0 +1,3 @@
+{
+    "description": "This component returns assignment id.\n\nTo get assignment id add `{\"type\": \"@toloka/data.assignment-id\"}` to the property of the desired component"
+}

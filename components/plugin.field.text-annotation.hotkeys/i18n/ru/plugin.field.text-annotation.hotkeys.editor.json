@@ -1,0 +1,13 @@
+{
+    "default.labels.0": "1",
+    "default.labels.1": "2",
+    "default.labels.2": "3",
+    "default.labels.3": "4",
+    "default.labels.4": "5",
+    "default.remove": "c",
+    "description": "Позволяет задавать горячие клавиши для компонента [field.text-annotation](field.text-annotation.md).\n\n[Посмотреть пример в песочнице](https://ya.cc/t/NqjWqemP3twgex)",
+    "properties.labels.description": "Горячие клавиши для выбора категорий. Клавиши добавляются на кнопки с категориями в порядке их отображения.",
+    "properties.labels.items.description": "Горячая клавиша.",
+    "properties.remove.default": "c",
+    "properties.remove.description": "Используйте свойство, чтобы дать исполнителю возможность отменить выбор всей строки или ее части. Клавиша, которую вы назначите на это свойство, будет отменять выбор."
+}

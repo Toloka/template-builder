@@ -1,0 +1,13 @@
+{
+    "default.data.path": "path",
+    "default.format": "date-time",
+    "default.label": "Заголовок",
+    "description": "Компонент, позволяющий ввести дату и время в требуемом формате и заданном диапазоне. \n\nВозможно установить список дат, которые исполнитель не сможет выбрать.",
+    "properties.blockList.description": "Список дат, которые не сможет выбрать исполнитель.",
+    "properties.blockList.items.description": "Дата, которую не сможет выбрать исполнитель.",
+    "properties.format.description": "Формат даты, вводимой исполнителем:\n\n* `date-time` — дата и время.\n* `date` — только дата.\n",
+    "properties.max.description": "Самая поздняя дата и время в формате `YYYY-MM-DD hh:mm`, которую сможет выбрать исполнитель. Где:\n\n* `YYYY` — год.\n* `MM` — месяц.\n* `DD` — день.\n* `hh` — часы.\n* `mm` — минуты.\n",
+    "properties.min.description": "Самая ранняя дата и время в формате `YYYY-MM-DD hh:mm`, которую сможет выбрать исполнитель. Где:\n\n* `YYYY` — год.\n* `MM` — месяц.\n* `DD` — день.\n* `hh` — часы.\n* `mm` — минуты.\n",
+    "properties.placeholder.default": "Введите дату",
+    "properties.placeholder.description": "Полупрозрачная надпись, отображающаяся в пустом поле."
+}

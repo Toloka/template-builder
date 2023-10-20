@@ -1,0 +1,6 @@
+{
+    "default.condition.data.path": "path",
+    "description": "Returns the inverse of the specified condition. For example, if the specified condition is met (returns `true`), then \n`condition.not` will return `false`.\n\n[View example in the sandbox](https://ya.cc/t/CUL8AOk33twnPc)",
+    "properties.condition.description": "The condition for which the inverse is returned.",
+    "shortDescription": "Returns the inverse of the specified condition."
+}

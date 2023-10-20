@@ -1,0 +1,5 @@
+{
+    "description": "Переключатель в форме кнопки",
+    "default.label": "Label",
+    "default.data.path": "path"
+}

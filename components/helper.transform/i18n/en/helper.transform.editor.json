@@ -1,0 +1,11 @@
+{
+    "default.into.path": "item.name",
+    "default.items.0.name": "Alice",
+    "default.items.1.name": "Bob",
+    "description": "Creates a new array by transforming each of the elements in the original array.\n\nFor example, you can convert an array of image links to [view.image](view.image.md) components to display these images. This may be useful if the number of images in the array is unknown in advance. \n\n[View example in the sandbox](https://ya.cc/t/IqTqGpfg3ttBtA)",
+    "properties.into.description": "Template to transform elements in the array. The array value can be substituted using the `data.local` component. To do this, use the construction `{ \"type\": \"data.local\", \"path\": \"item\"}`. [Learn more](../operations/work-with-data.md).",
+    "properties.items.default.0.name": "Alice",
+    "properties.items.default.1.name": "Bob",
+    "properties.items.description": "The array that you want to convert. You can specify an array in three ways:\n\n* Specify the array itself. Example: `[\"one\", \"two\", \"three\"]`.\n* Insert a reference to data (input, output, or internal). Example: `{\"type\": \"data.input\", \"path\": \"path.to.data\"}`.\n* Use a reference to another configuration element. Example: `{\"$ref\": \"vars.myarray\"}`.\n",
+    "properties.items.items.description": "Array element. This can be any element — strings, numbers, JSON objects, or other arrays. \n\nIf you used a reference to a field with input data, you do not need to also specify the element."
+}

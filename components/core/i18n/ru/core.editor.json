@@ -1,0 +1,20 @@
+{
+    "properties.conditionHint.default": "нужно сделать XXX",
+    "properties.conditionHint.description": "Сообщение об ошибке валидации, которое увидит исполнитель",
+    "properties.data.description": "Данные, значения которых будут обработаны или изменены.",
+    "properties.direction.description": "Определяет направление списка:\n\n* `vertical` (по умолчанию) — вертикальный список.\n* `horizontal` — горизонтальный список.",
+    "properties.fullHeight.description": "Если `true`, элемент занимает все свободное пространство по вертикали. При этом элементу устанавливается минимальная высота 400 пикселей.",
+    "properties.hint.default": "Напишите текст",
+    "properties.hint.description": "Текст подсказки.",
+    "properties.label.description": "Надпись над компонентом.",
+    "properties.maxWidth.description": "Максимальная ширина элемента в пикселях, которая не может быть меньше `minWidth`.",
+    "properties.minWidth.description": "Минимальная ширина элемента в пикселях. Имеет приоритет над `maxWidth`.",
+    "properties.preserveFalse.description": "Свойство указывающее, надо ли возвращать значения `false` в результатах. По умолчанию, если компонент возвращает `false`, то в выходные данные этот результат не будет добавлен. Чтобы в результаты добавлялись значения `false`, укажите `\"preserveFalse\": true`.",
+    "properties.ratio.description": "Массив из двух чисел, устанавливающий относительные размеры сторон: ширины (первое число) к высоте (второе число).\n\nНе действует, если `\"fullHeight\": true`.",
+    "properties.ratio.items.description": "Относительный размер одной стороны.",
+    "properties.requiredMark.description": "Показывать \"*\" рядом с надписью над компонентом",
+    "properties.rtl.description": "Тексты на арабском, иврите и некоторых других языках принято писать слева направо. Используйте это свойство, чтобы задать правильный режим отображения для компонента.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/UExGq8IQ3tz4Yo).\n\n[Подробнее про RTL-языки](https://www.w3.org/International/questions/qa-scripts).\n",
+    "properties.rtl.properties.mode.description": "Режим отображения:\n* `ltr` — слева направо;\n* `rtl` — справа налево.\n\nВыбранное значение подставится в атрибут `dir` в HTML-коде компонента. [Подробнее про свойство dir](https://www.w3.org/International/questions/qa-html-dir).",
+    "properties.size.description": "Определяет размер отступов между элементами. Доступные значения по возрастанию: `s`, `m` (значение по умолчанию).",
+    "properties.validation.description": "Валидация на основе условия _(condition)_."
+}

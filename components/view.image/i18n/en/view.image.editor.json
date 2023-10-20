@@ -1,0 +1,11 @@
+{
+    "default.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "description": "Displays an image.\n\n[Learn more about inserting images](../operations/insert-images.md).",
+    "properties.noBorder.description": "Controls the display of a frame around an image. By default, `true` (the frame is hidden). Set `false` to display the frame.",
+    "properties.noLazyLoad.description": "Disables lazy loading.\n\nIf `true`, images start loading immediately, even if they aren't in the viewport. Useful for icons.\n\nBy default, `false` (lazy loading is enabled). In this mode, images start loading only when a Toloker scrolls to them.",
+    "properties.popup.description": "Specifies whether opening a full-size image with a click is allowed. By default, it is `true` (allowed).",
+    "properties.rotatable.description": "If enabled, an image can be rotated.",
+    "properties.scrollable.description": "When set to `true`, an image has scroll bars if it doesn't fit in the parent element.\n\nIf `false`, the image fits in the parent element and, when clicked, opens in its original size in the module window.\n\nImages in SVG format with no size specified always fit in their parent elements.",
+    "properties.url.default": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "properties.url.description": "Image link."
+}

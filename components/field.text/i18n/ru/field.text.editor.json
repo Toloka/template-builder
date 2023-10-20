@@ -1,0 +1,9 @@
+{
+    "default.data.path": "path",
+    "default.label": "Заголовок",
+    "default.placeholder": "Введите текст",
+    "description": "Поле для ввода короткого текста, не больше одной строки. Чтобы добавить поле, где можно ввести много строк текста, используйте [field.textarea](field.textarea.md).\n\n[Посмотреть пример в песочнице](https://ya.cc/t/xJlqYE033twmeg)",
+    "properties.disabled.description": "Если `true`, редактирование недоступно.",
+    "properties.placeholder.default": "Введите текст",
+    "properties.placeholder.description": "Полупрозрачная надпись, отображающаяся в пустом поле."
+}

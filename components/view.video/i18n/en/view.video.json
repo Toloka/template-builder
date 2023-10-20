@@ -1,0 +1,7 @@
+{
+    "errorAborted": "the playback was interrupted.",
+    "errorDecode": "your device doesn't support this format.",
+    "errorNetwork": "failed to download the video due to network problems. Check your connection.",
+    "errorNotVideo": "failed to load the video. The reason might be that the specified link does not contain video. Check the link.",
+    "errorUnknown": "the error reason is unknown."
+}

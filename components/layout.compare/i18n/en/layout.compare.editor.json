@@ -1,0 +1,19 @@
+{
+    "default.items.0.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/xk8YidkhGjIGOrFm_dL5781YA.svg",
+    "default.items.0.controls.data.path": "best",
+    "default.items.0.controls.options.0.label": "The left one is better",
+    "default.items.0.controls.options.0.value": "left",
+    "default.items.1.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/xk8YidkhGjIGOrFm_dL5781YA.svg",
+    "default.items.1.controls.data.path": "best",
+    "default.items.1.controls.options.0.label": "The right one is better",
+    "default.items.1.controls.options.0.value": "right",
+    "description": "Use it to arrange interface elements for comparing them. For example, you can compare several photos. \n\nSelection buttons can be placed under each of the compared items. You can also add common elements, such as a field for comments.\n\n[View example in the sandbox](https://ya.cc/t/MwYMw5-q3x7Lrs)\n\nDifferences from [layout.side-by-side](layout.side-by-side.md):\n* No buttons for hiding items. These are useful if you need to compare 5 photos at once and it's difficult to choose between two of them.\n* You can add individual selection buttons for every item being compared.",
+    "properties.commonControls.description": "The common fields of the component. Add information blocks that are common to all the elements being compared.",
+    "properties.items.description": "An array with properties of the elements being compared. Set the appearance of the component blocks.",
+    "properties.items.items.description": "The compared element.",
+    "properties.items.items.properties.content.description": "The content of the element that's being compared. Add images, audio recordings, videos, links, or other types of data.",
+    "properties.items.items.properties.controls.description": "Configure the input fields to make a Toloker select an item.",
+    "properties.minWidth.description": "Minimum width of the element in pixels. Default: 400 pixels.",
+    "properties.type.description": "Block type. The property value for the comparison component is `layout.compare`.",
+    "properties.wideCommonControls.description": "This property increases the common field size of the elements being compared.\nIt's set to `false` by default: the common fields are displayed in the center, not stretched. If `true`, the fields are wider than with the default value."
+}

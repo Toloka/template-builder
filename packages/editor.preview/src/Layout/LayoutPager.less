@@ -1,0 +1,110 @@
+@import '~@toloka-tb/common/style.less';
+
+@pagination-height: 32px;
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: @toloka-bg;
+}
+
+.task {
+    .full-height-flex();
+    margin: auto;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+}
+
+.notifications {
+    z-index: 2;
+    width: 100%;
+    border-bottom: @divider;
+
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.taskContent {
+    height: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(127, 130, 133, 0.1), 0px 8px 28px rgba(127, 130, 133, 0.3);
+    border-radius: 12px;
+}
+
+.borderContainer {
+    width: 100%;
+    height: 100%;
+    background: #F0F2F3;
+    border-radius: 12px;
+    padding: 8px;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.whiteContainer {
+    .full-height-flex-scrolls();
+    height: calc(100% - 40px);
+    background-color: white;
+    padding: 8px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px 0px 2px rgba(127, 130, 133, 0.1), 0px 8px 28px rgba(127, 130, 133, 0.3);
+}
+
+.shadowContainer {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 2px rgba(127, 130, 133, 0.1), 0px 8px 28px rgba(127, 130, 133, 0.3);
+}›
+
+// mircotip tooltip
+.paginationWrapper:after {
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: ~'calc(100% - var(--space-l) * 2)';
+
+    text-overflow: ellipsis;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+    overflow: hidden;
+    height: @pagination-height;
+    padding: 0 var(--space-s);
+
+    background-color: #f2f2f2;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.paginationButton {
+    display: block;
+
+    width: var(--space-m);
+    height: var(--space-m);
+    padding: 0;
+
+    border: 0;
+
+    border-radius: @border-radius-s;
+
+    color: @baseColor-grayLight;
+
+    cursor: default;
+    background-color: @baseColor-gray;
+
+    flex-shrink: 0;
+
+    .font-xs();
+}
+
+.paginationButton + .paginationButton {
+    margin-left: var(--space-s);
+}

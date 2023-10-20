@@ -1,0 +1,3 @@
+{
+    "presets": ["@toloka-tb/babel-preset"]
+}

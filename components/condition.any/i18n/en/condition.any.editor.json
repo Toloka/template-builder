@@ -1,0 +1,5 @@
+{
+    "description": "Checks that **at least one** of the child conditions is met. If none of the conditions is met, the component returns `false`.\n\n[View example in the sandbox](https://ya.cc/t/UGnbki-73xPDHm)\n\nIf you need all conditions to be met, use the [condition.all](condition.all.md) component. You can also combine these components.",
+    "properties.conditions.description": "A set of conditions, at least one of which must be met.",
+    "properties.conditions.items.description": "Condition."
+}

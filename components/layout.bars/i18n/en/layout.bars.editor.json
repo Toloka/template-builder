@@ -1,0 +1,11 @@
+{
+    "default.barAfter.content.content": "A block after the main content",
+    "default.barAfter.theme": "warning",
+    "default.barBefore.content.content": "A block before the main content",
+    "default.barBefore.theme": "info",
+    "default.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "description": "A component that adds top and bottom bars to the content.\n\nYou can use other components inside each part of this component, such as images, text, or options. \n\nThe top bar is located at the top edge of the component, and the bottom one is at the bottom edge. The content is placed between the bars and takes up all available space.",
+    "properties.barAfter.description": "The bar displayed at the bottom edge of the component.",
+    "properties.barBefore.description": "The bar displayed at the top edge of the component.",
+    "properties.content.description": "The main content."
+}

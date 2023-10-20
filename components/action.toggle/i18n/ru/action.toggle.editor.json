@@ -1,0 +1,5 @@
+{
+    "default.data.path": "path",
+    "description": "Компонент меняет значение в данных с `true` на `false` и наоборот.",
+    "properties.data.description": "Данные, в которых значение будет изменено. Тип данных должен быть `boolean`."
+}

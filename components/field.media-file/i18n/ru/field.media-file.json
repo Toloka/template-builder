@@ -1,0 +1,9 @@
+{
+    "browseFileSystem": "Выбрать в файловом менеджере",
+    "nOfTotal": "{number} из {total}",
+    "noAttachments": "Нет загруженных файлов",
+    "pickFromGallery": "Выбрать из галереи",
+    "recordVideo": "Записать видео",
+    "takePhoto": "Сделать фото",
+    "uploadedEntities": "Загруженные файлы"
+}

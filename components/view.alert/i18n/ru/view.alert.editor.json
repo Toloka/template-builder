@@ -1,0 +1,8 @@
+{
+    "default.content.content": "Какая-то информация",
+    "default.theme": "info",
+    "description": "Компонент создает цветной блок для выделения важной информации.\n\nВнутрь можно поместить не только обычный текст, но и другие визуальные компоненты.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/nKo0PzBo3tyxxn)",
+    "properties.content.description": "Содержимое блока с важной информацией.",
+    "properties.theme.default": "info",
+    "properties.theme.description": "Определяет расцветку блока:\n\n* `info` (по умолчанию) — голубая;\n* `success` — зеленая;\n* `warning` — желтая;\n* `danger` — красная.\n"
+}

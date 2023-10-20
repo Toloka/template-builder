@@ -1,0 +1,21 @@
+{
+    "name": "@toloka-tb/field.button-radio-group",
+    "private": true,
+    "version": "1.4.3",
+    "main": "field.button-radio-group.tsx",
+    "dependencies": {
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/component2schema": "1.13.8",
+        "@toloka-tb/core": "1.16.8",
+        "@toloka-tb/field.button-radio": "1.4.3",
+        "@toloka-tb/schemas": "1.3.5",
+        "@toloka-tb/view.list": "1.3.3"
+    },
+    "devDependencies": {
+        "@toloka-tb/registry-cli": "1.3.6"
+    },
+    "scripts": {
+        "build": "tb-registry-cli build ./",
+        "registry-publish": "tb-registry-cli publish ./"
+    }
+}

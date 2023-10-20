@@ -1,0 +1,7 @@
+{
+    "accessRejected": "дайте доступ к геолокации вашего устройства",
+    "invalidProp": "передано некорректное значение свойства {property} (получено значение \\\"{value}\\\")",
+    "locationUnavailable": "произошла ошибка при попытке получить геолокацию",
+    "tooClose": "отойдите на расстояние не менее {required, number, .00} {required, plural, one {метра} other {метров}} (сейчас {current, number, .00} {current, plural, one {метр} few {метра} other {метров}})",
+    "tooFar": "расстояние должно быть не более {required, number, .00} {required, plural, one {метра} other {метров}} (сейчас {current, number, .00} {current, plural, one {метр} few {метра} other {метров}})"
+}

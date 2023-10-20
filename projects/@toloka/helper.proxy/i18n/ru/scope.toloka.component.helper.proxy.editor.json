@@ -1,0 +1,6 @@
+{
+    "default.path": "/my-proxy/example.jpg",
+    "description": "Компонент позволяет загружать файлы с Яндекс.Диска. \n\nЧтобы использовать `@toloka/helper.proxy`, подключите Яндекс.Диск к своему аккаунту в Толоке и добавьте прокси по [инструкции](https://toloka.ai/docs/guide/prepare-data/). \n\nВыберите компонент, который хотите добавить. Например, [view.image](view.image.md) — для картинки или [view.audio](view.audio.md) — для аудиофайла. В свойстве `url` этого компонента выберите тип `@toloka/helper.proxy`.\n\n[Посмотреть пример в песочнице](https://clck.ru/SP3Bd).",
+    "properties.path.description": "Путь к файлу в формате `/<имя прокси>/<имя файла>.<тип>`.",
+    "shortDescription": "Компонент позволяет загружать файлы с Яндекс.Диска. "
+}

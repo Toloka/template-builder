@@ -1,0 +1,10 @@
+{
+    "default.content": "Google",
+    "default.url": "https://google.com",
+    "description": "Универсальный способ добавить ссылку.\n\nТакая ссылка изменит цвет после перехода по ней. \n\nРекомендуем использовать этот компонент, если вам нужно вставить ссылку без дополнительного форматирования.\n\nЕсли вы хотите вставить кнопку, по которой будет открываться ссылка, используйте компоненты [view.action-button](view.action-button.md) и [action.open-link](action.open-link.md). [Посмотреть пример в песочнице](https://ya.cc/t/PKgu8jqp3xMRnJ)\n\nЧтобы вставить ссылку с поисковым запросом, используйте [helper.search-query](helper.search-query.md). [Посмотреть пример в песочнице](https://ya.cc/t/005Ff3Ul3xDuXL)",
+    "properties.content.default": "Ссылка.",
+    "properties.content.description": "Текст ссылки, который видит исполнитель.",
+    "properties.url.default": "https://google.com",
+    "properties.url.description": "Адрес ссылки.",
+    "shortDescription": "Универсальный способ добавить ссылку."
+}

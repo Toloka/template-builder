@@ -1,0 +1,4 @@
+{
+    "description": "Checks that the data didn't get a value. If it did, returns `false`. This is useful if you need to check the optional template data (`data.*`) or make sure that a Toloker didn't interact with the data entry fields (`fields.*`).\n\nThe component checks that the value of the sent data is equal to a zero-length string, an array without elements, an object without keys and values, or is equal to `null`.\n\n[View example in the sandbox](https://ya.cc/t/bpPoA9v93xPPKA)",
+    "properties.data.description": "Data to check. If not specified, data is checked in the component that contains `condition.empty`."
+}

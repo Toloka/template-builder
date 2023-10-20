@@ -1,0 +1,7 @@
+{
+    "default.parent.path": "path",
+    "description": "Проверяет, что массив в `data` является подмассивом для `parent`.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/LFpfB1Jv3wz3BQ)",
+    "properties.data.description": "Подмассив, наличие которого проверяется в `parent`",
+    "properties.parent.description": "Массив, в котором осуществляется поиск `data`",
+    "shortDescription": "Проверяет, что массив является подмассивом другого элемента."
+}

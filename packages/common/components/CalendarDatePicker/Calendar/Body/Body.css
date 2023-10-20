@@ -1,0 +1,46 @@
+.cc-calendar-body {
+    width: 100%;
+
+    table-layout: fixed;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.cc-calendar-body_cell {
+    margin: 0;
+    padding: 0;
+
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+
+    color: #333;
+    border: none;
+}
+
+.cc-calendar-body_cell__small {
+    height: 20px;
+    padding: 4px 5px;
+}
+
+.cc-calendar-body_cell__big {
+    height: 56px;
+    margin: 2px;
+
+    line-height: 56px;
+}
+
+.cc-calendar-body_cell__selected {
+    box-shadow: inset 0 0 0 3px #fede39;
+}
+
+.cc-calendar-body_cell__gray {
+    color: #999;
+}
+
+.cc-calendar-body_cell__selectable:hover {
+    cursor: pointer;
+
+    background: #eee;
+}

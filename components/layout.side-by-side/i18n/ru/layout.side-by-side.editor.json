@@ -1,0 +1,20 @@
+{
+    "default.controls.items.0.data.path": "result",
+    "default.controls.items.0.label": "Какой товар выглядит наиболее привлекательно?",
+    "default.controls.items.0.options.0.label": "A",
+    "default.controls.items.0.options.0.value": "a",
+    "default.controls.items.0.options.1.label": "B",
+    "default.controls.items.0.options.1.value": "b",
+    "default.controls.items.0.options.2.label": "Картинки не загрузились",
+    "default.controls.items.0.options.2.value": "failure",
+    "default.controls.items.1.data.path": "why",
+    "default.controls.items.1.label": "Расскажите, почему вы его выбрали?",
+    "default.items.0.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/ya-station-white.png",
+    "default.items.1.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/ya-station-black.png",
+    "description": "Позволяет расставить элементы интерфейса так, чтобы сравнивать их между собой и скрывать лишние. Например, можно сравнить несколько фото. \n\nПод сравниваемыми элементами можно добавить кнопки выбора или поле для ввода комментария.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/yegvCFgq3tvumR)\n\nОтличия от [layout.compare](layout.compare.md):\n* Есть кнопки, позволяющие скрывать элементы. Удобно, если надо сравнить сразу 5 фотографий и тяжело сделать выбор между какими-то двумя.\n* Можно настроить только общие элементы управления. Отдельные кнопки под каждым сравниваемым элементом добавить нельзя.",
+    "properties.controls.description": "Компоненты, которые позволят исполнителю совершить требуемые от него действия.\n\nНапример: [field.checkbox-group](field.checkbox-group.md) или [field.button-radio-group](field.button-radio-group.md).",
+    "properties.items.description": "Массив блоков информации.",
+    "properties.items.items.description": "Компонент вывода или ввода информации. Например — [view.image](view.image.md).",
+    "properties.minItemWidth.description": "Минимальная ширина блока информации, не менее 400 пикселей.",
+    "shortDescription": "Компонент отображает на одной горизонтальной панели несколько блоков информации одинаковой ширины."
+}

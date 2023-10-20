@@ -1,0 +1,12 @@
+{
+    "description": "Горизонтальный список с названием сверху",
+    "properties.label.default": "Название",
+    "properties.label.description": "Текст над списком",
+    "properties.hint.default": "Текст всплывающей подсказки",
+    "properties.hint.description": "Текст всплывающей подсказки",
+    "properties.items.description": "Элементы списка",
+    "default.label": "Название",
+    "default.items.0.content": "1",
+    "default.items.1.content": "2",
+    "default.items.2.content": "3"
+}

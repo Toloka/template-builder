@@ -1,0 +1,21 @@
+{
+    "default.content": "The quick brown fox jumps over the lazy dog",
+    "default.data.path": "result",
+    "default.labels.0.label": "Adjectives",
+    "default.labels.0.value": "adjective",
+    "default.labels.1.label": "Nouns",
+    "default.labels.1.value": "noun",
+    "description": "A component for text segmentation. \n\nUse it to select multiple words, individual words, or letters in the text and label them with values. You can create multiple categories to label parts of the text, like all nouns and adjectives. \n\n[View example in the sandbox](https://ya.cc/t/XbppitaZ3twmLU)\n\nYou can use [plugin.field.text-annotation.hotkeys](plugin.field.text-annotation.hotkeys.md) to assign keyboard shortcuts for selecting categories.",
+    "properties.adjust.description": "If the property value is set to `words`, only words can be selected in the text. If you don't use this property, any part of a line can be selected.",
+    "properties.content.default": "The quick brown fox jumps over the lazy dog",
+    "properties.content.description": "The text where a Toloker has to select part of a line.",
+    "properties.disabled.description": "This property blocks the component. If `true`, the component is unavailable to a Toloker. The default value is `false`.",
+    "properties.hint.default": "Hint",
+    "properties.label.default": "Label",
+    "properties.labels.description": "An array of categories that a Toloker uses to label parts of the text.",
+    "properties.labels.items.description": "A category.",
+    "properties.labels.items.properties.label.default": "label",
+    "properties.labels.items.properties.label.description": "Specify the category name in the `label` property.",
+    "properties.labels.items.properties.value.default": "value",
+    "properties.labels.items.properties.value.description": "Specify the category value in the `value` property."
+}

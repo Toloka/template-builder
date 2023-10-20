@@ -1,0 +1,5 @@
+{
+    "properties.view.description": "Указатель на view, в котором можно переключать громкость",
+    "properties.payload.description": "Громкость. От 0 до 1",
+    "default.view.$ref": "view"
+}

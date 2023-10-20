@@ -1,0 +1,9 @@
+{
+    "default.data.path": "path",
+    "default.transformation": "uppercase",
+    "description": "Allows you to change the case of the text, like make all letters uppercase.\n\nFor example, you can use this component to automatically process input data.\n\nThis component is available in property values with the `string` type, for example in the `content` property in the [view.text](view.text.md) component.",
+    "properties.data.default.path": "path",
+    "properties.data.description": "The text string in which you want to change the case.",
+    "properties.transformation.default": "uppercase",
+    "properties.transformation.description": "Conversion mode:\n\n* `uppercase` — Makes all letters uppercase.\n* `lowercase` — Makes all letters lowercase.\n* `capitalize` — Capitalizes **the first** letter in the text, and leaves the rest lowercase. The text is not divided into sentences: there will be only one uppercase letter in the entire text, even if you have several sentences.\n"
+}

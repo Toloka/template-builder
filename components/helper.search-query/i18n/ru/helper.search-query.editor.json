@@ -1,0 +1,9 @@
+{
+    "default.engine": "google",
+    "default.query": "Поисковый запрос",
+    "description": "Компонент создания строки со ссылкой поискового запроса.\n\nСписок доступных поисковых систем указан в свойстве `engine`.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/005Ff3Ul3xDuXL)",
+    "properties.engine.default": "google",
+    "properties.engine.description": "Поисковые системы. Для указания поисковой системы используйте соответствующее ей значение: \n\n* `yandex` — https://yandex.ru\n* `google` — https://www.google.ru\n* `bing` — https://www.bing.com\n* `mail.ru` — https://go.mail.ru\n* `wikipedia` — https://ru.wikipedia.org\n* `yandex/collections` — https://yandex.ru/collections\n* `yandex/video` — https://yandex.ru/video\n* `yandex/images` — https://yandex.ru/images\n* `google/images` — https://google.ru/images\n* `yandex/news` — https://news.yandex.ru\n* `google/news` — https://news.google.com\n",
+    "properties.query.default": "Поисковый запрос",
+    "properties.query.description": "Поисковый запрос."
+}

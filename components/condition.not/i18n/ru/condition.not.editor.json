@@ -1,0 +1,6 @@
+{
+    "default.condition.data.path": "path",
+    "description": "Возвращает значение, обратное заданному условию. Например, если заданное условие выполняется (возвращает значение `true`), то \n`condition.not` вернет `false`.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/o9jHykBa3twn9w)",
+    "properties.condition.description": "Условие, для которого возвращается обратное значение.",
+    "shortDescription": "Возвращает значение, обратное заданному условию."
+}

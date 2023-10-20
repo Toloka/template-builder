@@ -1,0 +1,6 @@
+{
+    "default.path": "/my-proxy/example.jpg",
+    "description": "You can use this component to download files from Yandex.Disk. \n\nTo use `@toloka/helper.proxy`, connect Yandex.Disk to your Toloka account and add the proxy by following [the instructions](https://yandex.com/support/toloka-requester/concepts/prepare-data.html?lang=en). \n\nSelect the component that you want to add, such as [view.image](view.image.md) for an image or [view.audio](view.audio.md) for an audio file. In the `url` property of this component, select the `@toloka/helper.proxy` type.\n\n[View example in sandbox](https://clck.ru/SVRpe).",
+    "properties.path.description": "Path to the file in the `/<Proxy name>/<File name>.<type>` format",
+    "shortDescription": "You can use this component to download files from Yandex.Disk. "
+}

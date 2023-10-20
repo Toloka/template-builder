@@ -1,0 +1,41 @@
+{
+    "name": "@toloka-tb/field.list",
+    "private": true,
+    "version": "1.2.9",
+    "main": "field.list.tsx",
+    "dependencies": {
+        "@toloka-tb/action.list-push": "1.0.13",
+        "@toloka-tb/action.list-remove": "1.0.13",
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/core": "1.16.8",
+        "@toloka-tb/schemas": "1.3.5",
+        "@toloka-tb/view.action-button": "1.1.3"
+    },
+    "devDependencies": {
+        "@types/enzyme": "3.10.5",
+        "@types/enzyme-adapter-react-16": "1.0.6",
+        "@types/jest": "25.1.3",
+        "@types/react": "16.9.34",
+        "@types/react-dom": "16.9.5",
+        "@toloka-tb/babel-preset": "1.0.6",
+        "@toloka-tb/field.checkbox": "1.1.3",
+        "@toloka-tb/field.text": "1.6.3",
+        "@toloka-tb/layout.columns": "1.1.3",
+        "@toloka-tb/registry-cli": "1.3.6",
+        "babel-jest": "25.1.0",
+        "enzyme": "3.11.0",
+        "enzyme-adapter-react-16": "1.15.2",
+        "enzyme-to-json": "3.4.4",
+        "jest": "25.1.0",
+        "react": "16.13.0",
+        "react-dom": "16.13.0"
+    },
+    "scripts": {
+        "build": "tb-registry-cli build ./",
+        "registry-publish": "tb-registry-cli publish ./",
+        "test": "jest"
+    },
+    "peerDependencies": {
+        "react": "16.13.0"
+    }
+}

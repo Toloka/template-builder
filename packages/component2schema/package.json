@@ -1,0 +1,11 @@
+{
+    "name": "@toloka-tb/component2schema",
+    "private": true,
+    "version": "1.13.8",
+    "main": "component2schema.ts",
+    "devDependencies": {
+        "@types/json-schema": "7.0.4",
+        "@toloka-tb/core": "1.16.8",
+        "json-schema": "0.2.5"
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "defaultPlaceholder": "1 800 555-35-35",
+    "parseError": "the phone number must be a string (it's currently {parsed})",
+    "validationError": "you can only use numbers, spaces, brackets, hyphens, and the plus symbol (+) at the beginning of the phone number"
+}

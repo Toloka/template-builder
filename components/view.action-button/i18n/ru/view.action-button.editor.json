@@ -1,0 +1,7 @@
+{
+    "default.action.data.path": "path",
+    "default.label": "Нажми меня!",
+    "description": "Кнопка, вызывающая действие.\n\nПри нажатии кнопки вызовется действие, указанное в свойстве `action`.",
+    "properties.action.description": "Действие, вызываемое при нажатии кнопки.",
+    "properties.label.description": "Надпись на кнопке."
+}

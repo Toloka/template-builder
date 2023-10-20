@@ -1,0 +1,7 @@
+{
+    "properties.view.description": "Указатель на view, в котором можно переключать данные о текущем времени воспроизведения",
+    "properties.payload.anyOf.0.default": "00:00",
+    "properties.payload.description": "Время (в формате строки hh:mm:ss или числом в секундах), на которое нужно перемотать",
+    "default.view.$ref": "view",
+    "default.payload": "13:30"
+}

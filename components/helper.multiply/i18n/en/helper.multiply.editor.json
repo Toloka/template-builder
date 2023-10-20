@@ -1,0 +1,4 @@
+{
+    "properties.items.items.description": "Any numbers or data containing numbers",
+    "properties.items.description": "Elements to be multiplied"
+}

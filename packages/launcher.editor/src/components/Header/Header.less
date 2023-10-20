@@ -1,0 +1,74 @@
+@import '~@toloka-tb/common/style.less';
+
+.content {
+    padding: @gap-m;
+    background: @baseColor-white;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.btn {
+    margin-left: @gap-xxs;
+
+    display: inline-block;
+
+    padding: 0 @gap-xxs;
+
+    border-radius: @border-radius-m;
+
+    background: @baseColor-grayLight;
+    box-shadow: 0 @gap-xxxs 0 0 @baseColor-gray;
+}
+
+.copiedToast {
+    margin-left: @gap-m;
+
+    .font-s();
+}
+
+.header {
+    z-index: 1;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    padding: @gap-s @gap-s 0 @gap-s;
+
+    border-bottom: @divider;
+}
+
+.icon {
+    margin-right: @gap-s;
+    width: 16px;
+    height: 16px;
+
+    vertical-align: middle;
+}
+
+.buttonGroup {
+    margin-bottom: @gap-s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &:not(:last-child) {
+        margin-right: @gap-m;
+    }
+}
+
+.inlineButtonGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.breif {
+    margin-right: @gap-xxxl;
+}

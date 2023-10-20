@@ -1,0 +1,117 @@
+/* Headers */
+
+.h1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+.h2 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.h4 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.h5 {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.h6 {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+/* Text */
+
+.text-m {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.text-s {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.text-xs {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+/* Dividers */
+
+.divider-12 {
+    height: 1px;
+
+    opacity: .12;
+    background: #000;
+}
+
+.divider-8 {
+    height: 1px;
+
+    opacity: .08;
+    background: #000;
+}
+
+/* Shadows */
+
+.shadow-outlined {
+    border: 1px solid rgba(0, 0, 0, .12);
+}
+
+.shadow-s {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .12);
+}
+
+.shadow-m {
+    /* stylelint-disable-line */
+    box-shadow: 0 0 1px rgba(0, 0, 0, .16), 0 2px 4px rgba(0, 0, 0, .16), 0 2px 12px rgba(0, 0, 0, .12);
+}
+
+.shadow-l {
+    /* stylelint-disable-line */
+    box-shadow: 0 0 1px rgba(0, 0, 0, .36), 0 3px 8px rgba(0, 0, 0, .24), 0 8px 16px rgba(0, 0, 0, .08);
+}
+
+.shadow-xl {
+    /* stylelint-disable-line */
+    box-shadow: 0 0 1px rgba(0, 0, 0, .4), 0 6px 14px rgba(0, 0, 0, .2), 0 8px 20px rgba(0, 0, 0, .12);
+}
+
+/* Reset button */
+
+.button-reset {
+    overflow: visible;
+
+    width: auto;
+    margin: 0;
+    padding: 0;
+
+    font: inherit;
+    line-height: normal;
+
+    color: inherit;
+    border: none;
+    background: transparent;
+
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    -webkit-appearance: none;
+}

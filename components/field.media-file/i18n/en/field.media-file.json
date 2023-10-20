@@ -1,0 +1,9 @@
+{
+    "browseFileSystem": "Select using file manager",
+    "nOfTotal": "{number} of {total}",
+    "noAttachments": "No attachments",
+    "pickFromGallery": "Pick from gallery",
+    "recordVideo": "Record video",
+    "takePhoto": "Take photo",
+    "uploadedEntities": "Uploaded files"
+}

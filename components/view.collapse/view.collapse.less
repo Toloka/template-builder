@@ -1,0 +1,78 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    border: @border-s solid @baseColor-graySemiLight;
+    border-radius: @border-radius-m;
+    background-color: @baseColor-white;
+}
+
+.header {
+    padding: @gap-xs;
+    flex: 1;
+
+    border-radius: @border-radius-m;
+
+    cursor: pointer;
+    background-color: @baseColor-white;
+    transition: @transition-s background-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &::-webkit-details-marker, &::marker {
+        display: none;
+        content: '';
+    }
+
+    &Open {
+        // border-bottom: @border-s solid @baseColor-graySemiLight;
+        padding-bottom: 0;
+
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+}
+
+.headerLabelGroup {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header:focus {
+    outline: none;
+}
+
+.headerOpen .label {
+    font-weight: 700;
+}
+
+.actionHint {
+    pointer-events: none;
+    margin-right: @gap-xs;
+}
+
+.label {
+    .font-m();
+}
+
+.arrowContainer {
+    transform: rotate(0deg);
+
+    &ReversedDirection {
+        transform: rotate(-180deg);
+    }
+
+    svg {
+        display: block;
+    }
+}
+
+.body {
+    box-sizing: content-box;
+
+    height: auto;
+    padding: @gap-xs;
+}

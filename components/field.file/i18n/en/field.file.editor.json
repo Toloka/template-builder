@@ -1,0 +1,7 @@
+{
+    "default.data.path": "result",
+    "description": "This component can be used for uploading files. It's displayed in the interface as an upload button. \n\nYou can list in the `accept` property the file types that will be suggested to a Toloker when uploading. By default, only one file can be uploaded, but you can allow multiple files in the `multiple` property.\n\nIf a Toloker logs in from a mobile device, it's more convenient to use [field.media-file](field.media-file.md) — it's adapted for mobile devices and makes it easier to upload photos and videos.\n\nIn the task review mode, the uploaded images will appear automatically. You can view, rotate, and switch among the images.\n\n[View example in the sandbox](https://ya.cc/t/W_WxIekd3tyzv6)",
+    "properties.accept.description": "A list of file types that will be suggested to a Toloker when uploading. By default, you can upload any files.\n\nSpecify the types in the [MIME Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) format. For example, you can suggest uploading images by adding the `image/jpeg` and `image/png` types.",
+    "properties.accept.items.description": "File type in the [MIME Type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) format.",
+    "properties.multiple.description": "Determines whether multiple files can be uploaded:\n* `false` (default) — forbidden.\n* `true` — allowed."
+}

@@ -1,0 +1,7 @@
+{
+    "default.parent.path": "path",
+    "description": "Checks that the array in `data` is a subarray for ` parent`.\n\n[View example in the sandbox](https://ya.cc/t/hKrpY1DO3xEBoC)",
+    "properties.data.description": "Subarray that is checked for in ` parent`",
+    "properties.parent.description": "The array where `data` is searched for",
+    "shortDescription": "Checks whether the array is a subarray of another element."
+}

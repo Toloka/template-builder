@@ -1,0 +1,4 @@
+{
+    "description": "Проверяет начало воспроизведения. Валидация пройдет, если воспроизведение начато. Для воспроизведения медиа с проверкой `condition.played` можно использовать [view.audio](view.audio.md) и [view.video](view.video.md).  `condition.played` работает только в свойстве `validation` плеера.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/sl5IkzH53tzBQL)",
+    "shortDescription": "Проверяет, начато ли воспроизведение."
+}

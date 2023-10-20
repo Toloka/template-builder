@@ -1,0 +1,12 @@
+{
+    "default.data.path": "path",
+    "default.label": "Label",
+    "default.placeholder": "Enter text",
+    "description": "Box for entering multi-line text.  Use in tasks that require an extended response. For single-line responses, use the [field.text](field.text.md) component.\n\nThe size of the box does not automatically adjust to the length of the text. Tolokers can change the height by dragging the lower-right corner. To change the default size of the box, use the `rows` property.\n\nNote that formatting is not available in the text box.\n\n[View example in the sandbox](https://ya.cc/t/8LH9Vrwt3tz2pE)",
+    "properties.disabled.description": "If `true`, editing is not available.",
+    "properties.placeholder.default": "Enter text",
+    "properties.placeholder.description": "A semi-transparent label that is shown when the box is empty. Use it to provide an example or a hint for the response.",
+    "properties.resizable.description": "Changing the box size. When set to `true` (the default value), a Toloker can change the height. To prevent resizing, set the value to `false`.",
+    "properties.rows.description": "The height of the text box in lines.",
+    "shortDescription": "Box for entering multi-line text."
+}

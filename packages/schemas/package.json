@@ -1,0 +1,12 @@
+{
+    "name": "@toloka-tb/schemas",
+    "private": true,
+    "version": "1.3.5",
+    "dependencies": {
+        "deepmerge": "4.2.2",
+        "json-schema": "0.2.5"
+    },
+    "devDependencies": {
+        "@types/json-schema": "7.0.4"
+    }
+}

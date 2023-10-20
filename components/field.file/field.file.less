@@ -1,0 +1,66 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.dropzoneContainer {
+    flex: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    border-color: @baseColor-graySemiLight;
+    border-style: dashed;
+    border-width: @border-m;
+    border-radius: @border-radius-s;
+
+    color: @baseColor-grayDark;
+
+    background-color: @baseColor-grayLight;
+    transition: border @transition-s;
+
+    fill: @baseColor-grayDark;
+}
+.dropzone {
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: @gap-l;
+
+    cursor: pointer;
+    outline: none;
+}
+.label {
+    display: flex;
+    align-items: center;
+}
+.uploadIcon {
+    margin-right: @gap-s;
+}
+
+.thumbs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+
+    &:empty {
+        display: none;
+    }
+}
+
+.thumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: @baseColor-grayDark;
+}

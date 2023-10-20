@@ -1,0 +1,18 @@
+{
+    "default.items.0.content.content": "Item content",
+    "default.items.0.label": "Item 1",
+    "default.items.1.content.content": "Item content",
+    "default.items.1.label": "Item 2",
+    "default.items.2.content.content": "Item content",
+    "default.items.2.label": "Item 3",
+    "description": "Displaying components as a list with labels placed on the left.\n\nIf you don't need labels, use [view.list](view.list.md).",
+    "properties.items.description": "An array of list items.",
+    "properties.items.items.default.content.content": "Item content",
+    "properties.items.items.default.label": "Label",
+    "properties.items.items.description": "Parameters of a list item.",
+    "properties.items.items.properties.centerLabel.description": "If `true`, a `label` is center-aligned relative to the content of a list item (`content`). Use it if the list consists of large items, such as images or multi-line text.\n\nBy default, `false` (the label is aligned to the top of the content block).",
+    "properties.items.items.properties.content.description": "List item content.",
+    "properties.items.items.properties.hint.description": "A pop-up hint displayed next to a label.",
+    "properties.items.items.properties.label.description": "A label displayed next to a list item.",
+    "properties.minWidth.description": "The minimum width of list content. If the component width is less than the specified value, it switches to compact mode."
+}

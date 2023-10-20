@@ -1,0 +1,41 @@
+@import '~@toloka-tb/common/style.less';
+
+.pane {
+    width: 100%;
+    height: 100%;
+}
+
+.split {
+    overflow: visible !important;
+}
+
+.split [data-type='Resizer'] {
+    z-index: 4;
+    border-color: transparent !important;
+    opacity: 1 !important;
+    background: transparent !important;
+}
+
+.split [data-type='Resizer']::after {
+    display: block;
+    background: rgba(0, 0, 0, 0.16);
+    outline: transparent solid 1px;
+    transition: @transition-s;
+
+    content: '';
+}
+
+.split [data-type='Resizer'][data-attribute='horizontal']::after {
+    width: 100%;
+    height: 1px;
+}
+
+.split [data-type='Resizer'][data-attribute='vertical']::after {
+    width: 1px;
+    height: 100%;
+}
+
+.split [data-type='Resizer']:hover::after {
+    background: #3a92fd;
+    outline: #3a92fd solid 1px;
+}

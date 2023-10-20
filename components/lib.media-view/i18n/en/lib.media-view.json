@@ -1,0 +1,6 @@
+{
+    "error": "Error: {error}",
+    "failedToLaunch": "Failed to display",
+    "newTab": "Open in a new tab",
+    "url": "URL: {url}"
+}

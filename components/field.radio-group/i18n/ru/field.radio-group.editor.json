@@ -1,0 +1,17 @@
+{
+    "default.data.path": "path",
+    "default.label": "Заголовок",
+    "default.options.0.label": "Опция 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Опция 2",
+    "default.options.1.value": "value2",
+    "description": "Компонент, позволяющий выбрать одно из нескольких значений. Оформляется в виде группы переключателей (кружочков), располагающихся вертикально. \n\nЕсли вы хотите оформление в виде обычных кнопок, используйте [field.button-radio-group](field.button-radio-group.md).\n\nМинимальное количество кнопок — одна. Тип возвращаемых данных — любой.",
+    "properties.disabled.description": "Свойство запрещает нажимать кнопки. Если значение - `true`, исполнителю будет недоступно нажатие.",
+    "properties.options.description": "Массив кнопок.",
+    "properties.options.items.default.label": "Опция",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "Кнопка.",
+    "properties.options.items.properties.hint.description": "Текст с дополнительной информацией.",
+    "properties.options.items.properties.label.description": "Название опции.",
+    "properties.options.items.properties.value.description": "Возвращаемое значение."
+}

@@ -1,0 +1,4 @@
+{
+    "description": "Horizontal delimiter. \n\nYou can place extra elements in the center of the delimiter, like a popup `hint` and `label`.",
+    "properties.label.description": "A label in the center of the delimiter. Line breaks are not supported."
+}

@@ -1,0 +1,14 @@
+{
+    "default.by": "",
+    "default.items.0": "Foo",
+    "default.items.1": "Bar",
+    "default.items.2": "Baz",
+    "description": "Компонент соединяет несколько строк в одну. Между строками можно добавить разделитель, например пробел или запятую.\n\n[Посмотреть пример](https://ya.cc/t/_h--eV2Y3ttBMm)\n\n**Из каких компонентов состоит этот пример**\n\n- [view.list](view.list.md) — отображает данные списком;\n- [view.text](view.text.md) — добавляет текст;\n- [field.select](field.select.md) — добавляет поле для выбора из выпадающего списка.",
+    "properties.by.default": "",
+    "properties.by.description": "Разделитель соединяемых строк. Возможно использовать разделитель из любого количества символом.",
+    "properties.items.default.0": "Foo",
+    "properties.items.default.1": "Bar",
+    "properties.items.default.2": "Baz",
+    "properties.items.description": "Массив строк, которые нужно соединить.",
+    "properties.items.items.description": "Параметры строки."
+}

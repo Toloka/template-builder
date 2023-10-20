@@ -1,0 +1,6 @@
+{
+    "description": "Merging multiple arrays into a single array.\n\nFor example, let's say you have multiple arrays:\n```json\n[ 1, 2, 3 ], [ 4, 5, 6 ], [ 7, 8, 9 ]\n```\n\nTheir elements can be combined into a single array to show simultaneously:\n```json\n[1, 2, 3, 4, 5, 6, 7, 8, 9]\n```\n\n[View example in the sandbox](https://ya.cc/t/5gzayPK_3tz4vn)",
+    "properties.items.description": "Arrays to combine.",
+    "properties.items.items.description": "Array element.",
+    "shortDescription": "Merging multiple arrays into a single array."
+}

@@ -1,0 +1,9 @@
+{
+    "default.engine": "google",
+    "default.query": "Search query",
+    "description": "Component for creating a string with a search query reference.\n\nThe list of available search engines is specified in the `engine` property.\n\n[View example in the sandbox](https://ya.cc/t/W5KExwg_3vwB57)",
+    "properties.engine.default": "google",
+    "properties.engine.description": "Search engine. Use the corresponding value to specify the search engine: \n\n* `yandex` — https://yandex.ru\n* `google` — https://www.google.ru\n* `bing` — https://www.bing.com\n* `mail.ru` — https://go.mail.ru\n* `wikipedia` — https://ru.wikipedia.org\n* `yandex/collections` — https://yandex.ru/collections\n* `yandex/video` — https://yandex.ru/video\n* `yandex/images` — https://yandex.ru/images\n* `google/images` — https://google.ru/images\n* `yandex/news` — https://news.yandex.ru\n* `google/news` — https://news.google.com\n",
+    "properties.query.default": "Search query",
+    "properties.query.description": "Search query."
+}

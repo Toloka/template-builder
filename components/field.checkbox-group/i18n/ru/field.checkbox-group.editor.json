@@ -1,0 +1,19 @@
+{
+    "default.label": "Заголовок",
+    "default.options.0.label": "Опция 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Опция 2",
+    "default.options.1.value": "value2",
+    "description": "Добавляет группу переключателей с галочками для выбора независимых вариантов ответа. Пригодится, если у вас несколько вариантов. Можно добавить только один переключатель, но это легче сделать с [field.checkbox](field.checkbox.md).\n\n[Посмотреть пример в песочнице](https://ya.cc/t/iO6fbx9G3twhgg)",
+    "properties.disabled.description": "Если `true`, переключатели неактивны.",
+    "properties.options.description": "Массив переключателей, где `value` — изменяемое значение, а `label` — текст возле переключателя.",
+    "properties.options.items.default.label": "Опция",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "Переключатель.",
+    "properties.options.items.properties.hint.default": "",
+    "properties.options.items.properties.hint.description": "Текст с дополнительной информацией об опции.",
+    "properties.options.items.properties.label.default": "Опция",
+    "properties.options.items.properties.label.description": "Текст рядом с переключателем.",
+    "properties.options.items.properties.value.default": "value",
+    "properties.options.items.properties.value.description": "Возвращаемое значение."
+}

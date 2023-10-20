@@ -1,0 +1,11 @@
+{
+    "private": true,
+    "name": "@toloka-tb/postcss-config",
+    "version": "1.0.5",
+    "main": "index.js",
+    "dependencies": {
+        "autoprefixer": "9.7.4",
+        "cssnano": "4.1.10",
+        "postcss-flexbugs-fixes": "4.1.0"
+    }
+}

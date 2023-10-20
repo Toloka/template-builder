@@ -1,0 +1,14 @@
+{
+    "packages": ["packages/*", "projects/*/*", "components/*"],
+    "version": "independent",
+    "hoist": false,
+    "registry": "https://registry.npmjs.org/",
+    "command": {
+        "add": {
+            "exact": true
+        },
+        "bootstrap": {
+            "ci": false
+        }
+    }
+}

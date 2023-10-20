@@ -1,0 +1,4 @@
+{
+    "shouldContain": "the array {array} must contain the entire subarray {sub}",
+    "shouldNotContain": "the array {array} must not contain the entire subarray {sub}"
+}

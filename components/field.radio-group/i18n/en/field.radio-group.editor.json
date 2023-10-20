@@ -1,0 +1,17 @@
+{
+    "default.data.path": "path",
+    "default.label": "Label",
+    "default.options.0.label": "Option 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Option 2",
+    "default.options.1.value": "value2",
+    "description": "A component for selecting one value out of several options. It is designed as a group of circles arranged vertically. \n\nIf you want it to look like normal buttons, use [field.button-radio-group](field.button-radio-group.md).\n\nThe minimum number of buttons is one. Any type of data can be returned.",
+    "properties.disabled.description": "This property prevents clicking the button. If the value is `true`, the button is not active (a Toloker will not be able to click it).",
+    "properties.options.description": "An array of buttons.",
+    "properties.options.items.default.label": "Option",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "A button.",
+    "properties.options.items.properties.hint.description": "Text with additional information.",
+    "properties.options.items.properties.label.description": "The title of the option.",
+    "properties.options.items.properties.value.description": "Returned value."
+}

@@ -1,0 +1,8 @@
+{
+    "default.data.path": "result",
+    "default.data.type": "data.output",
+    "description": "Component for recording audio. Works in the [Toloka app for mobile devices](https://toloka.ai/tolokers/docs/mobile/?lang=en). In a browser, this component opens a window for uploading an audio file.\n\n[View example in sandbox](https://ya.cc/t/W77mHJnc3tyyrm)",
+    "properties.hint.default": "A pop-up hint displayed next to a label.",
+    "properties.label.default": "Record audio or select a file for upload",
+    "properties.multiple.description": "Determines whether multiple audio files can be recorded (or uploaded):\n* `false` (default) — forbidden.\n* `true` — allowed."
+}

@@ -1,0 +1,12 @@
+{
+    "default.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "default.controls.content.content": "Contents of a pinned panel",
+    "default.controls.theme": "info",
+    "description": "An option for placing _(layout)_ items, which lets you arrange on a page:\n\n* The main content block.\n* An adjacent panel with controls.\n\nThe `minWidth` property sets the threshold for switching between widescreen and compact modes: when the width of the `layout.sidebar` component itself becomes less than the value set by the `minWidth` property, compact mode is enabled. \n\nIn widescreen mode, the control panel is located to the right of the main block. \n\nIn compact mode, controls stretch to the entire width and are located under each other. \n\nTo add an extra panel with controls, use the `extraControls` property.",
+    "properties.content.description": "Content placed in the main area.",
+    "properties.controls.description": "Content of the control panel.",
+    "properties.controlsWidth.description": "The width of the control panel in widescreen mode. In compact mode, the panel takes up the entire available width. Default: 200 pixels.",
+    "properties.extraControls.description": "An additional panel with controls. Located below the main panel.",
+    "properties.minWidth.description": "The minimum width, in pixels, for widescreen mode. If the component width becomes less than the specified value, the interface switches to compact mode. Default: 400 pixels.",
+    "shortDescription": "Lets you place the main content block and an adjacent panel with controls on a page."
+}

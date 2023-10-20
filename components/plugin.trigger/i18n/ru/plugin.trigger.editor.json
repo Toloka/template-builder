@@ -1,0 +1,12 @@
+{
+    "default.action.payload.content": "Сработал триггер",
+    "default.action.payload.theme": "info",
+    "default.action.type": "action.notify",
+    "default.onChangeOf.path": "path",
+    "default.onChangeOf.type": "data.output",
+    "description": "Позволяет создавать триггеры: вызывать определенное действие при наступлении какого-то события. \n\nДействие задается в свойстве `action`, а событие описывается в остальных полях. \n\nСобытие может срабатывать сразу при загрузке задания (`\"fireImmediately\": true`) или при изменении данных в свойстве, указанном в `onChangeOf`. \n\nТакже в свойстве `conditions` можно задавать условия, которые необходимо соблюсти, чтобы сработал триггер.",
+    "properties.action.description": "Действие, которое будет выполнено при срабатывании триггера.",
+    "properties.condition.description": "Условие, выполнение которого требуется для срабатывания триггера.",
+    "properties.fireImmediately.description": "Флаг, указывающий должен ли триггер сработать сразу после загрузки задания.",
+    "properties.onChangeOf.description": "Данные, при изменении которого сработает триггер."
+}

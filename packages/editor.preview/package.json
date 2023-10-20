@@ -1,0 +1,25 @@
+{
+    "name": "@toloka-tb/editor.preview",
+    "version": "1.20.0",
+    "main": "editor.preview.tsx",
+    "private": true,
+    "dependencies": {
+        "@toloka-tb/bootstrap": "1.21.1",
+        "@toloka-tb/common": "1.3.5",
+        "@toloka-tb/editor.mock-file-uploader": "1.8.3",
+        "@toloka-tb/iframe-api": "0.31.0",
+        "classnames": "2.2.6",
+        "microtip": "0.2.2",
+        "mobx-react-lite": "1.5.2"
+    },
+    "devDependencies": {
+        "@types/classnames": "2.2.9",
+        "@types/react": "16.9.34",
+        "@types/react-dom": "16.9.5",
+        "@toloka-tb/plugin.toloka": "1.2.3",
+        "@toloka/helper.proxy": "1.1.4",
+        "mobx": "5.15.4",
+        "react-intl": "5.10.4",
+        "typescript": "3.8.3"
+    }
+}

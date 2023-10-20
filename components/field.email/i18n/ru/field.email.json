@@ -1,0 +1,4 @@
+{
+    "defaultPlaceholder": "email@example.com",
+    "validationError": "почта должна быть в формате email@example.com"
+}

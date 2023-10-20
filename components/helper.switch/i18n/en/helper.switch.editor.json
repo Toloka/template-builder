@@ -1,0 +1,9 @@
+{
+    "description": "A switch-case construction. Checks various conditions sequentially and executes the code from the `result` property when the corresponding condition is true. \n\nYou can use it to perform an action or display an additional interface element only when a certain condition is met.\n\n[View example in the sandbox](https://ya.cc/t/RcgC_nQJ3tz3j4)\n\nThis helper is similar to a series of [If...Then...Else](helper.if.md)  logical expressions, so it is useful if there are more than two conditions for sequential verification. If you need to check one or two conditions, use the [helper.if](helper.if.md) component.\n\nHow the helper works:\n1. The helper checks _(conditions)_ from the array of `cases` objects, starting from the first one.\n2. If the condition is true (returns `true`), the helper returns the result (block of code) specified in the `result` property for the `condition` object in the `cases` array. **The helper quits and subsequent conditions are not checked.**\n3. If the condition is false (returns `false`), the helper checks the subsequent condition.\n4. If all conditions are false as a result of all checks, the helper returns the value specified in the `default` property (if it is not defined, the helper returns nothing).",
+    "properties.cases.description": "An array of objects consisting of `condition` and `result` property pairs.",
+    "properties.cases.items.description": "Object parameters.",
+    "properties.cases.items.properties.condition.description": "Condition to check.",
+    "properties.cases.items.properties.result.description": "The element that is returned if the condition from the `condition` property is true (returns `true`).",
+    "properties.default.description": "Element that is returned if none of the checked conditions returned `true`.",
+    "shortDescription": "A switch-case construction: sequentially checks the conditions and executes the code when the condition turns out to be true."
+}

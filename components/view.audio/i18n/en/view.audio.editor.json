@@ -1,0 +1,7 @@
+{
+    "default.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.mp3",
+    "description": "The component plays audio. \n\nFormat support depends on the Toloker's browser, OS, and device. We recommend using MP3.",
+    "properties.loop.description": "Automatically replay audio.",
+    "properties.url.default": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
+    "properties.url.description": "Audio link."
+}

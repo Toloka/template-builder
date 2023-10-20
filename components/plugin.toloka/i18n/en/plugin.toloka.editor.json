@@ -1,0 +1,10 @@
+{
+    "default.layout.kind": "scroll",
+    "description": "A plugin with extra settings for tasks in Toloka.",
+    "properties.layout.default.kind": "scroll",
+    "properties.layout.description": "Settings for the task appearance in Toloka. [Learn more](../operations/set-plugin-toloka.md)",
+    "properties.layout.properties.kind.description": "How to display tasks:\n\n* `scroll` (default) — display multiple tasks on the page at the same time.\n* `pager` — display only one task on the page, with a button to switch between tasks at the bottom.\n",
+    "properties.layout.properties.taskWidth.description": "Width of the block with the task. By default, the task is displayed at full width.",
+    "properties.notifications.description": "An array of notifications. Notifications are displayed at the top of the page.",
+    "properties.notifications.items.description": "Notification parameters."
+}

@@ -1,0 +1,29 @@
+@import '../../style.less';
+
+.alertBox {
+    box-sizing: content-box;
+    padding: @gap-xs;
+    border-style: solid;
+    border-width: @border-s;
+    border-radius: @border-radius-m;
+
+    &.success {
+        border-color: lighten(@baseColor-green, 30%);
+        background-color: lighten(@baseColor-green, 60%);
+    }
+
+    &.info {
+        border-color: lighten(@baseColor-blue, 21%);
+        background-color: lighten(@baseColor-blue, 43%);
+    }
+
+    &.warning {
+        border-color: lighten(@baseColor-yellow, 22%);
+        background-color: lighten(@baseColor-yellow, 45%);
+    }
+
+    &.danger {
+        border-color: lighten(@baseColor-red, 25%);
+        background-color: lighten(@baseColor-red, 50%);
+    }
+}

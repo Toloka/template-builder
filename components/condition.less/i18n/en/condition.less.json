@@ -1,0 +1,6 @@
+{
+    "shouldBeLess": "{data} must be less than {then}",
+    "shouldBeLessOrEqual": "{data} must be less than or equal to {then}",
+    "shouldBeMore": "{data} must be greater than {then}",
+    "shouldBeMoreOrEqual": "{data} must be greater than or equal to {then}"
+}

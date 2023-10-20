@@ -1,0 +1,5 @@
+{
+    "description": "Checks if the link that you entered belongs to a specific site. If it does, returns `true`, otherwise, `false`.\n\nLinks must be specified in full, including the protocol (http, https, ftp).\n\nThe `www.` subdomain is ignored when checking, meaning that links to `www.example.com` and `example.com` are considered to be the same.\n\n[View example in the sandbox](https://ya.cc/t/Up5Km-i53vwDif)\n\nHow to pass a link address:\n* Specify it explicitly as a string.\n* [Get the value from your data](../operations/work-with-data.md).\n* Refer to another element using `$ref`.\n* Use [helpers](helpers.md) and [conditions](conditions.md) to get the value.\n",
+    "properties.data.description": "The link address to be checked. If you don't specify it, the value returned by the parent component (the one that contains `condition.same-domain`) is used.",
+    "properties.original.description": "The link address that your link is compared to."
+}

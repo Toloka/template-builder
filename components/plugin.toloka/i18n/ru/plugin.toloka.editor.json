@@ -1,0 +1,10 @@
+{
+    "default.layout.kind": "scroll",
+    "description": "Плагин с дополнительными настройками заданий в Толоке.",
+    "properties.layout.default.kind": "scroll",
+    "properties.layout.description": "Настройки отображения задания в Толоке. [Подробнее](../operations/set-plugin-toloka.md)",
+    "properties.layout.properties.kind.description": "Способ отображения заданий:\n\n* `scroll` (по умолчанию) — отображать несколько заданий на странице одновременно.\n* `pager` — отображать на странице только одно задание, но внизу под заданием будет переключатель между заданиями.\n",
+    "properties.layout.properties.taskWidth.description": "Ширина блока с заданием. По умолчанию задание отображается на всю ширину.",
+    "properties.notifications.description": "Массив оповещений. Оповещения отображаются в верхней части страницы.",
+    "properties.notifications.items.description": "Параметры оповещения."
+}

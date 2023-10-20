@@ -1,0 +1,10 @@
+{
+    "default.links.0.content": "Yandex",
+    "description": "Puts links into groups.\n\nThe most important link in a group can be highlighted with a border: set the `theme` property to `primary` for this link.\n\nThis only groups links, unlike [view.group](view.group.md).\n\n[View example in the sandbox](https://ya.cc/t/2IwCYi-S3xPSL9)",
+    "properties.links.description": "Array of links that make up a group.",
+    "properties.links.items.description": "Link parameters.",
+    "properties.links.items.properties.content.default": "Link text displayed to a Toloker.",
+    "properties.links.items.properties.content.description": "Link text displayed to a Toloker. Unviewed links are blue and underlined, and clicked links are purple.",
+    "properties.links.items.properties.theme.description": "Defines the appearance of the link. If you specify `\"theme\": \"primary\"`, it's a button, otherwise it's a text link.",
+    "properties.links.items.properties.url.description": "Link address. Inserts a link with the search query when [helper. search-query](helper.search-query.md) is used."
+}

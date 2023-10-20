@@ -1,0 +1,5 @@
+{
+    "description": "Component for translating interface elements to other languages.  More details in [Translating the task interface](https://toloka.ai/en/docs/guide/concepts/project-languages#interface-translate).\n\nIn the properties that should be displayed in different languages, add:\n```\n{\n  \"type\": \"helper.translate\",\n  \"key\": \"<key name>\"\n{\n```\n\nAdding the `key` property displays a field for entering the key text. Enter the text in the source language. In the \"Translations\" step, add translations for the keys in the desired languages.\n\nUsage example:\n```\n{\n  \"view\": {\n    \"type\": \"view.image\",\n    \"url\": \"https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png\",\n    \"label\": {\n      \"type\": \"helper.translate\",\n      \"key\": \"label-image\"\n    }\n  }\n}\n```",
+    "properties.key.description": "The key for a text property that you will translate to other languages.",
+    "properties.key.patternHint": "A key can only contain lowercase Latin letters, numbers, and hyphens."
+}

@@ -1,0 +1,11 @@
+{
+    "default.items.0.content": "1",
+    "default.items.1.content": "2",
+    "default.items.2.content": "3",
+    "description": "Block for displaying data in a list. List may contain an unlimited number of `view.*` [components](index.md).\n\n[View example](https://ya.cc/t/ATPjrNYU3vUaRK)\n\n**Components used in the example**\n\n- [view.image](view.image.md): Displays an image.\n- [field.button-radio-group](field.button-radio-group.md): Adds buttons for selecting an answer option.\n- [condition.required](condition.required.md): Checks if at least one option is selected.",
+    "properties.direction.description": "Determines the direction of the list:\n\n* `vertical` (default) — vertical list.\n* `horizontal` — horizontal list.",
+    "properties.items.description": "Array of list items.",
+    "properties.items.items.description": "List item.",
+    "properties.size.default": "s",
+    "properties.size.description": "Specifies the size of the margins between elements. Acceptable values in ascending order: `s`, `m` (default value)."
+}

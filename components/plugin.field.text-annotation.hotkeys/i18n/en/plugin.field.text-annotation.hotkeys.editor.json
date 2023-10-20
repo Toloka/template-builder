@@ -1,0 +1,13 @@
+{
+    "default.labels.0": "1",
+    "default.labels.1": "2",
+    "default.labels.2": "3",
+    "default.labels.3": "4",
+    "default.labels.4": "5",
+    "default.remove": "c",
+    "description": "Use this to set keyboard shortcuts for the [field.text-annotation](field.text-annotation.md) component.\n\n[View example in the sandbox](https://ya.cc/t/qBDHxAiu3twgqE)",
+    "properties.labels.description": "Keyboard shortcuts for selecting categories. They're assigned to buttons with categories in the order they're shown.",
+    "properties.labels.items.description": "A keyboard shortcut.",
+    "properties.remove.default": "c",
+    "properties.remove.description": "Use this property to allow a Toloker to deselect an entire line or part of it. The key that you assign to this property will deselect."
+}

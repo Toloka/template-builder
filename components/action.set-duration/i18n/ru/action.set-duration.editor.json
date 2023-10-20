@@ -1,0 +1,5 @@
+{
+    "properties.view.description": "Указатель на view, в котором можно переключать данные о длительности воспроизведения",
+    "properties.payload.description": "Время (в секундах), которое нужно установить как длительность",
+    "default.view.$ref": "view"
+}

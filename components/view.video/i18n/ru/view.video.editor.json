@@ -1,0 +1,7 @@
+{
+    "default.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/medium.mp4",
+    "description": "Плеер для воспроизведения видео.\n\nПлеер — это прямоугольный блок с рамкой и кнопками для управления видео. Размер блока можно настроить с помощью свойств `ratio`, `fullHeight`, `minWidth` и `maxWidth`. \n\nРазрешение видео на размер блока не влияет — видео будет вписано в блок и не обрежется.",
+    "properties.ratio.description": "Соотношение сторон блока с видео. Массив из двух чисел: первое устанавливает ширину блока, второе — его высоту.",
+    "properties.url.default": "",
+    "properties.url.description": "Ссылка на видеофайл."
+}

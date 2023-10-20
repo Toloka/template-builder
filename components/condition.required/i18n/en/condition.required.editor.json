@@ -1,0 +1,5 @@
+{
+    "description": "Checks that the field which must contain the data is present in the response. This way you can get a Toloker to answer all the required questions.\n\nIf used inside the `validation` property, you can omit the `data`  property and the same property will be used from the parent component [field](fields.md) (the one that contains the `condition.required`  component).\n\n[View example in the sandbox](https://ya.cc/t/td7VbsVy3tweoh)",
+    "properties.data.description": "Data to be filled in. If the property is not specified, the data of the parent component (the one that contains `condition.required`) is used.",
+    "shortDescription": "Checks that the data is filled in."
+}

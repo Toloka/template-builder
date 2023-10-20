@@ -1,0 +1,14 @@
+{
+    "default.data.path": "path",
+    "default.label": "Uploading photos and videos",
+    "description": "Adds buttons for different types of uploads: uploading photos or videos, selecting files from the file manager or choosing from the gallery. In the `accept` property, select which buttons you need.\n\nBy default, only one file can be uploaded, but you can allow multiple files in the `multiple` property.\n\nThis component is convenient when using mobile devices. To upload files from a computer, it's better to use [field.file](field.file.md) for a more flexible configuration of the file types.\n\nIn the task review mode, the uploaded images will appear automatically. You can view, rotate, and switch among the images.\n\n[View example in the sandbox](https://ya.cc/t/Td82X7Jv3twhPM)\n\n## Using the Toloka mobile app\n\nIn the Toloka mobile app, the photo and video buttons open the camera, and the gallery and file manager buttons open the corresponding apps.\n\nAfter a Toloker submits the task, the files are saved in the app and gradually uploaded to Toloka when there's a Wi-Fi connection. While there's no connection, the task status remains \"Submitting via Wi-Fi\".",
+    "properties.accept.description": "Adds different buttons for four types of uploads. Pass the `true` value for the ones that you need. \n\nFor example, if you need a button for uploading files from the gallery, add the `\"gallery\": true` property.",
+    "properties.accept.properties.fileSystem.description": "Adds a button for uploading files from the file manager.",
+    "properties.accept.properties.gallery.description": "Adds a button for uploading files from the gallery.",
+    "properties.accept.properties.photo.description": "Adds a button for uploading images.",
+    "properties.accept.properties.video.description": "Adds a button for uploading videos.",
+    "properties.disabled.description": "This property allows or forbids file upload. This is useful if you need to allow uploads only when a certain condition is met:\n* `false` (default) — upload allowed.\n* `true` — upload forbidden.",
+    "properties.multiple.description": "Determines whether multiple files can be uploaded:\n* `false` (default) — forbidden.\n* `true` — allowed.",
+    "properties.requiredCoordinates.description": "If the value is `true`, a file without geotag can not be uploaded.",
+    "shortDescription": "Adds buttons for different types of uploads: uploading photos or videos, selecting files from the file manager or choosing from the gallery."
+}

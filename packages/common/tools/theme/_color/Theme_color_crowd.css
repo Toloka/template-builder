@@ -1,0 +1,154 @@
+.Theme_color_crowd {
+    /* Crowd Colors */
+
+    --crowd-color-black: #000;
+    --crowd-color-charcoal-grey: #434445;
+    --crowd-color-steel: #7f8285;
+    --crowd-color-cloudy-blue: #b8bec3;
+    --crowd-color-ice-blue: #f0f2f3;
+    --crowd-color-very-light-gray: #faf8f5;
+    --crowd-color-white: #fff;
+
+    --crowd-color-red-light: #ffc0be;
+    --crowd-color-red-semilight: #f66;
+    --crowd-color-red: #f33;
+    --crowd-color-red-dark: #e00000;
+
+    --crowd-color-pink-light: #fcc0e1;
+    --crowd-color-pink-semilight: #f858af;
+    --crowd-color-pink: #f62e9b;
+    --crowd-color-pink-dark: #d62887;
+
+    --crowd-color-orange-light: #ffe0b2;
+    --crowd-color-orange-semilight: #ffae33;
+    --crowd-color-orange: #ff9a00;
+    --crowd-color-orange-dark: #e68b00;
+
+    --crowd-color-yellow-light: #fff1ba;
+    --crowd-color-yellow-semilight: #ffdb47;
+    --crowd-color-yellow: #fc0;
+    --crowd-color-yellow-dark: #e7ab19;
+
+    --crowd-color-azure-light: #b9d8fe;
+    --crowd-color-azure-semilight: #3a92fd;
+    --crowd-color-azure: #07f;
+    --crowd-color-azure-dark: #0065d9;
+
+    --crowd-color-blue-light: #cff0fd;
+    --crowd-color-blue-semilight: #7fd8fa;
+    --crowd-color-blue: #5fcef9;
+    --crowd-color-blue-dark: #2fa2ce;
+
+    --crowd-color-green-light: #baeac9;
+    --crowd-color-green-semilight: #47c971;
+    --crowd-color-green: #00b341;
+    --crowd-color-green-dark: #008c33;
+
+    --crowd-color-lime-light: #c7f2df;
+    --crowd-color-lime-semilight: #6addab;
+    --crowd-color-lime: #45d496;
+    --crowd-color-lime-dark: #33b27b;
+
+    --crowd-color-interactions-base: #fff;
+    --crowd-color-interactions-hover: rgba(0, 0, 0, .05);
+    --crowd-color-interactions-pressed: rgba(0, 0, 0, .1);
+    --crowd-color-interactions-yellow-base: #fc0;
+    --crowd-color-interactions-yellow-hover: #f2c200;
+    --crowd-color-interactions-yellow-pressed: #ffb800;
+    --crowd-color-interactions-stroke-default: #b8bec3;
+    --crowd-color-interactions-stroke-hover: #7f8285;
+    --crowd-color-interactions-stroke-pressed: #fc0;
+
+    /* // Crowd Colors */
+
+    --color-bg-brand: #fc0;
+    --color-bg-action: rgb(255, 219, 77);
+    --color-bg-selection: rgb(255, 234, 158);
+    --color-bg-hover: rgba(0, 0, 0, .15);
+    --color-bg-border: rgba(0, 0, 0, .05);
+    --color-bg-stripe: rgba(0, 0, 0, .04);
+    --color-bg-ghost: rgba(0, 0, 0, .08);
+    --color-bg-default: #fff;
+    --color-bg-tone: rgba(0, 0, 0, .9);
+    --color-bg-soft: rgba(255, 255, 255, .97);
+    --color-bg-success: #00985f;
+    --color-bg-alert: #f33;
+    --color-bg-warning: #f90;
+    --color-bg-normal: #dde3e5;
+    --color-bg-system: #778a9b;
+    --color-bg-link: rgba(21, 126, 239, .4);
+    --color-typo-brand: #fc0;
+    --color-typo-primary: #000;
+    --color-typo-promo: rgba(0, 0, 0, .8);
+    --color-typo-secondary: rgba(0, 0, 0, .6);
+    --color-typo-ghost: rgba(0, 0, 0, .3);
+    --color-typo-disable: rgba(0, 0, 0, .3);
+    --color-typo-success: #00985f;
+    --color-typo-warning: #f90;
+    --color-typo-alert: rgb(224, 0, 0);
+
+    --color-link: #04b;
+    --color-link-external: #04b;
+    --color-link-minor: rgb(102, 102, 153);
+    --color-link-hover: rgb(0, 56, 153);
+    --color-control-bg-default: rgb(230, 230, 230);
+    --color-control-bg-default-hover: rgb(219, 219, 219);
+    --color-control-bg-default-press: rgb(219, 219, 219);
+    --color-control-bg-default-disable: rgb(242, 242, 242);
+
+    --color-control-bg-border-default: rgb(179, 179, 179);
+    --color-control-bg-border-default-hover: rgb(217, 217, 217);
+    --color-control-bg-border-default-press: rgb(179, 179, 179);
+    --color-control-bg-border-default-disable: rgb(217, 217, 217);
+    --color-control-bg-border-default-error: #f33;
+    --color-control-bg-border-default-error-hover: rgb(224, 0, 15);
+    --color-control-bg-blank: rgb(255, 255, 255);
+    --color-control-bg-blank-hover: rgb(255, 255, 255);
+    --color-control-bg-blank-disable: rgb(248, 248, 248);
+
+    --color-control-bg-border-blank: rgb(217, 217, 217);
+    --color-control-bg-border-blank-hover: rgb(204, 204, 204);
+    --color-control-bg-border-blank-disable: rgb(215, 219, 221);
+    --color-control-bg-heavy: rgb(84, 84, 84);
+    --color-control-bg-heavy-hover: rgb(84, 84, 84);
+    --color-control-bg-heavy-press: rgb(84, 84, 84);
+
+    --color-control-bg-border-heavy: rgb(84, 84, 84);
+    --color-control-bg-border-heavy-hover: rgb(84, 84, 84);
+    --color-control-bg-border-heavy-press: rgb(84, 84, 84);
+    --color-control-bg-pseudo: rgb(255, 255, 255);
+    --color-control-bg-pseudo-hover: rgb(247, 247, 247);
+    --color-control-bg-border-pseudo: rgb(204, 204, 204);
+    --color-control-bg-action: #fc0;
+    --color-control-bg-action-hover: rgb(250, 192, 0);
+    --color-control-bg-action-press: rgb(250, 192, 0);
+    --color-control-bg-passive: #fff;
+    --color-control-bg-progress: #fc0;
+    --color-control-bg-progress-process: rgb(255, 213, 0);
+    --color-control-bg-check: rgb(84, 84, 84);
+    --color-control-bg-check-press: rgb(84, 84, 84);
+    --color-control-bg-check-hover: rgb(64, 64, 64);
+    --color-control-bg-check-disable: rgb(242, 242, 242);
+
+    --color-control-bg-border-check: rgb(168, 135, 0);
+    --color-control-bg-border-check-press: rgb(84, 84, 84);
+    --color-control-bg-border-check-hover: rgb(84, 84, 84);
+    --color-control-bg-faint: #fff;
+    --color-control-bg-faint-disable: rgb(199, 199, 199);
+    --color-control-bg-focus: rgb(84, 84, 84);
+    --color-control-bg-border-focus: rgb(179, 179, 179);
+    --color-control-bg-border-prism: #fc0;
+    --color-control-bg-shade: rgb(102, 102, 102);
+    --color-control-bg-link-default: #04b;
+    --color-control-bg-link-default-hover: rgb(245, 249, 255);
+    --color-control-bg-border-link-default: rgb(104, 149, 222);
+    --color-control-bg-border-link-default-hover: rgb(247, 249, 253);
+    --color-control-typo-primary: #000;
+    --color-control-typo-secondary: rgba(0, 0, 0, .6);
+    --color-control-typo-ghost: rgba(0, 0, 0, .3);
+    --color-control-typo-passive: rgb(0, 0, 0);
+    --color-control-typo-faint: rgb(255, 255, 255);
+    --color-control-typo-disable: rgb(112, 112, 112);
+    --color-control-typo-link: #04b;
+    --color-control-typo-error: rgb(224, 0, 0);
+}

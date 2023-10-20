@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2015",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "lib": ["es2020", "dom"],
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+
+        "allowJs": false,
+        "strict": true,
+        "sourceMap": true,
+        "typeRoots": ["./typings", "./node_modules/@types"]
+    },
+    "exclude": ["node_modules"]
+}

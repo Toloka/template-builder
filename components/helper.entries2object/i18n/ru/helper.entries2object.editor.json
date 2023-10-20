@@ -1,0 +1,16 @@
+{
+    "default.entries.0.key": "foo",
+    "default.entries.0.value": "hello",
+    "default.entries.1.key": "bar",
+    "default.entries.1.value": "world",
+    "description": "Создание объекта из заданного массива пар ключей и значений.\n\nНапример, у вас есть такой массив:\n```json\n[\n  {\n    \"key\": \"foo\",\n    \"value\": \"hello\"\n  },\n  {\n    \"key\": \"bar\",\n    \"value\": \"world\"\n  }\n]\n```\n\nОн преобразуется в объект, элементы которого состоят из значений исходного массива:\n```json\n{\"foo\":\"hello\",\"bar\":\"world\"}\n```\n\n[Посмотреть пример в песочнице](https://ya.cc/t/BbI6p-3Z3twkmP)",
+    "properties.entries.default.0.key": "foo",
+    "properties.entries.default.0.value": "hello",
+    "properties.entries.default.1.key": "bar",
+    "properties.entries.default.1.value": "world",
+    "properties.entries.description": "Исходный массив пар вида ключ-значение.",
+    "properties.entries.items.description": "Параметры объекта.",
+    "properties.entries.items.properties.key.description": "Ключ.",
+    "properties.entries.items.properties.value.description": "Значение.",
+    "shortDescription": "Создание объекта из заданного массива пар ключей и значений."
+}

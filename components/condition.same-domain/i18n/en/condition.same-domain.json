@@ -1,0 +1,4 @@
+{
+    "shouldBeSame": "The address {data} must be from the same site as {original}",
+    "shouldNotBeSame": "The address {data} can't be from the same site as {original}"
+}

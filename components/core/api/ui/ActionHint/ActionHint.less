@@ -1,0 +1,39 @@
+@import '~@toloka-tb/common/style.less';
+
+.defaultTheme {
+    padding: 0 @gap-xxs;
+
+    border: @border-s solid @baseColor-gray;
+    border-radius: @border-radius-s;
+
+    line-height: 16px; // matching 18px for lego control
+    color: @font-color-main;
+
+    background: white;
+
+    text-align: center;
+}
+
+.outlinedTheme {
+    .defaultTheme();
+    border-color: @baseColor-white;
+    color: @baseColor-white;
+    background: rgba(0, 0, 0, 0);
+}
+
+.hotkeyChar {
+    width: 16px; // matching 18px for lego control
+    padding: 0;
+}
+
+.fullSequence {
+    display: flex;
+    align-items: flex-start;
+
+    line-height: initial;
+    line-height: 18px;
+
+    cursor: pointer;
+
+    user-select: none;
+}

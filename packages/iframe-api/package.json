@@ -1,0 +1,12 @@
+{
+    "name": "@toloka-tb/iframe-api",
+    "version": "0.31.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "npm run build"
+    },
+    "devDependencies": {
+        "typescript": "^3.8.3"
+    }
+}

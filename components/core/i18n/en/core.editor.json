@@ -1,0 +1,20 @@
+{
+    "properties.conditionHint.default": "need to XXX",
+    "properties.conditionHint.description": "Validation error message that a Toloker will see",
+    "properties.data.description": "Data with values that will be processed or changed.",
+    "properties.direction.description": "Defines the direction of the list:\n\n* `vertical` (default) — Vertical list.\n* `horizontal` — Horizontal list.",
+    "properties.fullHeight.description": "If `true`, the element takes up all the vertical free space. The element is set to a minimum height of 400 pixels.",
+    "properties.hint.default": "Write a text",
+    "properties.hint.description": "Hint text.",
+    "properties.label.description": "Label above the component.",
+    "properties.maxWidth.description": "Maximum width of the element in pixels, must be greater than `minWidth`.",
+    "properties.minWidth.description": "Minimum width of the element in pixels. Takes priority over `maxWidth`.",
+    "properties.preserveFalse.description": "Property that specifies whether to return `false` values in the results. By default, if the component returns `false`, this result will not be added to the output. To add `false` to the results, specify `\"preserveFalse\": true`.",
+    "properties.ratio.description": "An array of two numbers that sets the relative dimensions of the sides: width (first number) to height (second number).\n\nNot valid if `\"fullHeight\": true`.",
+    "properties.ratio.items.description": "Relative size of one side.",
+    "properties.requiredMark.description": "Show \"*\" next to the label",
+    "properties.rtl.description": "In some languages, like Arabic or Hebrew, text is written from right to left. Use this property to set up the correct display mode for the component.\n\n[View example in the sandbox](https://ya.cc/t/tq6fCNm_3ttFBW).\n\n[Learn more about RTL languages](https://www.w3.org/International/questions/qa-scripts).",
+    "properties.rtl.properties.mode.description": "Display mode:\n* `ltr` — left to right.\n* `rtl` — right to left.\n\nThe chosen value will be added to the `dir` attribute in the component's HTML code. [Learn more about dir](https://www.w3.org/International/questions/qa-html-dir).",
+    "properties.size.description": "Specifies the size of the margins between elements. Acceptable values in ascending order: `s`, `m` (default value).",
+    "properties.validation.description": "Validation based on condition."
+}

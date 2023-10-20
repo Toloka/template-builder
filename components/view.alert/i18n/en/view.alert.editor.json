@@ -1,0 +1,8 @@
+{
+    "default.content.content": "Some information",
+    "default.theme": "info",
+    "description": "The component creates a color block to highlight important information.\n\nYou can use both plain text and other visual components inside it.\n\n[View example in the sandbox](https://ya.cc/t/lBobocfj3tyyJo)",
+    "properties.content.description": "Content of the block with important information.",
+    "properties.theme.default": "info",
+    "properties.theme.description": "Determines the block color:\n\n* `info` (default) — Blue.\n* `success` — Green.\n* `warning` — Yellow.\n* `danger` — Red.\n"
+}

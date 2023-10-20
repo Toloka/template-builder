@@ -1,0 +1,111 @@
+.Theme_capacity_crowd {
+    --attach-reset-width: 12px;
+    --attach-reset-height: 12px;
+
+    --button-size-s-height: 28px;
+    --button-size-s-icon-width: 28px;
+
+    --button-size-m-height: 32px;
+    --button-size-m-icon-width: 32px;
+
+    --button-size-l-height: 36px;
+    --button-size-l-icon-width: 36px;
+
+    --checkbox-size-s-width: 14px;
+    --checkbox-size-s-height: 14px;
+
+    --checkbox-size-m-width: 17px;
+    --checkbox-size-m-height: 17px;
+
+    --textinput-size-s-height: 28px;
+    --textinput-size-s-control-height: 28px;
+    --textinput-size-s-icon-width: 28px;
+    --textinput-size-s-icon-height: 28px;
+
+    --textinput-size-m-height: 32px;
+    --textinput-size-m-control-height: 32px;
+    --textinput-size-m-icon-width: 32px;
+    --textinput-size-m-icon-height: 32px;
+    --progressbar-height: 2px;
+
+    --radiobox-size-s-size: 13px;
+
+    --radiobox-size-m-size: 17px;
+
+    --radiobox-size-s-after-size: 5px;
+    --radiobox-size-m-after-size: 7px;
+    --textarea-size-s-minWidth: 180px;
+    --textarea-size-s-minHeight: 32px;
+    --textarea-size-s-clear-width: 32px;
+    --textarea-size-s-clear-height: 32px;
+
+    --textarea-size-m-minWidth: 200px;
+    --textarea-size-m-minHeight: 36px;
+    --textarea-size-m-clear-width: 36px;
+    --textarea-size-m-clear-height: 36px;
+
+    --tumbler-size-s-width: 32px;
+    --tumbler-size-s-height: 16px;
+    --tumbler-size-s-button-width: 12px;
+    --tumbler-size-s-button-height: 12px;
+    --tumbler-size-s-button-press-width: 14px;
+
+    --tumbler-size-m-width: 40px;
+    --tumbler-size-m-height: 20px;
+    --tumbler-size-m-button-width: 16px;
+    --tumbler-size-m-button-height: 16px;
+    --tumbler-size-m-button-press-width: 18px;
+
+    --tumbler-size-l-width: 56px;
+    --tumbler-size-l-height: 28px;
+    --tumbler-size-l-button-width: 24px;
+    --tumbler-size-l-button-height: 24px;
+    --tumbler-size-l-button-press-width: 26px;
+
+    --spin-size-xxs: 16px;
+    --spin-size-xs: 24px;
+    --spin-size-s: 28px;
+    --spin-size-m: 32px;
+    --spin-size-l: 38px;
+
+    --slider-size-s-body-height: 28px;
+    --slider-size-s-runner-minWidth: 28px;
+    --slider-size-s-range-height: 6px;
+    --slider-size-s-range-after-height: 22px;
+
+    --slider-size-m-body-height: 32px;
+    --slider-size-m-runner-minWidth: 32px;
+    --slider-size-m-range-height: 6px;
+    --slider-size-m-range-after-height: 30px;
+
+    --message-box-tail-width: 22px;
+    --message-box-tail-height: 10px;
+
+    --message-box-close-width: 16px;
+    --message-box-close-height: 16px;
+
+    --message-box-size-s-content-maxWidth: 180px;
+    --message-box-size-s-type-text-content-maxWidth: 260px;
+
+    --message-box-size-m-content-minWidth: 200px;
+    --message-box-size-m-content-maxWidth: 280px;
+
+    --message-box-size-l-content-minWidth: 300px;
+    --message-box-size-l-content-maxWidth: 380px;
+    --message-box-size-l-type-text-content-minWidth: 380px;
+
+    --message-box-size-xl-content-minWidth: 400px;
+    --message-box-size-xl-content-maxWidth: 480px;
+
+    --tooltip-size-s-content-width: 12px;
+    --tooltip-size-s-content-height: 12px;
+    --tooltip-size-s-tail-size: 12px;
+
+    --tooltip-size-m-content-width: 12px;
+    --tooltip-size-m-content-height: 12px;
+    --tooltip-size-m-tail-size: 12px;
+
+    --tooltip-size-l-content-width: 18px;
+    --tooltip-size-l-content-height: 18px;
+    --tooltip-size-l-tail-size: 18px;
+}

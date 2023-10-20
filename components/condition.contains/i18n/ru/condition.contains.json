@@ -1,0 +1,4 @@
+{
+    "shouldContain": "массив {array} должен содержать {item}",
+    "shouldNotContain": "массив {array} не должен содержать {item}"
+}

@@ -1,0 +1,5 @@
+{
+    "errorNoUrl": "пустой url",
+    "errorProtocol": "страница должна быть загружена по протоколу \"{protocol}\"",
+    "mediaType": "сайт"
+}

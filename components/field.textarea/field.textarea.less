@@ -1,0 +1,78 @@
+@import '~@toloka-tb/common/style.less';
+
+.textarea {
+    display: block;
+
+    box-sizing: border-box;
+    width: 100%;
+    min-height: calc(1em + 2 * 8px);
+    max-height: 1000px;
+    padding: @gap-xxs @gap-xs;
+
+    border-color: var(--color-control-bg-border-blank);
+    border-width: var(--textinput-borderWidth);
+    border-radius: @border-radius-m;
+
+    font-family: var(--control-font-family);
+
+    transition: @transition-s;
+
+    font-size: 13px;
+    padding-inline-end: @gap-l;
+    &:hover,
+    &:focus {
+        border-color: var(--color-control-bg-border-focus);
+        outline: none;
+    }
+    &:disabled {
+        color: var(--color-control-typo-disable);
+        background-color: var(--color-control-bg-blank-disable);
+    }
+    &::placeholder {
+        color: var(--color-control-typo-ghost);
+    }
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.clear {
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 28px;
+    height: 28px;
+    padding: 0;
+
+    border: 0;
+
+    color: var(--color-control-typo-ghost);
+
+    cursor: pointer;
+
+    background: transparent;
+    transition: @transition-s;
+
+    inset-block-start: 0;
+
+    inset-inline-end: 0;
+}
+
+.clear:hover {
+    color: var(--color-control-typo-primary);
+}
+
+.clearIcon {
+    display: block;
+    width: 12px;
+    height: 12px;
+
+    fill: currentColor;
+}

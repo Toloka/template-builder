@@ -1,0 +1,136 @@
+@import '~@toloka-tb/common/style.less';
+
+.hint {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    border-radius: 50%;
+
+    background-color: @baseColor-white;
+
+    .font-s();
+    &:focus {
+        outline: none;
+    }
+}
+
+.container {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.active.content {
+    opacity: 1;
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 0.1s;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow: auto;
+    box-sizing: border-box;
+    padding: var(--space-xs) var(--space-s);
+    word-break: break-word;
+    border-radius: var(--space-xxxs);
+    outline: none;
+    background-color: var(--color-bg-default);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: visible;
+    z-index: 4;
+    max-width: 30%;
+    pointer-events: none;
+    .font-m();
+}
+
+.active {
+    pointer-events: initial;
+}
+
+@media (max-width: 400px) {
+    .content {
+        max-width: 200px;
+    }
+}
+
+.arrow::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-bg-default);
+    transform: rotate(45deg);
+}
+
+&[data-popper-placement^='right'] {
+    .arrow {
+        left: -10px;
+    }
+
+    .arrow::before {
+        margin-left: 5px;
+    }
+}
+
+&[data-popper-placement^='left'] {
+    .arrow {
+        right: -10px;
+    }
+
+    .arrow:before {
+        margin-right: 5px;
+    }
+}
+
+&[data-popper-placement^='top'] {
+    .arrow {
+        bottom: -10px;
+    }
+
+    .arrow::before {
+        margin-bottom: 5px;
+    }
+}
+
+&[data-popper-placement^='bottom'] {
+    .arrow {
+        top: -10px;
+    }
+
+    .arrow::before {
+        margin-top: 5px;
+    }
+}
+
+.iconContainer {
+    display: flex;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+    transition: @transition-s;
+
+    fill: var(--crowd-color-cloudy-blue);
+
+    &:hover {
+        fill: var(--color-control-bg-border-check-hover);
+    }
+
+    &Active {
+        fill: var(--color-control-bg-border-check-hover);
+    }
+}
+.iconActive {
+    fill: var(--color-control-bg-border-check-hover);
+}

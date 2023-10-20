@@ -1,0 +1,7 @@
+{
+    "default.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/medium.mp4",
+    "description": "Player for video playback.\n\nThe player is a rectangular block with a frame and buttons to control the video. You can set the block size using the `ratio`, `fullHeight`, `minWidth`, and `maxWidth` properties. \n\nThe video resolution does not affect the size of the block — the video will fit into the block and will not be cropped.",
+    "properties.ratio.description": "The aspect ratio of the video block. An array of two numbers: the first sets the width of the block and the second sets the height.",
+    "properties.url.default": "",
+    "properties.url.description": "Link to the video file."
+}

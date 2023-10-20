@@ -1,0 +1,4 @@
+{
+    "defaultPlaceholder": "email@example.com",
+    "validationError": "the email format must be email@example.com"
+}

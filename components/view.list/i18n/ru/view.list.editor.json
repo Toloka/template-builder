@@ -1,0 +1,11 @@
+{
+    "default.items.0.content": "1",
+    "default.items.1.content": "2",
+    "default.items.2.content": "3",
+    "description": "Блок для отображения данных списком. Список может содержать неограниченное количество [компонентов](index.md) `view.*`.\n\n[Посмотреть пример](https://ya.cc/t/ATPjrNYU3vUaRK)\n\n**Из каких компонентов состоит этот пример**\n\n- [view.image](view.image.md) — выводит изображение;\n- [field.button-radio-group](field.button-radio-group.md) — добавляет кнопки для выбора ответа;\n- [condition.required](condition.required.md) — проверяет, что выбран хотя бы один вариант.",
+    "properties.direction.description": "Определяет направление списка:\n\n* `vertical` (по умолчанию) — вертикальный список.\n* `horizontal` — горизонтальный список.",
+    "properties.items.description": "Массив элементов списка.",
+    "properties.items.items.description": "Элемент списка.",
+    "properties.size.default": "s",
+    "properties.size.description": "Определяет размер отступов между элементами. Доступные значения по возрастанию: `s`, `m` (значение по умолчанию)."
+}

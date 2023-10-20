@@ -1,0 +1,20 @@
+{
+    "default.data.path": "path",
+    "default.label": "Label",
+    "default.options.0.label": "Button 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Button 2",
+    "default.options.1.value": "value2",
+    "description": "Adds buttons for selecting an answer option. This is useful if there are several options. You can add just one button, but it's easier to use [field.button-radio](field.button-radio.md) for that.\n\nThe button size depends on the length of the text. \n\n[View example in the sandbox](https://ya.cc/t/jBYQsbgj3twiqX)",
+    "properties.disabled.description": "This property prevents clicking the button. If the value is `true`, the button is not active (a Toloker will not be able to click it).",
+    "properties.options.description": "An array of buttons.",
+    "properties.options.items.default.label": "Button",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "A button.",
+    "properties.options.items.properties.hint.default": "",
+    "properties.options.items.properties.hint.description": "Additional information.",
+    "properties.options.items.properties.label.default": "Button",
+    "properties.options.items.properties.label.description": "The text on the button.",
+    "properties.options.items.properties.value.default": "value",
+    "properties.options.items.properties.value.description": "Returned value."
+}

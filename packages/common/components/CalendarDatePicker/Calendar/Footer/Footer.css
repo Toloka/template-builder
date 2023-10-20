@@ -1,0 +1,30 @@
+.cc-calendar-footer {
+    width: 100%;
+
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.cc-calendar-footer_button {
+    overflow: hidden;
+
+    max-width: 0;
+    height: 20px;
+    margin: 0;
+    padding: 4px 5px;
+
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #333;
+    border: none;
+}
+
+.cc-calendar-footer_button:hover {
+    cursor: pointer;
+
+    background: #eee;
+}

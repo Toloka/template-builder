@@ -1,0 +1,9 @@
+{
+    "default.content.items.0.content": "Text",
+    "default.content.items.1.data.path": "path",
+    "default.content.items.1.label": "Label",
+    "description": "Groups components visually into framed blocks.\n\n[View example in the sandbox](https://ya.cc/t/jNlr4klD3twZBC)",
+    "properties.content.description": "Content of a group block.",
+    "properties.hint.description": "Explanation of the group heading. To insert a new line, use `\\n`.",
+    "properties.label.description": "Group heading."
+}

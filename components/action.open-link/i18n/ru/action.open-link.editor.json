@@ -1,0 +1,7 @@
+{
+    "default.payload": "https://toloka.ai",
+    "description": "Открывает в браузере новую вкладку с заданной интернет-страницей. Например, можно открывать ссылку по нажатию на кнопку.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/PKgu8jqp3xMRnJ)",
+    "properties.payload.default": "",
+    "properties.payload.description": "Адрес интернет-страницы.",
+    "shortDescription": "Открывает в браузере новую вкладку с заданной интернет-страницей."
+}

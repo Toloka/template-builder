@@ -1,0 +1,10 @@
+{
+    "default.content": "Google",
+    "default.url": "https://google.com",
+    "description": "Universal way to add a link.\n\nThis link changes color when clicked. \n\nWe recommend using this component if you need to insert a link without additional formatting.\n\nIf you want to insert a button that will open the link, use the [view.action-button](view.action-button.md) and [action.open-link](action.open-link.md) components. [View example in the sandbox](https://ya.cc/t/NaCxphQV3xPEYn)\n\nTo insert a link with a search query, use [helper.search-query](helper.search-query.md). [View example in the sandbox](https://ya.cc/t/W5KExwg_3vwB57)",
+    "properties.content.default": "Link.",
+    "properties.content.description": "Link text displayed to a Toloker.",
+    "properties.url.default": "https://google.com",
+    "properties.url.description": "Link URL.",
+    "shortDescription": "Universal way to add a link."
+}

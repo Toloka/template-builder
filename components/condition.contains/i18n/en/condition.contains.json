@@ -1,0 +1,4 @@
+{
+    "shouldContain": "the array {array} must contain {item}",
+    "shouldNotContain": "the array {array} must not contain {item}"
+}

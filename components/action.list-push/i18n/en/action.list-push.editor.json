@@ -1,0 +1,8 @@
+{
+    "properties.data.description": "Данные в формате списка, значение которых будет изменено",
+    "properties.data.default.path": "some.path",
+    "properties.payload.description": "Значение, которое будет добавлено в список",
+    "properties.payload.default": "some_value",
+    "default.data.path": "some.path",
+    "default.payload": "some_value"
+}

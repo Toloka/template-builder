@@ -1,0 +1,11 @@
+{
+    "default.barAfter.content.content": "Блок после основного контента",
+    "default.barAfter.theme": "warning",
+    "default.barBefore.content.content": "Блок перед основным контентом",
+    "default.barBefore.theme": "info",
+    "default.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "description": "Компонент, добавляющий к контенту верхнюю и нижнюю панели.\n\nВнутри каждой части компонента вы можете использовать другие компоненты, например картинки, текст или переключатели. \n\nВерхняя панель располагается у верхней границы компонента, а нижняя — у нижней. Контент располагается между панелями, занимая все доступное пространство.",
+    "properties.barAfter.description": "Панель, которая отображается у нижней границы компонента.",
+    "properties.barBefore.description": "Панель, которая отображается у верхней границы компонента.",
+    "properties.content.description": "Основной контент."
+}

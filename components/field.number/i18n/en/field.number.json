@@ -1,0 +1,5 @@
+{
+    "errorMax": "must be not more than {max}",
+    "errorMin": "must be at least {min}",
+    "errorNumber": "enter number"
+}

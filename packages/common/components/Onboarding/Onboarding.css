@@ -1,0 +1,105 @@
+.cc-onboarding-popover.cc-onboarding-popover {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: var(--space-l) var(--space-xl);
+
+    color: var(--crowd-color-white);
+    border-radius: var(--space-xxs);
+    background-color: var(--crowd-color-azure);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .12), 0 6px 14px rgba(0, 0, 0, .2), 0 0 1px rgba(0, 0, 0, .4);
+
+    animation: none;
+}
+
+.cc-onboarding-popover__arrow.cc-onboarding-popover__arrow {
+    border-color: var(--crowd-color-azure);
+
+    animation: none;
+}
+
+.cc-onboarding-popover__image-wrapper {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+    width: var(--space-xxxxxxxxxxxxl);
+    height: var(--space-xxxxxxxxxxxxl);
+    margin-right: var(--space-m);
+
+    border-radius: 50%;
+    background-color: var(--crowd-color-azure-light);
+}
+
+.cc-onboarding-popover__image {
+    width: 100%;
+}
+
+.cc-onboarding-popover__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 400px;
+
+    font-size: var(--size-typo-xl);
+    line-height: var(--line-height-typo-xl);
+}
+
+.cc-onboarding-popover__step {
+    margin-left: var(--space-m);
+
+    font-size: var(--size-typo-m);
+    line-height: var(--line-height-typo-m);
+    white-space: nowrap;
+}
+
+.cc-onboarding-popover__content {
+    max-width: 400px;
+
+    font-size: var(--size-typo-m);
+    line-height: var(--line-height-typo-m);
+}
+
+.cc-onboarding-popover__buttons {
+    margin-top: var(--space-m);
+}
+
+.cc-onboarding-popover__button {
+    font-weight: 500;
+}
+
+.cc-onboarding-popover__button-next {
+    --color-control-typo-passive: var(--crowd-color-black);
+    --color-control-typo-primary: var(--crowd-color-black);
+
+    --color-control-bg-action: var(--crowd-color-white);
+    --color-control-bg-action-hover: var(--crowd-color-ice-blue);
+    --color-control-bg-action-press: var(--crowd-color-ice-blue);
+    --color-control-bg-passive: var(--crowd-color-ice-blue);
+    --color-control-bg-progress: var(--crowd-color-ice-blue);
+    --color-control-bg-progress-process: var(--crowd-color-charcoal-grey);
+}
+
+.cc-onboarding-popover__button-abort {
+    --color-control-typo-passive: var(--crowd-color-white);
+    --color-control-typo-primary: var(--crowd-color-white);
+}
+
+.cc-onboarding-popover__button-abort.Button2_view_clear .Button2-Text,
+.Button2_view_clear .Button2-Icon {
+    opacity: 1;
+}
+
+.cc-onboarding-popover__close {
+    position: absolute;
+    top: var(--space-xxs);
+    right: var(--space-xxs);
+
+    cursor: pointer;
+
+    opacity: .5;
+    fill: var(--crowd-color-white);
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2015",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "lib": ["es2020", "dom"],
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+
+        "allowJs": false,
+        "strict": true,
+        "sourceMap": true,
+        "typeRoots": [
+            "./typings",
+            "./node_modules/@types/classnames",
+            "./node_modules/@types/prop-types",
+            "./node_modules/@types/react",
+            "./node_modules/@types/scheduler"
+        ]
+    },
+    "include": ["**/*.ts", "**/*.tsx"],
+    "exclude": ["node_modules"]
+}

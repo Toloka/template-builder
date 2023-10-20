@@ -1,0 +1,12 @@
+{
+    "default.data.path": "path",
+    "default.find": "строка1",
+    "default.replace": "строка2",
+    "description": "Позволяет заменить одни части строки на другие. \n\nЭта функция-хелпер возвращает строку, в которой все вхождения `find` в `data` заменены на `replace`. \n\nПоскольку хелпер `helper.replace` возвращает строку, он может быть использован в свойствах, принимающих строковые значения.",
+    "properties.data.default.path": "path",
+    "properties.data.description": "Данные, в которых нужно выполнить замену.\n",
+    "properties.find.default": "строка1",
+    "properties.find.description": "Искомое значение — строка, вхождения которой нужно найти в `data` и заменить на строку из `replace`.",
+    "properties.replace.default": "строка2",
+    "properties.replace.description": "Значение, на которое заменятся найденные соответствия искомого значения `find`."
+}

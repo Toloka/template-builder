@@ -1,0 +1,12 @@
+{
+    "default.payload.0.payload.content": "Action 1 was triggered",
+    "default.payload.0.payload.theme": "info",
+    "default.payload.1.payload.content": "Action 2 was triggered",
+    "default.payload.1.payload.theme": "info",
+    "description": "Use this component to call multiple actions at the same time, like to show more than one notification when a button is clicked.\n\n[View example in the sandbox](https://ya.cc/t/jH6BvDpE3twfMn)\n\nActions are invoked in the order in which they are listed. This means that if two actions write a value to the same variable, the variable will always have the second value.\n",
+    "properties.payload.default.0.payload.content": "Action was triggered",
+    "properties.payload.default.0.payload.theme": "info",
+    "properties.payload.description": "An array of actions that you want to call.",
+    "properties.payload.items.description": "Action.",
+    "shortDescription": "Use this component to call multiple actions at the same time."
+}

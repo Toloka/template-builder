@@ -1,0 +1,9 @@
+.cc-calendar {
+    display: block;
+
+    width: 210px;
+
+    user-select: none;
+
+    background: #fff;
+}

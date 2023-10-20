@@ -1,0 +1,39 @@
+@import '~@toloka-tb/common/style.less';
+
+.menu {
+    display: flex;
+    flex-direction: row;
+
+    box-sizing: border-box;
+    overflow-x: auto;
+    width: 100%;
+    padding: @gap-xs;
+
+    border-top: @border-s solid @baseColor-graySemiLight;
+}
+
+.menuItem {
+    display: block;
+
+    :global(.Button2-Text) {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    & + & {
+        margin-left: @gap-xs;
+    }
+
+    svg {
+        margin-right: @gap-xxs;
+        display: block;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.menuActionHint {
+    margin-left: calc(-1 * @gap-xs);
+    margin-right: calc(@gap-xxs);
+}

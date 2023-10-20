@@ -1,0 +1,34 @@
+@import '~@toloka-tb/common/style.less';
+
+.columnLayout {
+    display: flex;
+    width: 100%;
+
+    &FullHeight {
+        .full-height-flex();
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    &Breakpoint {
+        display: block;
+        overflow-y: visible;
+        min-height: auto;
+    }
+}
+
+.listItem {
+    & + & {
+        margin-block-start: @gap-s;
+    }
+}
+
+.column {
+    & + & {
+        margin-inline-start: @gap-s;
+    }
+
+    &FullHeight {
+        .full-height-flex-scrolls();
+    }
+}

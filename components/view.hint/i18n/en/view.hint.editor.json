@@ -1,0 +1,7 @@
+{
+    "description": "Отображает подсказку при наведении",
+    "properties.hint.default": "Lorem ipsum",
+    "properties.hint.description": "Текст подсказки, можно использовать markdown",
+    "default.label": "Lorem ipsum",
+    "default.hint": "Dolor sit amet"
+}

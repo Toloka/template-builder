@@ -1,0 +1,20 @@
+@import '~@toloka-tb/common/style.less';
+
+.preview {
+    background: @toloka-bg;
+}
+
+.previewFooter {
+    padding: 0 var(--space-xl);
+    background: @toloka-bg;
+}
+
+.previewFooterAction + .previewFooterAction {
+    margin-left: var(--space-m);
+}
+
+// lego override
+.previewFooterSubmit.previewFooterSubmit {
+    border-radius: var(--button-borderRadius);
+    background: @baseColor-white;
+}

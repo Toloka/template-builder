@@ -1,0 +1,7 @@
+{
+    "default.payload": "https://toloka.ai",
+    "description": "Opens a new tab in the browser with the specified web page. For example, you can open a link when a button is clicked.\n\n[View example in the sandbox](https://ya.cc/t/NaCxphQV3xPEYn)",
+    "properties.payload.default": "",
+    "properties.payload.description": "URL of the web page.",
+    "shortDescription": "Opens a new tab in the browser with the specified web page."
+}

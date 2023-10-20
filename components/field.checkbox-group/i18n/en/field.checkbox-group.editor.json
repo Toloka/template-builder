@@ -1,0 +1,19 @@
+{
+    "default.label": "Label",
+    "default.options.0.label": "Option 1",
+    "default.options.0.value": "value1",
+    "default.options.1.label": "Option 2",
+    "default.options.1.value": "value2",
+    "description": "Adds a group of checkboxes for selecting independent answer options. This is useful if there are several options. You can add just one checkbox, but it's easier to use [field.checkbox](field.checkbox.md) for that.\n\n[View example in the sandbox](https://ya.cc/t/AA2nEh_E3twhqK)",
+    "properties.disabled.description": "If `true', the options are inactive.",
+    "properties.options.description": "An array of checkboxes, where `value` is the value to change, and `label` is the text near the checkbox.",
+    "properties.options.items.default.label": "Option",
+    "properties.options.items.default.value": "value",
+    "properties.options.items.description": "A checkbox.",
+    "properties.options.items.properties.hint.default": "",
+    "properties.options.items.properties.hint.description": "Text with additional information about the option.",
+    "properties.options.items.properties.label.default": "Option",
+    "properties.options.items.properties.label.description": "Text next to the option.",
+    "properties.options.items.properties.value.default": "value",
+    "properties.options.items.properties.value.description": "Returned value."
+}

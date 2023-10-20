@@ -1,0 +1,14 @@
+{
+    "default.payload.content": "Привет, Мир!",
+    "default.payload.theme": "info",
+    "description": "Компонент создает сообщение в левом нижнем углу экрана.\n\nМожно задать: длительность активности сообщения, длительность задержки появления и цвет фона.",
+    "properties.payload.default.content": "Привет, Мир!",
+    "properties.payload.default.theme": "info",
+    "properties.payload.description": "Параметры для сообщения.",
+    "properties.payload.properties.content.default": "",
+    "properties.payload.properties.content.description": "Текст сообщения.",
+    "properties.payload.properties.delay.description": "Длительность задержки (в миллисекундах) до появления сообщения.",
+    "properties.payload.properties.duration.description": "Длительность активности сообщения (в миллисекундах), которое включает длительность задержки его показа.\n\nНапример, если `duration` — 1000, а `delay` — 400, то длительность показа сообщения будет 600 миллисекунд.",
+    "properties.payload.properties.theme.default": "info",
+    "properties.payload.properties.theme.description": "Цвет фона сообщения: \n\n* `info` — синий.\n* `success` — зеленый.\n* `warning` — желтый.\n* `danger` — красный.\n"
+}

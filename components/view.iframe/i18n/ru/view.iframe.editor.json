@@ -1,0 +1,6 @@
+{
+    "default.url": "https://example.com/",
+    "description": "Отображает веб-страницу по URL-адресу во встроенном окне.",
+    "properties.url.default": "https://example.com/",
+    "properties.url.description": "Адрес веб-страницы."
+}

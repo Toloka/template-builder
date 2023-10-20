@@ -1,0 +1,6 @@
+{
+    "default.content": "text",
+    "description": "Блок для отображения текста. \n\nЕсли вам нужен отформатированный текст, используйте компонент [view.markdown](view.markdown.md).",
+    "properties.content.default": "",
+    "properties.content.description": "Текст, отображаемый в блоке. Для вставки переноса строки используйте `\\n`."
+}

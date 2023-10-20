@@ -1,0 +1,74 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    .full-height-flex();
+    flex-direction: column;
+    align-items: center;
+
+    &Breakpoint {
+        display: block;
+        min-height: auto;
+    }
+}
+
+.options {
+    .full-height-flex-scrolls();
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+
+    &UnderBreakpoint {
+        overflow-x: scroll;
+
+        scroll-snap-type: x mandatory;
+    }
+}
+
+.option {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    scroll-snap-align: center;
+
+    & + & {
+        margin-left: @gap-s;
+    }
+
+    &UnderBreakpoint {
+        min-width: 90%;
+
+        flex-basis: 90%;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+}
+
+.optionControl {
+    margin-top: @gap-xs;
+    display: flex;
+    justify-content: center;
+
+    &Start {
+        justify-content: flex-end;
+    }
+
+    &End {
+        justify-content: flex-start;
+    }
+}
+
+.commonControls {
+    flex: 0 0 0;
+    margin-top: @gap-m;
+
+    &Wide {
+        width: 600px;
+        max-width: 100%;
+    }
+
+    &UnderBreakpoint {
+        width: 100%;
+    }
+}

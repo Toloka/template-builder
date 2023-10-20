@@ -1,0 +1,21 @@
+@import '~@toloka-tb/common/style.less';
+
+.error {
+    & + & {
+        margin-top: @gap-xxs;
+    }
+}
+
+.errorList {
+    margin: 0;
+    padding: 0;
+    color: @font-color-error;
+
+    list-style: none;
+    padding-inline-start: 0;
+    .font-m();
+}
+
+.errorListItem {
+    padding: @gap-xxxs 0;
+}

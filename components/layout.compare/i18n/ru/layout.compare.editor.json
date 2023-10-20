@@ -1,0 +1,19 @@
+{
+    "default.items.0.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/xk8YidkhGjIGOrFm_dL5781YA.svg",
+    "default.items.0.controls.data.path": "best",
+    "default.items.0.controls.options.0.label": "Левый лучше",
+    "default.items.0.controls.options.0.value": "left",
+    "default.items.1.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/xk8YidkhGjIGOrFm_dL5781YA.svg",
+    "default.items.1.controls.data.path": "best",
+    "default.items.1.controls.options.0.label": "Правый лучше",
+    "default.items.1.controls.options.0.value": "right",
+    "description": "Позволяет расставить элементы интерфейса так, чтобы сравнивать их между собой. Например, можно сравнить несколько фото. \n\nКнопки выбора можно расположить под каждым из сравниваемых элементов. Также можно добавить общие элементы, например поле для ввода комментария.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/Eq2bxIyI3wz5jF)\n\nОтличия от [layout.side-by-side](layout.side-by-side.md):\n* Нет кнопок, позволяющих скрывать элементы. Они пригодятся, если надо сравнить сразу 5 фотографий и тяжело сделать выбор между какими-то двумя.\n* Для каждого сравниваемого элемента можно добавить свои кнопки выбора.",
+    "properties.commonControls.description": "Общие поля компонента. Добавьте блоки информации, которые относятся ко всем элементам сравнения.",
+    "properties.items.description": "Массив со свойствами элементов сравнения. Задайте внешний вид блоков компонента.",
+    "properties.items.items.description": "Элемент сравнения.",
+    "properties.items.items.properties.content.description": "Содержание элемента сравнения. Добавьте в элемент сравнения  картинки, аудиозаписи, видео, ссылки или другие типы данных.",
+    "properties.items.items.properties.controls.description": "Настройте поля ввода, чтобы исполнитель выбрал один из элементов.",
+    "properties.minWidth.description": "Минимальная ширина элемента в пикселях. Значение по умолчанию: 400 пикселей.",
+    "properties.type.description": "Тип блока. Значение свойства для компонента сравнения — `layout.compare`.",
+    "properties.wideCommonControls.description": "Свойство увеличивает общие поля элементов сравнения.\nПо умолчанию `false` — общие поля не растягиваются и отображаются по центру. Если `true`, то поля будут шире, чем со значением по умолчанию."
+}

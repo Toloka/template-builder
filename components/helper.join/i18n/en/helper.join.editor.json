@@ -1,0 +1,14 @@
+{
+    "default.by": "",
+    "default.items.0": "Foo",
+    "default.items.1": "Bar",
+    "default.items.2": "Baz",
+    "description": "The component combines two or more strings into one. You can add a delimiter to separate the strings, such as a space or comma.\n\n[View example](https://ya.cc/t/_h--eV2Y3ttBMm)\n\n**Components used in the example**\n\n- [view.list](view.list.md): Displays data in a list.\n- [view.text](view.text.md): Displays a text.\n- [field.select](field.select.md): Adds a drop-down list.",
+    "properties.by.default": "",
+    "properties.by.description": "Delimiter for joining strings. You can use any number of characters in the delimiter.",
+    "properties.items.default.0": "Foo",
+    "properties.items.default.1": "Bar",
+    "properties.items.default.2": "Baz",
+    "properties.items.description": "Array of strings to join.",
+    "properties.items.items.description": "String parameters."
+}

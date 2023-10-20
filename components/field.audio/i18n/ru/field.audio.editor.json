@@ -1,0 +1,8 @@
+{
+    "default.data.path": "result",
+    "default.data.type": "data.output",
+    "description": "Компонент для записи аудио. Работает в приложении [Толока для мобильных](https://toloka.ai/tolokers/docs/mobile/?lang=ru). В браузере открывает окно для загрузки аудиофайла.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/Z4vcI1OZ3tyyh8)",
+    "properties.hint.default": "Всплывающая подсказка рядом с подписью.",
+    "properties.label.default": "Запишите аудио или выберите файл для загрузки",
+    "properties.multiple.description": "Определяет, разрешено ли записывать (или загружать) несколько аудио:\n* `false` (по умолчанию) — запрещено;\n* `true` — разрешено."
+}

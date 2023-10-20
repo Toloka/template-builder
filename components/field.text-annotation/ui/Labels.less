@@ -1,0 +1,38 @@
+@import '~@toloka-tb/common/style.less';
+
+.labels {
+    border-top: @border-s solid @baseColor-graySemiLight;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow-x: auto;
+    width: 100%;
+    padding-left: @gap-xs;
+    padding-top: @gap-xs;
+}
+
+.label {
+    display: block;
+
+    :global(.Button2-Text) {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    margin-right: @gap-xs;
+    margin-bottom: @gap-xs;
+}
+
+.labelIcon {
+    margin-right: @gap-xxs;
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.actionHint {
+    margin-left: calc(-1 * @gap-xs);
+    margin-right: calc(@gap-xxs);
+}

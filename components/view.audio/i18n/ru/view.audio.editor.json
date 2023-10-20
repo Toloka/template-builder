@@ -1,0 +1,7 @@
+{
+    "default.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.mp3",
+    "description": "Компонент воспроизводит аудио. \n\nПоддержка форматов зависит от браузера, ОС и устройства исполнителя. Рекомендуем использовать формат MP3.",
+    "properties.loop.description": "Автоматически повторять аудио.",
+    "properties.url.default": "https://file-examples-com.github.io/uploads/2017/11/file_example_MP3_700KB.mp3",
+    "properties.url.description": "Ссылка на аудио."
+}

@@ -1,0 +1,12 @@
+{
+    "description": "Used to set hotkeys for the [field.image-annotation](field.image-annotation.md) component.\n\nYou can set hotkeys to select area types and selection modes and to confirm or cancel area creation. When setting hotkeys, you can use the up and down arrows (`up`,`down`), numbers, and Latin letters.\n\n[View example in the sandbox](https://ya.cc/t/rDD6zD5S3tyzeb)",
+    "properties.cancel.description": "Keyboard shortcut for canceling area creation.",
+    "properties.confirm.description": "Keyboard shortcut for confirming area creation.",
+    "properties.labels.description": "Keyboard shortcuts for choosing area types. They're assigned to buttons in the order they are shown if you enabled the option to choose multiple area types.",
+    "properties.labels.items.description": "A keyboard shortcut.",
+    "properties.modes.description": "Keyboard shortcuts for choosing selection modes.",
+    "properties.modes.properties.point.description": "Keyboard shortcut for selecting areas using points.",
+    "properties.modes.properties.polygon.description": "Keyboard shortcut for selecting areas using polygons.",
+    "properties.modes.properties.rectangle.description": "Keyboard shortcut for selecting areas using rectangles.",
+    "properties.modes.properties.select.description": "Keyboard shortcut for selecting shapes and points."
+}

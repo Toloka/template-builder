@@ -1,0 +1,29 @@
+@import '~@toloka-tb/common/style.less';
+
+.content,
+.children {
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.sequence {
+
+    /* based on lego */
+    margin-inline-end: @gap-xxs;
+
+    margin-inline-start: -6px;
+}
+
+.hint {
+    margin-inline-start: @gap-xs;
+}
+
+.button :global(.Button2-Text.Button2-Text) {
+    pointer-events: all;
+}
+
+/* to prevent all position=relative nodes repaint */
+.button {
+    transition: none !important;
+}

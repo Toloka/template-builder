@@ -1,0 +1,7 @@
+{
+    "default.action.data.path": "path",
+    "default.label": "Click me!",
+    "description": "Button that calls an action.\n\nWhen clicking the button, an action specified in the `action` property is called.",
+    "properties.action.description": "Action called when clicking the button.",
+    "properties.label.description": "Button text."
+}

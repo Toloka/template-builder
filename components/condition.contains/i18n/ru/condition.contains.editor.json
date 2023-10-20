@@ -1,0 +1,6 @@
+{
+    "properties.data.description": "Элемент, который наличие которого нужно проверить",
+    "properties.in.description": "Массив данных, в котором идет поиск",
+    "description": "Позволяет проверить наличие элемента в массиве или подстроки в строке",
+    "default.in.path": "search_array"
+}

@@ -1,0 +1,4 @@
+{
+    "description": "Creates a field for entering an email address.\n\nChecks that the text contains the `@` character. You can [set other conditions yourself](../best-practices/conditions.md).\n\n[View example in the sandbox](https://ya.cc/t/7iqP0isn3y3Uyg)",
+    "properties.placeholder.description": "A semi-transparent label that is shown in an empty field."
+}

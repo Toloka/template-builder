@@ -1,0 +1,5 @@
+{
+    "default.data.path": "path",
+    "description": "The component changes the value in the data from `true` to `false` and vice versa.",
+    "properties.data.description": "Data in which the value will be changed. The data type must be `boolean`."
+}

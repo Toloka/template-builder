@@ -1,0 +1,6 @@
+{
+    "default.content": "text",
+    "description": "Block for displaying text. \n\nIf you need formatted text, use [view.markdown](view.markdown.md).",
+    "properties.content.default": "",
+    "properties.content.description": "The text displayed in the block. To insert a new line, use `\\n`."
+}

@@ -1,0 +1,4 @@
+{
+    "shouldBeEqual": "{data} must be equal to {to}",
+    "shouldNotBeEqual": "{data} must not be equal to {to}"
+}

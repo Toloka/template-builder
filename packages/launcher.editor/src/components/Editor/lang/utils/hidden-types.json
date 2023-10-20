@@ -1,0 +1,34 @@
+{
+    "field.multi-select": true,
+    "field.button-checkbox": true,
+
+    "view.hint": true,
+    "view.table": true,
+    "view.with-label": true,
+
+    "helper.multiply": true,
+    "helper.sum": true,
+    "helper.length": true,
+
+    "condition.contains": true,
+
+    "condition.more": true,
+    "condition.less": true,
+
+    "field.bounding-box": true,
+
+    "action.set-media-status": true,
+    "action.set-current-time": true,
+    "action.set-duration": true,
+    "action.set-volume": true,
+
+    "action.zoom-in-out": true,
+
+    "action.list-push": true,
+    "action.list-remove": true,
+
+    "view.json": true,
+    "view.debug": true,
+
+    "field.tumbler": true
+}

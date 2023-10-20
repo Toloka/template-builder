@@ -1,0 +1,6 @@
+{
+    "default.data.path": "path",
+    "default.label": "Заголовок",
+    "description": "Переключатель в виде тумблера.",
+    "properties.disabled.description": "Свойство, которое отключает компонент. При `true` компонент будет недоступен."
+}

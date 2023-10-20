@@ -1,0 +1,47 @@
+@import '~@toloka-tb/common/style.less';
+
+.controls {
+    border-right: @border-s solid @baseColor-graySemiLight;
+}
+
+.controlsGroup {
+    padding: @gap-xxxs;
+    & + & {
+        border-top: @border-s solid @baseColor-graySemiLight;
+    }
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+
+    padding: @gap-xxs @gap-xxs;
+
+    border: 0;
+    border-radius: @border-radius-m;
+
+    background: transparent;
+    outline: 0;
+    transition: @transition-s;
+
+    &Checked {
+        background: @baseColor-graySemiDark;
+
+        &Icon {
+            fill: #fff;
+        }
+    }
+
+    &Icon {
+        display: block;
+        width: @gap-l;
+        height: @gap-l;
+    }
+
+    &ActionHint {
+        margin-right: @gap-xxs;
+    }
+}

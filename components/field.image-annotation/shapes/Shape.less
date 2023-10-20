@@ -1,0 +1,35 @@
+@import '~@toloka-tb/common/style.less';
+
+.shape {
+    fill-opacity: 0.3;
+    stroke-width: 2;
+
+    &Selectable {
+        transition: fill-opacity @transition-s;
+        &:hover {
+            fill-opacity: 0.6;
+        }
+    }
+
+    &Selected {
+        fill-opacity: 0.8;
+        &:hover {
+            fill-opacity: 0.75;
+            stroke-opacity: 0.2;
+        }
+    }
+
+    &New {
+        fill: @baseColor-grayLight !important;
+        fill-opacity: 0.5;
+        stroke-dasharray: 4;
+        &:hover {
+            fill-opacity: 0.5;
+            stroke-opacity: 1;
+        }
+    }
+
+    &Edited {
+        stroke-dasharray: 4;
+    }
+}

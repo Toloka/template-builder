@@ -1,0 +1,20 @@
+@import '~@toloka-tb/common/style.less';
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    & + & {
+        margin-top: @gap-s;
+    }
+}
+
+.label {
+    .font-m();
+    padding-left: @gap-xs;
+}
+
+.title {
+    margin-top: 0;
+}

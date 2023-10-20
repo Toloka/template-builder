@@ -1,0 +1,43 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    display: grid;
+
+    column-gap: var(--space-xs);
+    grid-template-columns: minmax(0, max-content) minmax(min-content, auto);
+    row-gap: var(--space-xs);
+    --tb-labeled-list-label-margin: 0;
+    --tb-labeled-list-content-margin: 0;
+
+    &Breakpoint {
+        --tb-labeled-list-label-margin: var(--space-xxxs);
+        grid-template-columns: 100%;
+        row-gap: 0;
+    }
+}
+
+.label {
+    margin-bottom: var(--tb-labeled-list-label-margin);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    color: @color-labelBig;
+
+    &Centered {
+        align-items: center;
+    }
+
+    &Wrapped {
+        align-items: flex-start;
+        color: @color-secondary;
+    }
+}
+
+.content:not(:last-child) {
+    margin-bottom: var(--tb-labeled-list-content-margin);
+}
+
+.hint {
+    align-self: center;
+    margin-left: @gap-xxxs;
+}

@@ -1,0 +1,23 @@
+@import '~@toloka-tb/common/style.less';
+
+.container {
+    display: flex;
+}
+
+.link {
+    word-break: break-all;
+
+    color: rgb(0, 0, 238);
+    cursor: pointer;
+    text-decoration: underline;
+
+    &:not(:first-child) {
+        margin-left: @gap-xxs;
+    }
+
+    :visited {
+        color: rgb(0, 0, 238);
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}

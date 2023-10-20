@@ -1,0 +1,59 @@
+@import '~@toloka-tb/common/style.less';
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.radio {
+    --radiobox-size-m-size: 18px;
+    --radiobox-size-m-after-size: 6px;
+    --radiobox-size-m-lineHeight: var(--radiobox-size-m-size);
+    --radiobox-size-m-indentRight: var(--space-xxs);
+
+    min-height: var(--radiobox-size-m-size);
+
+    :global {
+        .Radiobox-Radio {
+            display: flex;
+        }
+
+        .Radiobox-Box {
+            top: 0 !important;
+            display: block;
+
+            flex-shrink: 0;
+        }
+
+        .Radiobox-Text {
+            display: block;
+            padding: 0 0 0 var(--radiobox-size-m-indentRight);
+        }
+
+        input {
+            margin: 0;
+        }
+    }
+
+    &:global(.Radiobox_size_m .Radiobox-Text) {
+        padding-left: 0;
+
+        padding-inline-start: var(--radiobox-size-m-indentRight);
+    }
+}
+
+.sequence {
+    align-self: flex-start;
+
+    margin-inline-end: @gap-xxs;
+}
+
+.hint {
+    margin-inline-start: @gap-xxs;
+}
+
+/* to prevent all position=relative nodes repaint */
+.option :global(.Radiobox_view_default .Radiobox-Box:after) {
+    transition: none !important;
+}
+

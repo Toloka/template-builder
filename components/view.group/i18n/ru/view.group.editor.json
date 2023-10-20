@@ -1,0 +1,9 @@
+{
+    "default.content.items.0.content": "Текст",
+    "default.content.items.1.data.path": "path",
+    "default.content.items.1.label": "Подпись",
+    "description": "Объединяет любые компоненты в визуальные группы — блоки с рамкой.\n\n[Посмотреть пример в песочнице](https://ya.cc/t/qr8caNWm3twYuQ)",
+    "properties.content.description": "Содержимое блока-группы.",
+    "properties.hint.description": "Пояснение к заголовку группы. Для вставки переноса строки используйте `\\n`.",
+    "properties.label.description": "Заголовок группы."
+}

@@ -1,0 +1,21 @@
+{
+    "default.content": "The quick brown fox jumps over the lazy dog",
+    "default.data.path": "result",
+    "default.labels.0.label": "Adjectives",
+    "default.labels.0.value": "adjective",
+    "default.labels.1.label": "Nouns",
+    "default.labels.1.value": "noun",
+    "description": "Компонент для сегментации текста. \n\nПозволяет выбрать несколько слов, отдельные слова или буквы в тексте и разметить их нужным значением. Можно создать несколько категорий и разметить по ним части текста, например, разметить все существительные и прилагательные. \n\n[Посмотреть пример в песочнице](https://ya.cc/t/bTmVb7H-3twmCg)\n\nС помощью плагина [plugin.field.text-annotation.hotkeys](plugin.field.text-annotation.hotkeys.md) можно задавать горячие клавиши для выбора категорий.",
+    "properties.adjust.description": "Если для свойства указано значение `words`, в тексте можно выбирать только слова. Без использования свойства можно выбрать любую часть строки.",
+    "properties.content.default": "The quick brown fox jumps over the lazy dog",
+    "properties.content.description": "Текст, в котором нужно выбрать часть строки.",
+    "properties.disabled.description": "Свойство блокирует компонент. Если указать значение `true`, компонент будет недоступен исполнителю. Значение по умолчанию — `false`.",
+    "properties.hint.default": "Hint",
+    "properties.label.default": "Label",
+    "properties.labels.description": "Массив с категориями, по которым исполнитель будет распределять части текста.",
+    "properties.labels.items.description": "Категория.",
+    "properties.labels.items.properties.label.default": "label",
+    "properties.labels.items.properties.label.description": "В свойстве `label` укажите название категории.",
+    "properties.labels.items.properties.value.default": "value",
+    "properties.labels.items.properties.value.description": "В свойстве `value` укажите значение категории."
+}

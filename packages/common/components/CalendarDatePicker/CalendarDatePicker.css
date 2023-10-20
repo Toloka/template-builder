@@ -1,0 +1,20 @@
+.cc-calendar-date-picker_icon.cc-calendar-date-picker_icon {
+    position: absolute;
+    top: 5px;
+    right: 8px;
+
+    cursor: pointer;
+
+    fill: var(--crowd-color-steel);
+
+    transition: .1s ease-in-out fill;
+}
+
+.cc-calendar-date-picker_icon:hover {
+    fill: var(--crowd-color-black) !important; /* using !important instead of 4x className repeat */
+}
+
+.cc-calendar-date-picker_input:hover > .Textinput-Icon > .cc-calendar-date-picker_icon,
+.cc-calendar-date-picker_input:focus-within > .Textinput-Icon > .cc-calendar-date-picker_icon {
+    fill: var(--crowd-color-charcoal-grey);
+}

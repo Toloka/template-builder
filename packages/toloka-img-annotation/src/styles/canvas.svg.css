@@ -1,0 +1,21 @@
+.ia-canvas * {
+    stroke: #ffd633;
+    fill: #ffd633;
+    fill-opacity: 0.3;
+    stroke-opacity: 0.9;
+
+    stroke-width: 1px;
+    transition: stroke-width 0.3s, fill-opacity 0.3s;
+}
+
+.ia-canvas *:hover {
+    fill-opacity: 0.4;
+}
+
+/*
+ * SVG primitives.
+ */
+.ia-canvas .ia-element-point {
+    fill-opacity: 0.9;
+    stroke-width: 0;
+}

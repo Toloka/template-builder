@@ -1,0 +1,5 @@
+{
+    "description": "Rotates the specified component by 90 degrees. \n\nBy default it rotates to the right, but you can specify the direction in the `payload` property.\n\n[View example in the sandbox](https://ya.cc/t/XsK8hUgX3tyxpL)",
+    "properties.payload.description": "Sets the direction of rotation:\n* `right` (default).\n* `left`.",
+    "properties.view.description": "Points to the component to perform the action with."
+}

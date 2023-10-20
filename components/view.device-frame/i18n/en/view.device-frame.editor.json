@@ -1,0 +1,5 @@
+{
+    "default.content.url": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/wikipedia-screenshot.png",
+    "description": "Wraps the content of a component in a frame that is similar to a mobile phone. You can place other components inside the frame.",
+    "properties.content.description": "Content inside the frame."
+}

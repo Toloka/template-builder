@@ -1,0 +1,19 @@
+{
+    "default.image": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "description": "Компонент для разметки изображений. \n\nВ интерфейсе доступно выделение областей точками, прямоугольниками и полигонами (многоугольниками). С помощью свойства `shapes` вы можете настроить доступные исполнителю режимы разметки.\n\nЕсли вам нужно разделять выделяемые объекты по категориям, для классификации создайте метки с помощью свойства `labels`.\n\nВы можете отключить работу с разметкой с помощью свойства `disabled`. Например, если вам нужно создать задание для проверки уже выполненной разметки или вы хотите разрешить разметку только после выполнения определенного [условия](helper.if.md).\n\n[Посмотреть пример в песочнице](https://ya.cc/t/6iXHnObL3tyzWi)",
+    "properties.disabled.description": "Определяет, разрешено ли добавление и удаление областей:\n* `false` (по умолчанию) — разрешено;\n* `true` — запрещено.\n\nПригодится при создании интерфейса для проверки корректности разметки или если вам нужно разрешить выделение только при выполнении определенного [условия](../reference/helper.if.md).",
+    "properties.image.default": "https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png",
+    "properties.image.description": "Изображение, на которой нужно выделить области.",
+    "properties.labels.description": "Метки для классификации областей.\n\nКаждый элемент массива создает в интерфейсе кнопку для выбора метки.\n\nЕсли вы используете метки, их нужно добавить как минимум две.",
+    "properties.labels.items.default.label": "Объект",
+    "properties.labels.items.default.value": "value",
+    "properties.labels.items.description": "Элемент массива с метками.",
+    "properties.labels.items.properties.label.default": "Объект",
+    "properties.labels.items.properties.label.description": "Текст на кнопке выбора метки.",
+    "properties.labels.items.properties.value.default": "value",
+    "properties.labels.items.properties.value.description": "Значение, соответствующее метке, которое передается в выходных данных.",
+    "properties.shapes.description": "Настройка режимов разметки, доступных исполнителю.\n\nПо умолчанию доступны все три режима выделения: точками, прямоугольниками и полигонами (многоугольниками).\n\nИсполнителю будут доступны режимы со значением `true`.",
+    "properties.shapes.properties.point.description": "Разметка точками.",
+    "properties.shapes.properties.polygon.description": "Разметка полигонами (многоугольниками).",
+    "properties.shapes.properties.rectangle.description": "Разметка прямоугольниками."
+}

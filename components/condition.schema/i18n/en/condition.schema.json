@@ -1,0 +1,4 @@
+{
+    "shouldNotPass": "the data must not match the schema {schema}",
+    "shouldPass": "the data must match the schema {schema}"
+}

@@ -1,0 +1,7 @@
+{
+    "default.content": "**Hello** _world_",
+    "description": "Block for displaying text in Markdown.\n\nThe contents of the block are written to the `content` property in a single line. To insert line breaks, use `\\n`. Straight quotation marks (`\"`) must be escaped like this: `\\\"`.\n\nExamples of Markdown syntax:\n```\n# Level 1 header\n## Level 2 header (and so on to level 6)\n\n**Bold**\n\n* Italics*\n\n~~Crossed out text~~\n\n+ Bulleted list\n  + List sublevels are separated by two additional spaces\n- The list can start with any of these characters: + - *\n\n1. Numbered list\n2. The second item in the list\n\n[Text with link] (http://example.com/)\n\n![Image] (http://example.com/image.png)\n```\n\nYou can find documentation for the basic Markdown syntax in this [article] (https://guides.github.com/features/mastering-markdown/).\n\n[View example in the sandbox](https://ya.cc/t/ABS376_B3twX6Z)\n\nNote that the `view.markdown` component is resource-intensive and might overload weak Toloker devices. Do not use this component to display plain text. If you need to display text without formatting, use the [view.text](view.text.md) component. If you need to insert a link, use [view.link](view.link.md), and for an image use [view.image](view.image.md).\n\nLinks with Markdown are appended with `target=\"_blank\"` (the link opens in a new tab), as well as `rel=\"noopener noreferrer\"`.",
+    "properties.content.default": "",
+    "properties.content.description": "Text in Markdown.",
+    "shortDescription": "Block for displaying text in Markdown."
+}

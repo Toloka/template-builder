@@ -1,0 +1,16 @@
+{
+    "name": "@toloka-tb/editor.pane",
+    "version": "1.5.5",
+    "main": "editor.pane.tsx",
+    "private": true,
+    "dependencies": {
+        "@toloka-tb/common": "1.3.5",
+        "classnames": "2.2.6"
+    },
+    "devDependencies": {
+        "@types/classnames": "2.2.9",
+        "@types/react": "16.9.34",
+        "@types/react-dom": "16.9.5",
+        "typescript": "3.8.3"
+    }
+}

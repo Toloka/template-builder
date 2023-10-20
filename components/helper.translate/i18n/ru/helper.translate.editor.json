@@ -1,0 +1,5 @@
+{
+    "description": "Компонент для перевода элементов интерфейса на другие языки. Подробнее в разделе [Перевод интерфейса задания](https://toloka.ai/ru/docs/guide/concepts/project-languages#interface-translate).\n\nВ те свойства, которые должны отображаться на разных языках, добавьте:\n```\n{\n  \"type\": \"helper.translate\",\n  \"key\": \"<имя ключа>\"\n{\n```\n\nПри добавлении свойства `key` появится поле для ввода текста этого ключа. Введите туда текст на исходном языке. На последнем шаге «Переводы на другие языки» добавьте переводы ключей для нужных языков.\n\nПример использования:\n```\n{\n  \"view\": {\n    \"type\": \"view.image\",\n    \"url\": \"https://tlkfrontprod.azureedge.net/template-builder-production/static/file-examples/small.png\",\n    \"label\": {\n      \"type\": \"helper.translate\",\n      \"key\": \"label-image\"\n    }\n  }\n}\n```",
+    "properties.key.description": "Ключ текстового свойства, для которого вы будете добавлять перевод на разные языки.",
+    "properties.key.patternHint": "Ключ может содержать только строчные латинские буквы, цифры и дефис."
+}

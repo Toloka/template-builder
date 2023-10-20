@@ -1,0 +1,6 @@
+{
+    "description": "Checks whether the original value is equal to the specified value. If it matches, it returns `true`, otherwise it returns `false`.\n\nWhen substituting values, you can refer to `data.*` or another element using `$ref`. You can also use [helpers](helpers.md) and [conditions](conditions.md) to get the value.\n\n[View example in the sandbox](https://ya.cc/t/2RjfdQbt3tz7xo)",
+    "properties.data.description": "Original value. If not specified, it uses the value returned by the parent component (the component that contains `condition.equals`).\n\nHow to pass a value:\n* Specify the value itself, like the number 42 or a string.\n* [Get the value from your data](../operations/work-with-data.md).\n* Refer to another element using `$ref`.\n* Use [helpers](helpers.md) and [conditions](conditions.md) to get the value.",
+    "properties.to.description": "The value to compare with the original.\n\nHow to pass a value:\n* Specify the value itself, like the number 42 or a string.\n* [Get the value from your data](../operations/work-with-data.md).\n* Refer to another element using `$ref`.\n* Use [helpers](helpers.md) and [conditions](conditions.md) to get the value.",
+    "shortDescription": "Checks whether the original value is equal to the specified value."
+}

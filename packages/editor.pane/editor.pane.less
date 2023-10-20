@@ -1,0 +1,59 @@
+@import '~@toloka-tb/common/style.less';
+
+.pane {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.paneTitle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 0 @gap-m;
+    font-weight: bold;
+
+    flex: 0 0 48px;
+    height: 48px;
+
+    overflow: hidden;
+    box-sizing: border-box;
+
+    text-overflow: ellipsis;
+
+
+    .font-m();
+
+    border-bottom: @divider;
+}
+
+.paneTitleSpin {
+    margin-left: var(--space-xxs);
+}
+
+.paneContent {
+    .full-height-flex();
+
+    overflow: visible;
+    height: 100%;
+    min-height: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 64px;
+
+    border-top: @divider;
+
+    background-color: @baseColor-white;
+
+    flex-grow: 0;
+    z-index: 1;
+}

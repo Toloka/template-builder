@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES2015",
+        "moduleResolution": "node",
+        "jsx": "react",
+        "lib": ["es2020", "dom"],
+
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+
+        // https://github.com/Microsoft/TypeScript-Handbook/pull/856#issuecomment-574681136
+        "stripInternal": true,
+
+        "outDir": "./dist",
+        "declaration": true,
+        "emitDeclarationOnly": true,
+
+        "allowJs": false,
+        "strict": true,
+        "sourceMap": true,
+        "typeRoots": ["./typings", "./node_modules/@types"]
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "error.inputMustBeObject": "Input example should be an object.",
+    "error.emptyInputExample": "There is no input example. It should be an object. You can write {} there to fix this error."
+}

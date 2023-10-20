@@ -1,0 +1,3 @@
+{
+    "description": "This component sends the device coordinates.\n\nTo get the coordinates, add type `@toloka/data.location` to the property of the desired component.\n\nTo find out if the transmitted coordinates match the ones that you specified, use the [condition.distance](condition.distance.md) component. Add `@toloka/data.location` to the `to` or `from` properties, depending on how you want to compare the coordinates.\n\n[View example in the sandbox](https://ya.cc/t/HFMC2_XU3y3Tps)"
+}

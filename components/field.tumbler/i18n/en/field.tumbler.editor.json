@@ -1,0 +1,6 @@
+{
+    "default.data.path": "path",
+    "default.label": "Label",
+    "description": "A tumbler.",
+    "properties.disabled.description": "Property that disables the component. If `true`, the component will not be unavailable."
+}

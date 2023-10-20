@@ -1,0 +1,62 @@
+@import '~@toloka-tb/common/style.less';
+
+.option {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox {
+    --checkbox-size-m-width: 18px;
+    --checkbox-size-m-height: 18px;
+    --checkbox-size-m-indentLeft: var(--space-xxs);
+
+    display: flex !important;
+
+
+    :global {
+        .Checkbox-Box {
+            top: 0px !important;
+            display: block;
+
+            flex-shrink: 0;
+        }
+
+        .Checkbox-Label[class] {
+            padding: 0;
+            line-height: var(--checkbox-size-m-height);
+
+            padding-inline-start: var(--checkbox-size-m-indentLeft);
+        }
+
+        .Checkbox-Box .Checkbox-Tick {
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+        }
+
+        .Checkbox-Box .Checkbox-Tick .Icon svg {
+            left: 3px;
+            right: 3px;
+            top: 3px;
+            bottom: 3px;
+            transform: unset;
+        }
+    }
+}
+
+.sequence {
+    position: relative;
+    align-self: flex-start;
+
+    margin-inline-end: @gap-xxs;
+}
+
+.hint {
+    margin-left: @gap-xxs;
+}
+
+/* to prevent all position=relative nodes repaint */
+.option :global(.Checkbox_view_default .Checkbox-Tick) {
+    transition: none !important;
+}

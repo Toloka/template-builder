@@ -1,0 +1,108 @@
+@import '~@toloka-tb/common/style.less';
+
+.gallery {
+    --gallery-height: 350px;
+    --thumb-size: 130px;
+    --thumb-margin: var(--space-xxs);
+    position: relative;
+
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding: var(--space-xxs) var(--space-s) var(--space-xs) var(--space-s);
+
+    border-radius: 4px;
+
+    background-color: @baseColor-grayLight;
+
+    user-select: none;
+}
+
+.empty {
+    min-height: var(--gallery-height);
+}
+
+.galleryTitle {
+    margin: 0;
+    padding-bottom: var(--space-xxs);
+    font-weight: bold;
+
+    text-shadow: 0px 0px 10px rgba(242, 242, 242, 0.4), 8px 0px 10px rgba(242, 242, 242, 0.4), -8px 0px 10px rgba(242, 242, 242, 0.4), 0px 0px 20px rgba(242, 242, 242, 0.5);
+}
+
+.gallery:hover .control,
+.gallery.hovered .control {
+    opacity: 1;
+
+    pointer-events: auto;
+}
+
+.noAttachments {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+
+    color: #7F8285;
+}
+
+.galleryWithSlider {
+    --thumb-size: 84px;
+    --thumb-select-border-width: var(--space-3-xs);
+    --thumbs-list-width: calc(var(--thumb-size) + var(--thumb-margin) * 2);
+    --arrow-width: 56px;
+    --toolbar-height: 48px;
+    --toolbar-button-width: 48px;
+    --icon-color: #7F8285;
+    --toolbar-icon-color: #434445;
+    --icon-hovered-color: #000;
+
+    position: relative;
+    overflow: hidden;
+
+    height: var(--gallery-height);
+    padding-bottom: var(--space-xxs);
+    background-color: @baseColor-grayLight;
+}
+
+.galleryWithSlider .galleryTitle {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: var(--space-xs) var(--space-s);
+}
+
+@media screen and (max-width: 786px) {
+    .gallery{
+        --gallery-height: 174px;
+    }
+}
+
+.galleryModeFullscreen {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: none;
+}
+
+.galleryModeFullscreen.galleryWithSlider {
+    --toolbar-icon-color: #B8BEC3;
+    --icon-hovered-color: #fff;
+}
+
+.galleryModeFullscreen .galleryTitle {
+    left: 20px;
+    top: 14px;
+    padding: 0;
+    color: #fff;
+
+    text-shadow: none;
+}
