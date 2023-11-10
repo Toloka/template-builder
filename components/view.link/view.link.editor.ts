@@ -1,3 +1,5 @@
+import { HTTP_URL_PATTERN } from '@yandex-tb/common/constants/url';
+
 import { makeViewSchema } from '@toloka-tb/schemas/view';
 
 export const schema = makeViewSchema('view.link', {
@@ -7,7 +9,8 @@ export const schema = makeViewSchema('view.link', {
         properties: {
             url: {
                 type: 'string',
-                default: ''
+                pattern: HTTP_URL_PATTERN,
+                default: 'https://google.com'
             },
             content: {
                 type: 'string'
