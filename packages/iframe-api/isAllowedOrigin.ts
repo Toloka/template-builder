@@ -1,15 +1,7 @@
+const TOLOKA_ORIGIN_REGEXP = /^https:\/\/([^.]+\.){1,5}(toloka-test|toloka)\.ai(:9001)*\/?$/
+
 const isTolokaOrigin = (origin: string) => {
-    const noPort = origin.replace(/:\d+$/, '');
-
-    if (noPort.endsWith('toloka.ai')) {
-        return true;
-    }
-
-    if (noPort.endsWith('toloka-test.ai')) {
-        return true;
-    }
-
-    return false;
+    return TOLOKA_ORIGIN_REGEXP.test(origin);
 };
 
 const isDevOrigin = (origin: string) => {
